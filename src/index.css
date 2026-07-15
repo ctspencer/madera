@@ -8,15 +8,6 @@
  * an old reader on a phone. Restraint over ornament.
  */
 
-/* Cursive for her name only — the wordmark. Never body text. */
-@font-face {
-  font-family: 'Great Vibes';
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: url('/madera/fonts/great-vibes.woff2') format('woff2');
-}
-
 @font-face {
   font-family: 'Courier Prime';
   font-style: normal;
@@ -32,14 +23,13 @@
   --ivory-deep: #e9e1cf;
   --green: #21402e;
   --green-ink: #142619;
-  --gold: #a8862d;
+  --gold: #c9a43c;
   --red-muted: #a8433d;
   --rust: #9a512b;
   --ink: #29221b;
   --ink-plum: #322843;
   --serif: 'Iowan Old Style', 'Palatino Linotype', Palatino, Georgia, serif;
   --typewriter: 'Courier Prime', 'Courier New', Courier, monospace;
-  --script: 'Great Vibes', cursive;
 }
 
 * {
@@ -80,13 +70,13 @@ body {
 
 .wordmark {
   margin: 0;
-  font-family: var(--script);
-  font-size: 4.4rem;
-  font-weight: 400;
-  line-height: 1.1;
+  font-size: 3rem;
+  font-weight: 500;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
   color: var(--gold);
-  /* script descenders/flourishes need breathing room */
-  padding: 0 0.2em 0.1em 0;
+  /* a whisper of depth so the gold holds its edge on the lilac */
+  text-shadow: 0 1px 2px rgba(50, 40, 67, 0.25);
 }
 
 .site-nav {
@@ -102,15 +92,15 @@ body {
   padding: 0;
   font-family: var(--serif);
   font-size: 1.35rem;
+  font-weight: 500;
   letter-spacing: 0.22em;
   text-transform: uppercase;
   color: var(--ink-plum);
   cursor: pointer;
-  opacity: 0.75;
 }
 
 .nav-link:hover {
-  opacity: 1;
+  color: var(--gold);
 }
 
 /* ---- places strip along the bottom ---- */
@@ -396,7 +386,7 @@ body {
   }
 
   .wordmark {
-    font-size: 3rem;
+    font-size: 2rem;
   }
 
   .nav-link {
