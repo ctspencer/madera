@@ -327,6 +327,184 @@ The retreat was complete. My "desert place" had worked miracles.`,
     media: [],
   },
   {
+    id: 'southern-snow',
+    place: 'Montgomery',
+    lat: 32.3668,
+    lng: -86.3,
+    year: 1977, // dated in the book: (Wednesday, Jan. 19, 1977)
+    title: 'Southern Snow',
+    // The Best of Madera pp. 77–80 (IMG_0637–0640). Her spellings kept
+    // ("squeashed", "lightening sky").
+    body: `Tuesday morning just before dawn, when the aroma of perking coffee in the kitchen began to permeate the air in the darkened bedroom, there seemed to be a difference in the usual morning sounds. There were no swishes of tires of early morning trucks roaring down nearby Carter Hill Road. There was no anxious barking from dogs in the neighborhood. Everything was mute. . .quiet. . .like the world was at a stand-still.
+
+I knew before I opened my eyes that somehow the world was different today. What was it?
+
+With a note of urgency in his voice, my husband said through the darkness, bringing that first glorious cup of hot coffee to the bedroom, "Hurry, get up and look out the window. It's snowing. Really snowing!"
+
+Even before the gray daylight crept quietly upon the world, the golf-course behind the house was a blanket of snow. "See how the reflection of the snow makes everything look luminous," my husband said. It did have a phosphorescent look about it in that early morning darkness.
+
+Outside the back door, the leafless gray crabapple tree was decorated with bright red cardinals, and the blackbirds by the dozens who came to breakfast were like silhouetted Christmas ornaments hanging in the tree. The busy little titmouse kept fluttering in a whirr of wings to the orbit feeder, its own domain, and the sparrows ruffled up like badminton balls waded breast-deep on the patio table.
+
+Usually breakfast at our house is the most leisurely time of the day, the time to discuss yesterday and tomorrow with each other. But on this morning, I hurried with the bacon and scrambled eggs and hot biscuits . . .and conversation.
+
+The white world beyond the warm kitchen called me as clearly as if it had a voice. "Come quickly! You'll be rewarded beyond measure!"
+
+Without clearing the dishes from the table, I donned everything warm I could find. Slacks, long heavy socks, two sweaters, scarves, galoshes, a snug wool cap over my ears, warm gloves, a furry coat. If I had fallen in the snow I would never have been able to get up by myself.
+
+When I stepped out the back gate I was in a world alone. . .the familiar places forgotten. Spread out before me was a splendid wonderland of intricate beauty. The expanses of white golf course fairways were pristine. . .frozen blades of grass crunched underfoot. The whole world was a flurry of white, fluffy snow. . .drifting so gently, so effortlessly, so densely. Not a sound. . .how quiet the snow falls, I thought. . .like tiny dancers controlled by a super choreographer.
+
+Alone. . .in a world of inestimable beauty. My footsteps squeashed as they buried in the soft snow. . .Like powdered sugar, I thought. I could not walk forward for long without looking backward to see those footprints following me, zigzagging crazily.
+
+The flurry was at my back down the long fairway. . . where are the greens, I wondered? Gone. No, there is one. I know only because a small red, white and blue flag flutters from a stick where the hole must be, its colors startling against the whiteness.
+
+Turning back uphill, I walked into the woods. At the turn, the flurry was full in my face. . .on my eyelashes, on my tongue. Oh, taste the snow. . .feel it gently, softly slither down the cheeks, like a finger tracing a smile.
+
+Under the tall pines, I looked up into unbelievable beauty. Great spreading limbs overhead were lined with white. . .it's like lambswool padding, I thought. Every little sharp petal of the black pine cones were delicately outlined as well.
+
+Where are all the squirrels this morning, I wondered. One old giant of a tree that must have seen many unexpected phenomena through its years, had a sheltered hole in its trunk. Maybe they are there, I thought. I stood on tiptoe to peek inside, holding tightly to its bark to keep from slipping. The squirrels were not there, but if I were a squirrel that's where I'd be, I thought.
+
+The ground under the woods was frozen hard. . .not soft and feathery like the fairways. The crepe myrtles and redbuds that flower the borders of the fairways in the spring looked like white wedding bouquets. . .
+
+And like a pilgrim going to Mecca, I headed for the small pond, my favorite spot of meditation. . .it always speaks back to me.
+
+Holding my breath and not looking at it until I reached its perimeter, so I could have a special treat, I stopped dead still under the big tree near its bank, then raised my eyes to the pond.
+
+A feeling of pure joy and exultation was my reward. I must have uttered an exclamation aloud, for I heard an echo across the snow.
+
+The tiny pond was frozen all over except around the edges. Snow had settled on the main part of the frozen water, but where there was only clear ice around the edges, there seemed to be tiny crystal stars on the ice in the cold morning air. Across the pond a few blackbirds pecked briskly at the ice. . . their voices uttering pleas through the stillness. Or maybe they were discussing the weather. . .
+
+When I had absorbed as much of this spectacle as my consciousness could support, I turned toward home, glancing through the still thickly falling snow to the borders of bamboo along the winding little road back of the golf course. The spikes of thin, slender leaves of the bamboo made startling patterns against the lightening sky to the east.
+
+As I doubled back over the path I had taken going out, my tracks had already been covered. . . obliterated. . .gone. The Master Designer displaying his handiwork had wiped His world clean again. . .the better to show its beauty.
+
+The gift had been received. . .the thanks given. The footprints may be gone, but the joy and the wonder still remain.
+
+(Wednesday, Jan. 19, 1977)`,
+    media: [],
+  },
+  {
+    id: 'destination-accomplished',
+    place: 'Rome', // must match the Holy Year in Rome entry to share the pin
+    lat: 41.9028,
+    lng: 12.4964,
+    year: null, // no date given
+    title: 'Destination Accomplished',
+    // The Best of Madera pp. 81–84 (IMG_0641–0644). Her spellings kept
+    // ("Via del Trittone", "zuchinni", "dove'").
+    body: `For the past few years, it has at times seemed that my little orbit in life might be in jeopardy of becoming too standardized. With the prudence of approaching middle age, I was perhaps not exploring enough off the beaten path, so to speak, and the cherished spirit of adventure was in peril of growing dormant, if not dying.
+
+Since climbing the highest mountain or swimming the deepest sea was somewhat out of the question, the least I could do, it seemed, was to lend a spirit of adventure to those small things that lay close at hand.
+
+So one bright, crisp morning in Rome, I told my two traveling companions not to expect me back until they saw me coming, and I set off on foot, alone, to find what lay beyond the bustling thoroughfares of Rome which I had repeatedly traversed for years.
+
+I would make it a little more of an adventure, I told myself, by speaking only Italian when asking directions and talking with whomever I chanced to meet. I had learned enough Italian to ask questions: Where? When? Why? Who? What? I knew the elementary courtesies with which the friendly Italians sprinkle their conversation as liberally as they use Parmesan on spaghetti: "Thank you," "please," "beautiful," "very beautiful," etc. With a few other assorted words at my command, I thought I could make my way nicely.
+
+Off I went to the Spanish Steps, without dawdling at the shop windows on Via Sistina. Going jauntily down the wide, famous old steps, I looked neither to the right at Babington's English Tea Room nor to the left at the house where Keats died. I kept a steady pace to Via del Trittone and crossed by way of the underground passage which protects unwary pedestrians from being fatally struck down by the onrushing, maniacal traffic flowing from the Corso to Via Veneto. I was on familiar ground here so I walked quickly.
+
+Instead of turning right to go the usual way to Trevi Fountain, I took the left through tiny, cobblestoned back streets that twisted like wet macaroni, and suddenly came upon an enchanting streetmarket beneath the towering, forbidding rear walls of the Quirinale. I knew it was the Quirinale because I asked the man who sold zuchinni, "Per favore, che cosa?" (Please, what?), pointing to the walls.
+
+I selected a plump, yellow banana from the luscious array of fruits and vegetables spread out on the tables in the square and continued along the back streets which were bustling with morning activity. When I came upon Trevi Fountain by the back way, I sat awhile in the sunshine listening to the sloshing of the waters and ate my banana.
+
+While meditating thusly in the fresh morning air, I decided I really needed a destination to work toward instead of just wandering. With little deliberation I chose the old, old Church of St. Peter in Chains where there is Michelangelo's magnificent Moses, my favorite work of art in the whole world.
+
+"Now let's see here," I said to myself. "How do I ask the way?" I had the St. Peter down pat in Italian (Santo Pietro), and I knew that "dove" means "where", but I was rusty on the "chains." Suddenly it came to me. It was "vongole", started with a "v". I knew what it was. So I asked the first Italian I met, a woman sweeping the cobblestones in front of her little tailor shop, "Per favore, dove' San Pietro in vongole?"
+
+She looked stunned for a moment and then her face broke into a smile and she pointed up the street and gestured to the left. I said, "Grazie", and went on my way. How happy it had made her for me to ask directions, I thought. When I looked back as I turned the corner, she was still watching me curiously and smiling and nodding her head in encouragement. I waved.
+
+I asked the same question next to a group of young Italian men who were unloading sides of beef at a small butcher shop. It not only made them happy, it made them downright hysterical. But they pointed the way and said what I took to be "six blocks".
+
+It would take too long to detail my splendid walk through the back streets of Rome. I talked to shopkeepers, to housewives, to people on bicycles and whomever crossed my path. And the response was the same. . .smiles, grins, merriment, and plain belly laughs, followed by a good deal of gesticulation. How obliging they all were.
+
+The sun was high in the sky and with my shoes off I had rested on a cool stone step that led to a courtyard somewhere before I finally climbed the steep steps through an old bricked tunnel to come out on the sun-washed piazza of the Church of St. Peter in Chains, with Moses waiting inside.
+
+I spent a beautiful hour there, sitting in silence in a little chapel near the altar and looking across the sanctuary at the marvelous marble face of the angry Moses.
+
+When I was restored, I went out into the sunshine and found my way, surprisingly, to a high precipice of the hill overlooking the Coliseum and in the distance the Roman Forum.
+
+Standing in awe on the breeze-swept hill contemplating the ancient ruins spread out before me, I was aware of a young Italian man also gazing at the scene. He said something pleasant to me in English and in the ensuing conversation I proudly told him I had walked all day through the back streets of Rome, finding my way to see Moses by asking, "per favore, dove' Santo Pietro in vongole?"
+
+I thought he would fall off the hillside. He said, "Lady, the word for chains is 'vincoli'. You've been asking for St. Peter in clams."
+
+No wonder they all cracked up. But I got there, didn't I?`,
+    media: [],
+  },
+  {
+    id: 'bedlam-at-sea',
+    // The story is the crossing itself (QE2, Southampton to New York),
+    // so the pin sits mid-ocean. OPEN QUESTION for owner: happy to move
+    // it to Southampton or New York if a city pin reads better.
+    place: 'The North Atlantic',
+    lat: 45,
+    lng: -40,
+    year: 1980, // dated in the book: (1980)
+    title: 'Bedlam at Sea',
+    // The Best of Madera pp. 85–89 (IMG_0645–0649). Bold log-date leads
+    // are bold in the book. Her spellings kept ("hugh wave", "weazy").
+    // OPEN QUESTION for owner: IMG_0647 crops the last line of p.87 —
+    // "…the only one of the 2,280 persons aboard who is." Please check
+    // "who is." against the physical page.
+    body: `One Sunday will definitely go down in my memoirs as a "great" day.
+
+It was with great jubilation that I waved hello to that giant, green lady, the Statue of Liberty, standing majestically in the late afternoon mist of New York harbor. It was with great enthusiasm that I disembarked from the Queen Elizabeth 2, the "greatest ship in the world," and made my way hastily through LaGuardia in New York and on to the "greatest airport in the world" in Atlanta, which, at midnight, was still recovering from its first day of unorganized operation.
+
+Yes, it was great. But the greatest superlative can be applied to the relief and realization that I was home, sweet home, after my greatest experience on the high seas. A hurricane force 12 gale in the North Atlantic is something to remember.
+
+Here are excerpts from my personal log:
+
+**Tuesday, Sept. 16:** Left London at 7. Boarded the behemoth QE2 at 10. This Cunard pride and joy is 963 feet long, 105 feet wide. She has 13 passenger elevators, four swimming pools, two libraries, a gym, spas, beauty shops, banks, clothing, perfume and china shops, and provides lavish international entertainment and educational programs for her passengers.
+
+She also has a hospital. (Addendum: It was to overflow with patients during the next few days.)
+
+Departed Southampton at 11:30 a.m. Crossed English Channel, passing legendary white cliffs of Dover, on way to Cherbourg, France, arriving after dark. Stayed in port until boat train eventually arrived with 300 passengers from Paris, their arrival delayed because of a mechanical failure that left them sitting on the tracks until a new engine was secured.
+
+Passengers wander idly over decks, lost and disoriented, and somewhat dispirited as they queue for open sitting dinner. There are 1,590 passengers on board; 585 in first class and 1,005 in Transatlantic class. The crew for this voyage numbers 960.
+
+**Wednesday, Sept. 17:** Up before 5:30. All clocks are stopped for one hour at 4 a.m, thus making 23-hour days at sea.
+
+My cabin is creaking. Huge swells are heaving outside my porthole. My night steward obligingly staggers in with hot coffee and a Danish, telling me to keep the tray on the floor.
+
+I feel like a Mexican jumping bean in the shower.
+
+I hurry up to deserted, enclosed deck just at daylight. I am astonished to see the vast, dark grey waters have the appearance of mountains and valleys, only those mountains move menacingly toward the ship and the window where I stand. The lonely vigil with the sea excites my adventurous spirit. I stay close to the 7-story-high (above the waterline) window to watch this incredible, imperious display. It is as if it is a contest between Nature's unconquerable power and the man-made ship.
+
+One hugh wave angrily breaks a plate-glass window and crewmen rush to board it up. I telephone some of my group to stay in bed to prevent falls. One lady has broken a wrist in a lunge this morning.
+
+By afternoon the storm worsens. Swells grow more mountainous. They crash unmercifully against the ship's sides. There's a monstrous clatter of breaking glass. The contents of the bar, the china and perfume shop, the dishes and some of the passengers crash to the floors.
+
+The most chaos, however, reigns in the dining rooms. Named the Tables of the World Restaurant, it seats 600 at small tables. The stewards have renamed it Earthquakes of the World. It is a shambles.
+
+Passengers who are well enough to eat are bewildered and enthralled by the choreography of the reeling table stewards who careen to the tables to the tune of a cacophony of crashing crockery. Food slides off platters and my table mate has an array of assorted odoriferous cheese dumped down his back. Our steward is burned by hot coffee. He rushes to the kitchen for salve, then is back in a flash again to join the fray.
+
+The giant waves crashing upon the windows leak watery residues around the windows. Diners unfortunate enough to be seated in uncarpeted areas slide crazily over to someone else's dinner. My table steward says to me, "Lovie, if you'll be getting a wee bit weazy, please don't do it to me." I assure him I am steady and stouthearted and immensely enjoying this unprecedented spectacle. I am possibly the only one of the 2,280 persons aboard who is.
+
+**Thurs. Sept. 18:** My steward brought me coffee at 5 a.m. All portholes have been closed and secured. We are tossing like a cork. During the night a great shudder of the ship made it necessary to grip the sides of the mattress to keep from being bumped out of bed.
+
+I hurry upstairs to take my watch upon the stormy sea. From the average of 28 knots, the ship slowed to eight. . .we seem barely to be moving. The sea undulates and heaves; there is no horizon. The great swells advance from gray nothingness and swerve into geysers of spray and frothing spume. We lurch, we list, we pitch.
+
+Passengers are still weaving drunkenly, walking crab-wise and creeping along the walls for support. Furniture slides, sand filled ash stands turn over spilling contents on the floor. Plants are upside down on cabin carpets.
+
+This is hurricane force 12, meaning winds are between 74 to 82 miles per hour. Winds affect the movement of the sea more than any other force.
+
+**Friday, Sept. 19:** Awaken to a calm sea. It is silent, still. I go to the open stern deck to see the sunrise making a silvery streak across the flat, slate grey sea. There is still no color. Wind force is 2. A school of dolphins roll near the ship. A lonely bird flies over the middle of the Atlantic.
+
+At noon we have come 1,560 miles from England. Smiles replace fear on the faces of passengers.
+
+But rumors run amok in afternoon as we approach another storm. Seas rough up again and visibility is dismal. There is rain and fog. Spirits fall again.
+
+Martha Hughes and Earlene Dunn decide to have a party. Minutes before guests arrive, nature throws a watery punch that demolishes the refreshments and glasses. The steward is vacuuming up glass and potato chips when guests arrive.
+
+**Sat., Sept. 20:** Conditions worsen, then subside. The ship speeds up to 29 knots to make up for the delay. We traverse the Great Bank of Newfoundland; pass the shores of Nova Scotia and Sable Island.
+
+The last night is a partying night. Broadway entertainment brings applause. Names and addresses of new friends are exchanged.
+
+**Sunday, Sept. 21:** Sea calm. Air warm and misty. Church attendance exceptionally high. Capt. Bob Arnott leads the interdenominational service in the theater. A British flag drapes the podium. The bar waiter takes up collection. We pray for Her Majesty the Queen of England and for the President of the United States. In each heart must be a personal prayer of thanksgiving for this safe return.
+
+In late afternoon New York's skyline comes into view. Passengers on the great ship line up happily along the rails in the sweltering sun. We salute America.
+
+It was a great trip. We are home. (1980)`,
+    media: [],
+  },
+  {
     id: 'touched-by-adventure',
     place: 'Nassau',
     mapLabel: 'Nassau, Bahamas',
