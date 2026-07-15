@@ -22,7 +22,7 @@ No Playwright in this repo. Use `playwright-core` from a temp dir with the syste
 mkdir -p /tmp/madera-verify && cd /tmp/madera-verify && npm i playwright-core
 ```
 
-Selectors: pins are `.pin` (dot `.pin-dot`, hover-only label `.pin-label`), places nav
+Selectors: pins are `.pin` (dot `.pin-dot`, always-visible label `.pin-label`), places nav
 is `.places-toggle` / `.places-item`. Entries open in a centered modal (2026-07
 redesign): `.modal-backdrop` > `.modal-card`, containing `.entry-place`,
 `.entry-section` (one per entry), `.entry-divider`, `.entry-title`, `.entry-body`,
@@ -34,8 +34,8 @@ close button `.entry-close`. There is no `.entry-panel` anymore.
   with `{ force: true }`. This is expected behavior, not a bug.
 - **`locator.boundingBox()`/`locator.evaluate()` on `.pin` can hang** (CSS2D nodes mutate
   every frame). Use `page.evaluate(() => document.querySelector('.pin').getBoundingClientRect())`.
-- Pin labels only appear on `:hover` — to test, chase the moving pin with repeated
-  `page.mouse.move` to its current rect.
+- Pin labels are always visible (2026-07 lilac redesign) — read them straight from
+  `.pin-label` textContent.
 - Land polygons take ~1-2s to build after load; wait ~3s before screenshotting or the
   globe is a bare dark sphere.
 - **Headless screenshots can capture a stale pre-polygon canvas frame** (dark globe,
@@ -51,12 +51,13 @@ close button `.entry-close`. There is no `.entry-panel` anymore.
 
 ## Flows worth driving
 
-1. Globe: dark-green ground, paper-tan vector countries (no photo texture), slow
-   rotation, one dot-ring pin per unique `place` in `src/data/entries.ts`.
-2. Click a pin (or `.places-toggle` → a `.places-item`) → camera flies there, panel
-   opens; a place with multiple entries shows stacked `.entry-section`s with dividers
-   (Montgomery has two).
-3. Close → panel unmounts. Rotation resumes ~3s after any interaction, even with the
-   panel open.
-4. Mobile (390×844, `isMobile`, `hasTouch`): panel is a bottom sheet (~68vh), places
-   list collapses after selection.
+1. Globe: soft lilac ground, translucent sapphire ocean, pale cream vector countries
+   (no photo texture), slow rotation, one muted-red labeled pin per unique `place` in
+   `src/data/entries.ts`.
+2. Click a pin (or `.places-toggle` → a `.places-item`) → camera flies there and a
+   centered modal opens; a place with multiple entries shows stacked `.entry-section`s
+   with dividers.
+3. Close via the × **and** via clicking the backdrop outside the card — both must work.
+   Rotation resumes ~3s after any interaction.
+4. Mobile (390×844, `isMobile`, `hasTouch`, `deviceScaleFactor: 1`): same centered
+   modal, near-full-width; places list collapses after selection.
