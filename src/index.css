@@ -479,7 +479,12 @@ body {
 
 .photo-figure img {
   display: block;
-  width: 100%;
+  max-width: 100%;
+  /* cap the height so a portrait photo never pushes its caption
+     out of view — the picture and its words stay together */
+  max-height: 46vh;
+  width: auto;
+  margin: 0 auto;
   border: 1px solid var(--ivory-deep);
 }
 
