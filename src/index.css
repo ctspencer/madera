@@ -104,6 +104,21 @@ body {
   color: var(--gold);
 }
 
+/* "Archive" groups Photos and Letters beneath it */
+.nav-heading {
+  font-size: 1.35rem;
+  font-weight: 500;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--ink-plum);
+  opacity: 0.55;
+}
+
+.nav-link.nav-sub {
+  font-size: 1.1rem;
+  margin-left: 1.1rem;
+}
+
 /* ---- places strip along the bottom ---- */
 
 .places-strip {
@@ -369,6 +384,24 @@ body {
 
 .about-placeholder {
   color: var(--rust);
+}
+
+.about-portrait {
+  margin: 0 0 2rem;
+}
+
+.about-portrait img {
+  display: block;
+  max-width: min(20rem, 100%);
+  border: 1px solid var(--ivory-deep);
+}
+
+.work-photo {
+  margin: 0 0 2rem;
+}
+
+.work-item .work-photo:last-child {
+  margin: 2rem 0 0;
 }
 
 .about-epigraph {

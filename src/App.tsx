@@ -6,9 +6,10 @@ import { AboutPage } from './components/AboutPage'
 import { EulogyPage } from './components/EulogyPage'
 import { PhotosPage } from './components/PhotosPage'
 import { LettersPage } from './components/LettersPage'
+import { SelectedWorksPage } from './components/SelectedWorksPage'
 import { entries, groupByPlace, type Place } from './data/entries'
 
-type Overlay = 'about' | 'eulogy' | 'photos' | 'letters' | null
+type Overlay = 'about' | 'eulogy' | 'works' | 'photos' | 'letters' | null
 
 export default function App() {
   const places = useMemo(() => groupByPlace(entries), [])
@@ -31,10 +32,14 @@ export default function App() {
           <button className="nav-link" onClick={() => setOverlay('eulogy')}>
             Eulogy
           </button>
-          <button className="nav-link" onClick={() => setOverlay('photos')}>
+          <button className="nav-link" onClick={() => setOverlay('works')}>
+            Selected Works
+          </button>
+          <span className="nav-heading">Archive</span>
+          <button className="nav-link nav-sub" onClick={() => setOverlay('photos')}>
             Photos
           </button>
-          <button className="nav-link" onClick={() => setOverlay('letters')}>
+          <button className="nav-link nav-sub" onClick={() => setOverlay('letters')}>
             Letters
           </button>
         </nav>
@@ -44,6 +49,7 @@ export default function App() {
       {selected && <EntryPanel place={selected} onClose={() => setSelected(null)} />}
       {overlay === 'about' && <AboutPage onClose={() => setOverlay(null)} />}
       {overlay === 'eulogy' && <EulogyPage onClose={() => setOverlay(null)} />}
+      {overlay === 'works' && <SelectedWorksPage onClose={() => setOverlay(null)} />}
       {overlay === 'photos' && <PhotosPage onClose={() => setOverlay(null)} />}
       {overlay === 'letters' && <LettersPage onClose={() => setOverlay(null)} />}
     </div>

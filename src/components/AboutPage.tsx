@@ -17,6 +17,12 @@ export function AboutPage({ onClose }: AboutPageProps) {
           ×
         </button>
         <h2 className="about-title">Madera Spencer</h2>
+        <figure className="about-portrait">
+          <img
+            src={`${import.meta.env.BASE_URL}archive/photos/02_Madera_Spencer_society_editor_for_the_Montgomery_A.jpg`}
+            alt="Madera Spencer, society editor for the Montgomery Advertiser, at her desk"
+          />
+        </figure>
         <blockquote className="about-epigraph">
           &ldquo;Whatever a life span may be, it is the quality, not
           quantity, that counts.&rdquo;
