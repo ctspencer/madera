@@ -708,6 +708,195 @@ When one dream goes, another is ready to take its place — but then Hollywood i
     media: [],
   },
   {
+    id: 'how-not-to-do-nothing',
+    place: 'Montgomery',
+    lat: 32.3668,
+    lng: -86.3,
+    year: null, // no date printed — an afternoon at home during her newspaper years
+    title: 'How Not To Do Nothing',
+    // The Best of Madera pp. 112–114 (IMG_0672–0674). Her spellings kept
+    // ("bursquely"); the spaced-out "N o t h i n g" and the capitalized
+    // NOTHING/MOTHER are as printed. Spaced ellipses ". . ." as printed.
+    body: `An inveterate reader of "how to do" articles, I came across one the other day that gave me pause. . .for a second. It said that everybody, just everybody, needs to take an hour now and then to do absolutely nothing. It asked, "When have you stopped an hour in your busy life to meditate and be alone with your thoughts?"
+
+Well, I said to myself, maybe that's what I need. I'll read for one whole hour without interruption.
+
+No, continued the article, what you're supposed to do is N o t h i n g. . .not one solitary thing but Nothing.
+
+Now I'm not the kind of person who just sits and does nothing for nothing. I thought back and sure enough, days had gone by since I had sat still for ten minutes (no, make it five) and done nothing. There seem to be things to do every minute when you work on a newspaper, keep a home, cook, shop, and carry on a fairly normal social life. But do nothing? Heavens to Betsy, when was the day?
+
+Being one who will usually give a new idea at least a try if it might improve a situation, I decided to Do Nothing for one little hour. I had visions of myself looking bright-eyed and vivacious, enthusiastic and shining when that hour was up.
+
+The article had said, "Sweep your mind of all mundane thoughts." I settled down in a reclining chair, mentally picking up the broom, when the telephone rang. It was my mother.
+
+"What are you doing?" she asked.
+
+"Oh, nothing," I told her truthfully.
+
+"What do you mean, doing nothing?" she said.
+
+"Oh, I'm just not doing anything," I assured her.
+
+Pause. . ."Oh, are you reading?"
+
+"No, I'm just sitting," I told her.
+
+"What's the matter? Do you feel bad?"
+
+"No, I feel fine. I'm just doing nothing."
+
+"Well, you better see about yourself if you feel bad."
+
+"But I don't feel bad; I'm just doing nothing."
+
+"I sure hate to see you come down with a virus or something," she continued.
+
+"But mother, I don't have a virus. I don't have anything. I just wanted to do nothing for a little while."
+
+"Well, maybe you need some vitamins; they'll perk you up," she assured me.
+
+"But MOTHER, I feel great. I was just doing nothing for an hour."
+
+"Well, you rest a little and you'll feel better. Call me if I can do anything for you," she said obligingly.
+
+Fifteen minutes of my hour had slipped by, so I made myself a cup of coffee to calm my nerves and went out onto the patio to get away from the telephone.
+
+A neighbor was mowing the lawn beyond the fence and greeted me with a wave. "Hi, what're you doing home this time of afternoon?"
+
+"Oh, nothing. . .just nothing," I told her. The look she gave me as she heaved on the mower said eloquently that it is a good thing for the world that everybody doesn't just sit around doing nothing.
+
+It was too much; and anyway, 30 minutes of my hour had passed.
+
+Back in the house the telephone was ringing. It was my husband.
+
+"Hi, what're you doing?" he asked innocently.
+
+Oh no, I thought, here we go again. But I remained staunch.
+
+"Nothing," I said rather bursquely.
+
+"Nothing? You always tell me you're always busy," he laughed.
+
+This was the end. "Well, darn it, I'm not doing one single, solitary miserable little thing. . .nothing. . .absolutely NOTHING, do you hear?" He could have heard me in town without the telephone.
+
+Surprise in his voice, he said sweetly, "Well, honey, I'm sorry you don't feel so good. Now don't you worry about supper. You just run along and dress and we'll go out to eat."
+
+I didn't go though. I was too exhausted to dress.`,
+    media: [],
+  },
+  {
+    id: 'the-refugees',
+    place: 'Eglin AFB, Fla.',
+    mapLabel: 'Eglin AFB',
+    lat: 30.4833,
+    lng: -86.5254,
+    year: 1975, // dateline "EGLIN AFB, Fla., May 1975"; ends "(May, 1975)"
+    title: 'The Refugees',
+    // The Best of Madera pp. 115–118 (IMG_0676–0679; IMG_0675 duplicates
+    // p.114, so photo numbers shift by one from here). The Vietnamese tent
+    // city after the fall of Saigon. Her spellings kept ("Huyntt Van Long",
+    // "the 5-month-old baby of her sister" as printed, "oa dai" twice,
+    // "narrowlegged", "reedthin", "frisbies"; the tent count 339 = 222 + 148
+    // is as printed).
+    body: `EGLIN AFB, Fla., May 1975 — When you stand in the shade of one of the few scrubby pines bordering the sprawling tent city of the Vietnamese camp, the first thing you notice is the utter quietness that almost envelopes the landscape. You hear a few insects lazily buzzing in the stifling summer heat and you hear the faraway drone of supply trucks creeping along the brown, deeply rutted roads. Now and then you can even hear soft voices wafting from the dim interiors of some of the tents.
+
+But mostly you just stand there trying to comprehend that on this treeless Florida preserve in front of you, mushrooming with dark green tents like giant growths out of the sandy soil, are living 2,519 people 12,000 miles from their homeland.
+
+One of these people is Tran Thi Suyen. She sits quietly on her cot in a tent which is now home to 12 members of her family. On her lap is Mai Lan, the 5-month-old baby of her sister, and around her are small brothers and sisters trying to amuse themselves through the long morning by playing cards. The flaps of their tent are rolled high to catch as much breeze as possible in the terrible heat.
+
+Tran Thi Suyen says she and her family were able to get out of Saigon because her sister worked at the American Embassy. They brought almost nothing with them, but Tran Thi Suyen smiles and says she "likes everything" about the camp and is just thankful to be there.
+
+She is able to tell you of her feelings through a young Vietnamese interpreter, Mai Dung Mahoney, who is married to an American pilot and is helping authorities at the camp.
+
+Another one of those 2,519 persons who fled for their lives only a week or so ago is Hua Mai. She speaks English and tells you she owned her own industrial chemical company in Saigon, where her husband was a dentist. She has her four children with her and says the day they left the shooting was so bad on the streets that she feared for their very lives.
+
+Huyntt Van Long, who was an aide at the U.S. Embassy, says he was the only one of his co-workers to get out. He and his wife, who is a North Vietnamese and speaks no English, were airlifted to the 7th fleet on April 29. They spent seven days on a boat and were taken to Guam. He says he hopes someone will give him a chance to work and that his wife can do housework if she only gets the chance.
+
+Pham Thi Tuong Vi and her three young brothers asked the photographer to please take a picture of them to send to their parents in Vietnam who did not get out. They say they themselves got out only on the last day and were carried to the aircraft carrier Midway, then to the Philippines and on to Guam before coming to Eglin May 9. It took them 11 days of travel to get there, and although they were exhausted, they were thankful they were finally safe. But they worry about their parents in Saigon.
+
+The young people you talk to seem to take their plight philosophically, but the old ones look at you blankly as if to wonder how their world could have changed so drastically. The young nearly all speak at least a smattering of English but the old are puzzled and weary and sad.
+
+The operations officer tells you there are 339 tents in the compound. Of these, 222 are for sleeping (they all contain only rows of army cots). Clothes are strung out on wires or strings, and each tent has a brilliant yellow latrine in front of it — row upon row upon row of them. There are 148 tents for support purposes.
+
+A grizzled master sergeant in the kitchen tent says he's serving 7,500 meals a day. The menu for today is Creole chicken and rice, and beef stew. But he says the 56 cooks try to prepare food the people will be familiar with, like rice and shrimp and fried tuna. He says some of the people tell them it's the best food they've had since they left home.
+
+There are six dining areas and people line up in long, winding queues in the sweltering sun to pick up their plates and drinks.
+
+One cluster of tents houses support groups such as the Red Cross, the YMCA, airline ticket office and money exchange. Along the row is a tent manned by a Family Services volunteer where there are only stack upon stack of disposable baby diapers, and shelf upon shelf of jars of baby food. These are free, of course, as is everything else in the camp.
+
+Although many of the people wear western clothing which has been donated by various agencies, some of the older proudly wear the Vietnam "oa dai", the black narrowlegged cotton pants with white blouses. One wrinkled, reedthin grandmother with skin like crinkled tissue paper trudges through the hot, dusty sand to the dining room in a sheer white oa dai, with a parasol keeping the violent noonday sun from her frail shoulders. This old lady's son tells you that 15 of her family were able to escape from their homeland.
+
+But ah, the children! They are everywhere. Between the rows of tents they play ball. In the compound areas of the tent sections they toss frisbies in the air. They play tag. Some swing gaily in the YMCA playground. Little ones run after the larger ones, crying for attention.
+
+And then there are others who lie listlessly on their cots in the hot tents, gazing at the dull green canvas roofs of what have now become their homes.
+
+What will their world be like?
+
+Thank goodness, many of them are too young to ponder.
+
+(May, 1975)`,
+    media: [],
+  },
+  {
+    id: 'voices-from-the-sea',
+    // OPEN QUESTION: the piece never names the beach — only "the silver
+    // beach outside my bedroom window." Pinned with Gulf Shores because the
+    // owner placed her other unnamed beach piece (Retreat to The Sea) there;
+    // owner should confirm or move it.
+    place: 'Gulf Shores, Alabama',
+    lat: 30.246,
+    lng: -87.7008,
+    year: null, // no date printed
+    title: 'Voices from the Sea.',
+    // The Best of Madera pp. 119–121 (IMG_0680–0682). The title is printed
+    // with its period. Her spellings kept ("marcelled hair", "echos",
+    // "windowframe"). Spaced ellipses ". . ." as printed.
+    body: `I go to the beach to listen to the sea.
+
+It always speaks to me. . .Sometimes it tells me lovely things. When it is opalescent with sunshine and its waves are like marcelled hair, it often soothes my conscience and says that life is easy and bright and enduring, and always will be so.
+
+But sometimes it speaks harshly. . .It tells me things I might not otherwise hear. Like the other night. . .
+
+I love the sea best when it is thunderous and commanding and vehement. On this night, the silver beach outside my bedroom window was dark and deserted and chilled, and the black sea roared magnificently in the moonless night. Its great breakers crashed resoundingly on the slate-gray sand, and I prepared for bed with anticipation of listening to it through the night. It would lull me and refresh me. . .and speak to me.
+
+My windows were opened wide to its sound, and the salty night wind flapped the draperies like Japanese fans at each side of the windowframe. The wooden-slatted blinds rattled like echos of the sea. I pulled the blanket high and settled in the dark, waiting for the lullaby.
+
+But through the sound of the pounding of the surf, a tiny clang, clang, clang seeped through my consciousness. Clang, clang, clang. . .rhythmically, incessant, unending. My nerves began to twitch. I lay wide awake, staring in the dark. What in the world was this dissonant sound?
+
+Standing in the cold wind at the window, I could see a small beached boat nearby, its sails put away, but now its loose hoist rope beat relentlessly in the wind against the tall aluminum mast. Clang, clang, clang. It could have been a metronome in its persistent, timed count. Clang, clang, clang. What could I do, I frantically wondered, in the midst of the night with no one around to complain to?
+
+Endure it I must, I supposed, so impatiently and rebelliously I got back into bed, with the clang, clang, clang honing my nerves to raw edges. "My precious night at the sea is ruined," I complained petulantly to myself. "How can it bring peace when this Chinese torture continues through the night?"
+
+And then the sea spoke to me.
+
+Thunderously, beyond the faint clanging, it seemed to reprimand me. "Why is it you fret over small dissonant sounds, but do not hear the symphony of the sea? Today on the beach, you strained at a gnat but did not marvel at the seagulls overhead. Why do you overlook the mountain and see only the slippery hill?" the sea said to me.
+
+And lying there in the dark with the sea scolding and crashing, I counted the misspent energies of life, ticking them off like Greek worry beads in the night.
+
+Why do we notice a weed in a carpet of green grass?
+
+Why do we see a small flaw in the fabric without thinking of the weaver in his toil?
+
+Why does one crooked stitch get attention when the otherwise perfect pattern goes unseen?
+
+Why do we dwell on the misspelled word without absorbing the thought of the writer?
+
+We gossip at the irritant in a friend's personality without crediting his character that we love.
+
+The small scratch on a polished table gets the eye while the fine grain of the wood is not seen.
+
+We remark on the error, the oversight, the clang, clang, insignificant clangs of life and not the majestic thunder of the all-knowing sea.
+
+It was with anger that the sea spoke to me that night. . .rushing in on the beach in the darkness and shaking its white frothing head like a grandfather to an errant child.
+
+No, the clanging did not cease. In the morning the small boat was removed and only then was its clanging silenced. But sometime in the deep of night its disrupting noise lost its power to fray nerves. I had slept soundly in the cold wind after the voice of the sea pointed out life's foolish ways.
+
+In the fresh morning light, there was a new perspective of the joys we are offered day by day.
+
+That voice I heard. . .was it really the sea? Oh, be quiet and listen. . .it may not be.`,
+    media: [],
+  },
+  {
     id: 'touched-by-adventure',
     place: 'Nassau',
     mapLabel: 'Nassau, Bahamas',
