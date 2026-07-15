@@ -52,7 +52,9 @@ body {
 .app {
   position: relative;
   width: 100vw;
+  /* dvh so iOS Safari's toolbars don't push the strip below the fold */
   height: 100vh;
+  height: 100dvh;
 }
 
 /* ---- header, top left: her name in gold, then the two doors ---- */
@@ -215,6 +217,12 @@ body {
   padding: 0.2rem 0.6rem;
   border-radius: 2px;
   white-space: nowrap;
+}
+
+/* Small screens tuck labels until zoomed in; the strip names everything. */
+.labels-tucked .pin-label {
+  opacity: 0;
+  transition: opacity 0.3s ease;
 }
 
 /* Latitude-neighbors cycle label positions so nearby names don't stack. */
@@ -565,11 +573,34 @@ body {
   }
 
   .wordmark {
-    font-size: 2rem;
+    font-size: 1.6rem;
+    border-bottom-width: 2px;
+    padding-bottom: 0.3rem;
+  }
+
+  .site-header {
+    gap: 0.7rem;
+  }
+
+  .site-nav {
+    gap: 0.55rem;
   }
 
   .nav-link {
-    font-size: 1.25rem;
+    font-size: 1.05rem;
+  }
+
+  .nav-heading {
+    font-size: 1.05rem;
+  }
+
+  .nav-link.nav-sub {
+    font-size: 0.95rem;
+    margin-left: 0.85rem;
+  }
+
+  .pin-label {
+    font-size: 0.9rem;
   }
 
   .places-strip {

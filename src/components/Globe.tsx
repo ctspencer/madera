@@ -28,6 +28,15 @@ function landTone(feature: object): string {
   return LAND_TONES[sum % LAND_TONES.length]
 }
 
+// The default framing fits the globe to the viewport HEIGHT, which on a
+// portrait phone makes it overflow the width enormously. Back the camera
+// off by the aspect ratio so the globe fits the narrow side instead.
+function fitAltitude(base: number): number {
+  const { innerWidth: w, innerHeight: h } = window
+  const factor = h > w ? Math.max(1, (h / w) * 0.85) : 1
+  return base * factor
+}
+
 function useWindowSize() {
   const [size, setSize] = useState({ width: window.innerWidth, height: window.innerHeight })
   useEffect(() => {
@@ -56,6 +65,11 @@ export function Globe({ places, selected, onSelect }: GlobeProps) {
       return { ...p, showLabel, labelPos: posByPlace.get(p.place) ?? 'pin-below' }
     })
   }, [places])
+  // On a phone the full label set is unreadable clutter at far zoom, so
+  // small screens tuck labels until the camera comes in close; the chip
+  // strip still names everything. Desktop keeps labels always on.
+  const [zoomedIn, setZoomedIn] = useState(false)
+  const tuckLabels = width <= 640 && !zoomedIn
   const resumeTimer = useRef<number | undefined>(undefined)
   const onSelectRef = useRef(onSelect)
   onSelectRef.current = onSelect
@@ -73,7 +87,7 @@ export function Globe({ places, selected, onSelect }: GlobeProps) {
     controls.autoRotate = true
     controls.autoRotateSpeed = 0.4
     controls.minDistance = 130
-    globe.pointOfView({ lat: 25, lng: -50, altitude: 2.1 })
+    globe.pointOfView({ lat: 25, lng: -50, altitude: fitAltitude(2.1) })
 
     // Mostly-ambient light so the land reads as flat matte paper from every
     // angle — the default fixed directional light leaves whole hemispheres
@@ -109,18 +123,24 @@ export function Globe({ places, selected, onSelect }: GlobeProps) {
     const controls = globe.controls()
     controls.autoRotate = false
     window.clearTimeout(resumeTimer.current)
-    globe.pointOfView({ lat: selected.lat, lng: selected.lng, altitude: 1.5 }, 900)
+    globe.pointOfView(
+      { lat: selected.lat, lng: selected.lng, altitude: fitAltitude(1.5) },
+      900,
+    )
     resumeTimer.current = window.setTimeout(() => {
       controls.autoRotate = true
     }, 3000)
   }, [selected])
 
   return (
-    <div>
+    <div className={tuckLabels ? 'labels-tucked' : undefined}>
       <GlobeGL
       ref={globeRef}
       width={width}
       height={height}
+      onZoom={(pov: { altitude?: number }) =>
+        setZoomedIn((pov.altitude ?? 99) < fitAltitude(1.9))
+      }
       backgroundColor="rgba(0,0,0,0)"
       globeMaterial={oceanMaterial}
       showAtmosphere={true}
