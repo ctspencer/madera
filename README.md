@@ -23,9 +23,11 @@ Pushing to `main` deploys automatically to GitHub Pages via `.github/workflows/d
 
 Keep `place` exactly as she wrote it (Czechoslovakia stays Czechoslovakia); `lat`/`lng` are modern coordinates for the pin only.
 
-## Current state (first session)
+Several entries can share one `place` — they render as one pin whose panel reads like a chapter: all pieces stacked in year order, separated by a quiet divider.
 
-Structure first, content later. The globe works end to end with four placeholder pins — New York, Montgomery, Amsterdam, Mont Saint-Michel. All titles and bodies are placeholders awaiting transcription from the book.
+## Current state (second session)
+
+Structure first, content later. Stylized vector globe (dark green ground, paper-tan countries), one pin per place with hover labels, a Places list bottom-left, Audubon's Plate 21 mockingbird bottom-right, mobile bottom-sheet reading panel. Montgomery carries two placeholder entries to demonstrate the chapter layout. All titles and bodies are placeholders awaiting transcription from the book.
 
 ## Open questions — ask, don't invent
 
@@ -39,11 +41,11 @@ Structure first, content later. The globe works end to end with four placeholder
 
 ## Deliberately deferred
 
-- Mockingbird artwork (Audubon *Birds of America* Plate 21; verify the specific scan's licensing before use)
 - The eulogy
 - A self-hosted serif (system serif stack for now; typography carries the design and will get real attention)
 - Any appearance of her actual pages or handwriting — undecided; default is her words cleanly set
 
 ## Credits
 
-Globe texture: NASA Visible Earth / Blue Marble (public domain), committed at `public/textures/` so the build never depends on an external URL.
+- Country shapes: [Natural Earth](https://www.naturalearthdata.com/) 110m Admin 0 (public domain), pruned and committed at `public/data/countries.geo.json` so the build never depends on an external URL.
+- Mockingbird: *Mocking Bird*, Plate 21 of John James Audubon's *Birds of America*. Courtesy of the John James Audubon Center at Mill Grove, Montgomery County Audubon Collection, and Zebra Publishing.

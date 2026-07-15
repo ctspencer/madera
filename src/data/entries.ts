@@ -24,6 +24,40 @@ export interface Entry {
   media: string[]
 }
 
+/**
+ * One pin per place. Entries sharing the same `place` string read as a
+ * chapter: stacked in year order (unknown years last, data order kept).
+ */
+export interface Place {
+  place: string
+  lat: number
+  lng: number
+  entries: Entry[]
+}
+
+export function groupByPlace(list: Entry[]): Place[] {
+  const places: Place[] = []
+  const byName = new Map<string, Place>()
+  for (const entry of list) {
+    let place = byName.get(entry.place)
+    if (!place) {
+      place = { place: entry.place, lat: entry.lat, lng: entry.lng, entries: [] }
+      byName.set(entry.place, place)
+      places.push(place)
+    }
+    place.entries.push(entry)
+  }
+  for (const place of places) {
+    place.entries.sort((a, b) => {
+      if (a.year === null && b.year === null) return 0
+      if (a.year === null) return 1
+      if (b.year === null) return -1
+      return a.year - b.year
+    })
+  }
+  return places
+}
+
 export const entries: Entry[] = [
   {
     id: 'new-york',
@@ -43,6 +77,16 @@ export const entries: Entry[] = [
     year: null,
     title: 'Placeholder — title TBC',
     body: '*Placeholder.* Montgomery was her home ground. Her writing from here will go here once transcribed.',
+    media: [],
+  },
+  {
+    id: 'montgomery-2',
+    place: 'Montgomery',
+    lat: 32.3668,
+    lng: -86.3,
+    year: null,
+    title: 'Placeholder — a second piece, title TBC',
+    body: '*Placeholder.* A second piece from Montgomery, here to show how multiple entries for one place read as a chapter. Replace with her writing.',
     media: [],
   },
   {

@@ -22,21 +22,33 @@ No Playwright in this repo. Use `playwright-core` from a temp dir with the syste
 mkdir -p /tmp/madera-verify && cd /tmp/madera-verify && npm i playwright-core
 ```
 
-Selectors: pins are `.pin` (labels `.pin-label`), panel is `.entry-panel` with
-`.entry-place`, `.entry-title`, `.entry-body`, close button `.entry-close`.
+Selectors: pins are `.pin` (dot `.pin-dot`, hover-only label `.pin-label`), places nav
+is `.places-toggle` / `.places-item`, panel is `.entry-panel` with `.entry-place`,
+`.entry-section` (one per entry), `.entry-divider`, `.entry-title`, `.entry-body`,
+close button `.entry-close`. Bird plate is `.bird` (non-interactive).
 
 ## Gotchas
 
-- **Pins fail Playwright's stability check** because the globe auto-rotates — click with
-  `{ force: true }`. This is expected behavior, not a bug.
-- Wait ~3s after load for the globe texture before screenshotting.
-- Pins on the far side of the globe are occlusion-hidden; iterate `.pin` elements and
-  pick a visible one.
+- **Pins fail Playwright's stability check** because the globe auto-rotates — click/tap
+  with `{ force: true }`. This is expected behavior, not a bug.
+- **`locator.boundingBox()`/`locator.evaluate()` on `.pin` can hang** (CSS2D nodes mutate
+  every frame). Use `page.evaluate(() => document.querySelector('.pin').getBoundingClientRect())`.
+- Pin labels only appear on `:hover` — to test, chase the moving pin with repeated
+  `page.mouse.move` to its current rect.
+- Land polygons take ~1-2s to build after load; wait ~3s before screenshotting or the
+  globe is a bare dark sphere.
+- Mobile emulation: use `deviceScaleFactor: 1` — at 2, `page.screenshot` hangs.
+- Pins on the far side of the globe are occlusion-hidden.
 - `/favicon.ico` 404s in the console — no favicon exists yet; ignore.
 
 ## Flows worth driving
 
-1. Globe renders on ivory (no black starfield), slowly rotating, all entries from
-   `src/data/entries.ts` appear as labeled pins.
-2. Click a pin → camera flies to it, panel opens with place/title/body.
-3. Close button → panel unmounts, rotation resumes after ~4s.
+1. Globe: dark-green ground, paper-tan vector countries (no photo texture), slow
+   rotation, one dot-ring pin per unique `place` in `src/data/entries.ts`.
+2. Click a pin (or `.places-toggle` → a `.places-item`) → camera flies there, panel
+   opens; a place with multiple entries shows stacked `.entry-section`s with dividers
+   (Montgomery has two).
+3. Close → panel unmounts. Rotation resumes ~3s after any interaction, even with the
+   panel open.
+4. Mobile (390×844, `isMobile`, `hasTouch`): panel is a bottom sheet (~68vh), places
+   list collapses after selection.

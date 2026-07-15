@@ -1,11 +1,30 @@
 import { useEffect, useRef, useState } from 'react'
 import GlobeGL, { type GlobeMethods } from 'react-globe.gl'
-import type { Entry } from '../data/entries'
+import { MeshPhongMaterial } from 'three'
+import type { Place } from '../data/entries'
 
 interface GlobeProps {
-  entries: Entry[]
-  selected: Entry | null
-  onSelect: (entry: Entry) => void
+  places: Place[]
+  selected: Place | null
+  onSelect: (place: Place) => void
+}
+
+interface CountryFeature {
+  properties: { name: string }
+}
+
+// Matte paper tans for the landmasses, assigned steadily by name so a
+// country keeps its shade across sessions.
+const LAND_TONES = ['#cfc6a6', '#c5bb98', '#d6ceb2', '#bdb28d', '#c9c09f']
+
+// Near-black ocean with a green cast; the land polygons carry the light.
+const oceanMaterial = new MeshPhongMaterial({ color: '#0d120e' })
+
+function landTone(feature: object): string {
+  const name = (feature as CountryFeature).properties.name
+  let sum = 0
+  for (let i = 0; i < name.length; i++) sum += name.charCodeAt(i)
+  return LAND_TONES[sum % LAND_TONES.length]
 }
 
 function useWindowSize() {
@@ -18,14 +37,19 @@ function useWindowSize() {
   return size
 }
 
-export function Globe({ entries, selected, onSelect }: GlobeProps) {
+export function Globe({ places, selected, onSelect }: GlobeProps) {
   const globeRef = useRef<GlobeMethods | undefined>(undefined)
   const { width, height } = useWindowSize()
+  const [countries, setCountries] = useState<object[]>([])
   const resumeTimer = useRef<number | undefined>(undefined)
-  const selectedRef = useRef(selected)
-  selectedRef.current = selected
   const onSelectRef = useRef(onSelect)
   onSelectRef.current = onSelect
+
+  useEffect(() => {
+    fetch(`${import.meta.env.BASE_URL}data/countries.geo.json`)
+      .then((r) => r.json())
+      .then((geo) => setCountries(geo.features))
+  }, [])
 
   useEffect(() => {
     const globe = globeRef.current
@@ -36,8 +60,8 @@ export function Globe({ entries, selected, onSelect }: GlobeProps) {
     controls.minDistance = 130
     globe.pointOfView({ lat: 25, lng: -50, altitude: 2.1 })
 
-    // Rotation yields to the reader: pause while dragging or while an
-    // entry is open, drift again a few seconds after they let go.
+    // The globe keeps turning: pause only while the user is actually
+    // dragging or the camera is flying, drift again a few seconds later.
     const pause = () => {
       controls.autoRotate = false
       window.clearTimeout(resumeTimer.current)
@@ -45,8 +69,8 @@ export function Globe({ entries, selected, onSelect }: GlobeProps) {
     const scheduleResume = () => {
       window.clearTimeout(resumeTimer.current)
       resumeTimer.current = window.setTimeout(() => {
-        if (!selectedRef.current) controls.autoRotate = true
-      }, 4000)
+        controls.autoRotate = true
+      }, 3000)
     }
     controls.addEventListener('start', pause)
     controls.addEventListener('end', scheduleResume)
@@ -59,13 +83,14 @@ export function Globe({ entries, selected, onSelect }: GlobeProps) {
 
   useEffect(() => {
     const globe = globeRef.current
-    if (!globe) return
-    if (selected) {
-      globe.controls().autoRotate = false
-      globe.pointOfView({ lat: selected.lat, lng: selected.lng, altitude: 1.7 }, 900)
-    } else {
-      globe.controls().autoRotate = true
-    }
+    if (!globe || !selected) return
+    const controls = globe.controls()
+    controls.autoRotate = false
+    window.clearTimeout(resumeTimer.current)
+    globe.pointOfView({ lat: selected.lat, lng: selected.lng, altitude: 1.7 }, 900)
+    resumeTimer.current = window.setTimeout(() => {
+      controls.autoRotate = true
+    }, 3000)
   }, [selected])
 
   return (
@@ -74,27 +99,28 @@ export function Globe({ entries, selected, onSelect }: GlobeProps) {
       width={width}
       height={height}
       backgroundColor="rgba(0,0,0,0)"
-      globeImageUrl={`${import.meta.env.BASE_URL}textures/earth-blue-marble.jpg`}
+      globeMaterial={oceanMaterial}
       showAtmosphere={true}
-      atmosphereColor="#d8c3a0"
-      atmosphereAltitude={0.12}
-      htmlElementsData={entries}
+      atmosphereColor="#94a58f"
+      atmosphereAltitude={0.08}
+      polygonsData={countries}
+      polygonCapColor={landTone}
+      polygonSideColor={() => 'rgba(13, 18, 14, 0.6)'}
+      polygonStrokeColor={() => '#8a815f'}
+      polygonAltitude={0.006}
+      polygonsTransitionDuration={0}
+      htmlElementsData={places}
       htmlLat="lat"
       htmlLng="lng"
       htmlAltitude={0.015}
       htmlElement={(d: object) => {
-        const entry = d as Entry
+        const place = d as Place
         const el = document.createElement('div')
         el.className = 'pin'
-        el.innerHTML = `
-          <svg width="20" height="27" viewBox="0 0 24 32" aria-hidden="true">
-            <path d="M12 0C5.4 0 0 5.4 0 12c0 9 12 20 12 20s12-11 12-20C24 5.4 18.6 0 12 0z"/>
-            <circle cx="12" cy="12" r="4.5"/>
-          </svg>
-          <span class="pin-label">${entry.place}</span>`
+        el.innerHTML = `<span class="pin-dot"></span><span class="pin-label">${place.place}</span>`
         el.addEventListener('click', (ev) => {
           ev.stopPropagation()
-          onSelectRef.current(entry)
+          onSelectRef.current(place)
         })
         return el
       }}
