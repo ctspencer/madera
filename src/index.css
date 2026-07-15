@@ -106,14 +106,15 @@ body {
   color: var(--gold);
 }
 
-/* "Archive" groups Photos and Letters beneath it */
-.nav-heading {
-  font-size: 1.35rem;
-  font-weight: 500;
-  letter-spacing: 0.22em;
-  text-transform: uppercase;
-  color: var(--ink-plum);
-  opacity: 0.55;
+/* Desktop: nav stacks vertically; the rows dissolve into the column. */
+.nav-row {
+  display: contents;
+}
+
+/* "Archive" opens to reveal Photos and Letters */
+.nav-caret {
+  font-size: 0.75em;
+  letter-spacing: 0;
 }
 
 .nav-link.nav-sub {
@@ -584,19 +585,27 @@ body {
 
   .site-nav {
     gap: 0.55rem;
+    align-items: flex-start;
+  }
+
+  /* phone: About · Eulogy · Selected Works across one line, Archive on
+     the next, its sub-links appearing beside it when opened */
+  .nav-row {
+    display: flex;
+    align-items: baseline;
+    flex-wrap: wrap;
+    gap: 1rem;
   }
 
   .nav-link {
-    font-size: 1.05rem;
-  }
-
-  .nav-heading {
-    font-size: 1.05rem;
+    font-size: 1rem;
+    letter-spacing: 0.13em;
+    white-space: nowrap;
   }
 
   .nav-link.nav-sub {
     font-size: 0.95rem;
-    margin-left: 0.85rem;
+    margin-left: 0;
   }
 
   .pin-label {
@@ -604,20 +613,20 @@ body {
   }
 
   .places-strip {
-    gap: 0.45rem;
-    padding: 0.75rem 0.75rem 0.9rem;
+    gap: 0.3rem;
+    padding: 0.55rem 0.75rem 0.65rem;
   }
 
   .places-group {
     flex-direction: column;
     align-items: flex-start;
-    gap: 0.25rem;
+    gap: 0.15rem;
   }
 
   .places-group-label {
     flex: none;
     text-align: left;
-    font-size: 0.8rem;
+    font-size: 0.72rem;
   }
 
   .places-group-chips {
@@ -625,11 +634,13 @@ body {
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
     width: 100%;
-    padding-bottom: 0.2rem;
+    padding-bottom: 0.15rem;
   }
 
   .chip {
-    font-size: 1.15rem;
+    font-size: 1rem;
+    min-height: 40px;
+    padding: 0.3rem 0.85rem;
   }
 
   .carousel {
