@@ -281,11 +281,9 @@ I miss it.`,
   },
   {
     id: 'retreat-to-the-sea',
-    // OPEN QUESTION for owner: no town is named — "a small hotel on the
-    // sugar-white beach of the Gulf of Mexico," a 180-mile drive from home.
-    // Pinned provisionally at Gulf Shores; correct place/lat/lng if the
-    // family knows which beach.
-    place: 'The Gulf of Mexico',
+    // The piece names no town ("a small hotel on the sugar-white beach of
+    // the Gulf of Mexico"); the owner confirmed it was Gulf Shores (2026-07).
+    place: 'Gulf Shores, Alabama',
     lat: 30.246,
     lng: -87.7008,
     year: null, // no date given — an end-of-summer weekend
