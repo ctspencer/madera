@@ -209,6 +209,92 @@ In fact, you felt that the chimp and you were the only sane ones left in the who
     media: [],
   },
   {
+    id: 'an-irish-adventure',
+    place: 'Cobh, Ireland',
+    lat: 51.851,
+    lng: -8.2967,
+    year: 1967,
+    title: 'An Irish Adventure',
+    // The Best of Madera pp. 21–23 (IMG_0584–0586). "(1967)" printed at the end.
+    body: `After an exciting and successful tour of Europe, memories crowd the mind and the heart in such profusion that it becomes a somewhat difficult project to distinguish the purely personal from the newsworthy. But since any experience is colored and flavored by one's own reaction to it, imparting the splendid pleasures of such a venture is in itself an added joy of travel.
+
+So to begin at the beginning with the first unique experience:
+
+Our party of 21 had been aboard the "Queen Mary" five days when she put into the harbor of Cobh, Ireland, for the first time in her long history of trans-Atlantic crossings. Even in the pre-dawn darkness of the cold April morning, one could almost feel the throb of excitement begin to vibrate through the great ship. As I peered out of the porthole in the darkness, lights of small fishing craft reflected eerily on the black water before we came close to the dim shoreline of Ireland. As daylight crept in, the coast became visible and the rolling hillsides of the Emerald Isle appeared like apparitions through the morning mist, dotted here and there with farm houses, church towers and fortresses.
+
+By full daylight, the ship's personnel were preparing for the boarding of the Lord Mayors of County Cork and of Cobh, and the Captain's reception welcoming them and the Irish press aboard the "Queen Mary" for the first time. The flagpoles and smoke stacks of the great ocean liner were dressed out in flags and banners, this being done only when a ship makes it's maiden voyage or when it puts into a port for the first time, as was the occasion on this day.
+
+Passengers wrapped up like Eskimos against the chilly morning lined the decks, waiting expectantly for the arrival of the boarding party. Then from a distance came the faint whine of bagpipes on the frosty air, and into view came a tender loaded with the honored guests, the Pipe band attired splendidly in green and black kilts blowing in the wind. The music of the bagpipes seemed to work a magic spell as the tender merrily circled the ship, then got into position for the boarding. Off came the Lord Mayors with their keys of office heavy around their necks; then came the other officials and Irish newspaper, radio and T-V staffs.
+
+The bagpipers paraded around the open decks in the high wind, followed like Pied Pipers by flocks of enthralled passengers. They took their places in the stern deck where they entertained throughout the morning. Although the reception was closed to passengers, since I am a member of the press I was allowed to attend the formal ceremonies where Captain Treasure Jones of the "Queen Mary" told the guests what a privilege it was to put into Ireland for the first time, and the Lord Mayor of County Cork and the 80-year-old Lord Mayor of Cobh made responses in their thick Irish brogues. After the formalities, the approximate 200 guests roved the ship from stem to stern, the Irish press people, like press people everywhere, doing their share to gather the news. In fact, at the Purser's request, I was interviewed by Denish Dowling, producer of "Mid-Morning Magazine for Women" of Radio-Telefis Eireann, which is Gaelic for Irish Radio and T-V. Being on the "other end" of an interview was an exhilirating experience especially when it was to go out over the air waves of Ireland. What did we talk about? About the Montgomery Advertiser, and compared notes on fashion and customs.
+
+Meanwhile, Irish women vendors had been allowed to come aboard with their wares of Irish hand-knit sweaters, scarves and jewelry.
+
+Bedlam reigned until the whistle blew for all ashore. To the music of the bagpipes they all went aboard the little tender bouncing in the waves, and in no time at all the little boat was skimming the water toward the harbor between the green rolling hills on either side, the music of the pipes fading sadly into the sun-misted air of Ireland.
+
+(1967)`,
+    media: [],
+  },
+  {
+    id: 'perilous-journey-river-road-by-air',
+    place: 'Charleston, W. Va.',
+    lat: 38.3498,
+    lng: -81.6326,
+    year: null, // "this past Saturday" — no year printed
+    title: 'Perilous Journey: River Road by Air',
+    // The Best of Madera pp. 24–28 (IMG_0587–0591).
+    body: `"Well, I can't say I'm not glad to be here," said I, in the understatement of the century. It was this past Saturday afternoon and we were climbing out of a four-seater Cessna 'air taxi' in a dreary drizzle on the slippery Tarmac runway of the Charleston, W. Va. airport. If I were an emotional type woman I'd have kissed that dirty old ground right then and there.
+
+It was chilly in the mountain air, but our pilot — a tall, rangy hill man — was perspiring profusely as he handed me down over the wing struts.
+
+My husband's complexion was pale pea-green and the other passenger, a dark-haired young man named Daniel Mezzalingua of New York City, was still benumbed, and at the moment, slightly pop-eyed.
+
+We had just shared a harrowing experience the likes of which you dream about. . . when you've eaten too much garlic and chili peppers.
+
+It all started when we left the fabulous Greenbrier in White Sulphur Springs, the last word in elegance and gracious living. A great grey limousine with chauffeur had driven us to the Greenbrier Airport where the pilot stowed away our luggage and golf-clubs in the back of the small green and silver plane.
+
+A little red plane in which we had arrived a few days before was sitting nearby getting ready to embark. Another limousine disgorged its passengers as our pilot revved the motors for a take-off over the rim of the bowl of mountains in which the Greenbrier nestles in scenic splendor. Our course was supposed to be 81 air miles to Charleston, the route 120 by tortuous mountain roads that require an approximate 3½ hours driving time.
+
+We had not gained 1,000 feet in altitude before even I could tell the ceiling was lower than the mountaintops around us. Being accustomed to transatlantic jets that dive into the murky atmospheric soup and come out 30,000 feet above in brilliant sunsets with clear blue yonder all around, I didn't worry. Then I remembered, this was no transatlantic jet and it seemed to me it took a powerful headwind even to get it off the ground.
+
+The whirr of the motors on the small plane discouraged conversation, which is just as well as I could tell even then no one had his mind on socializing. We were all beginning to think the same thing, no doubt. . . suspended up there amid the mountaintops. Crouched together in the little cabin like four baby birds sharing the same undersized airborne nest, our gathering fear seemed to transmute itself to one another.
+
+The pilot began peering from one side of the windshield to the other as dribbles and rivulets of rain shimmied down the glass. He'd crane his body over Daniel in the front seat to scan what little you could see of the mammoth Alleghenies to the right, and then press his face to the window on his left to see what was under him. Actually there was nothing.
+
+I mean, already we were flying blind. . . no visibility anywhere. . . just now and then a great whopping mountain looming up almost in our faces like a whale coming up for air.
+
+"Let's go back," I whispered to my husband. The look he gave me clearly indicated his opinion of women who change their mind in mid-air.
+
+"Let's just find a little field somewhere and land," I suggested to the pilot in a small, brave voice.
+
+"Hush," said my husband, "don't distract him."
+
+Under the forbidding overhang of dark clouds that seemed to stretch to infinity the wrinkled face of the earth beneath us was fantastic.
+
+The convolutions and contortions of the magnificent mountains all thickly woven with impenetrable dark green, gold and bright orange-red trees, was spectacular. Here and there a winding road looked like a piece of string carelessly dropped and little puddles of lakes reflected the angry sky.
+
+Occasionally a toy-like farmhouse with its surrounding patch-work quilt of cultivated acres perched on the pinacle of a mountain in withdrawn seclusion. The vast unpopulated miles of the dark mountains were sometime broken by little scatterings of villages clustered together in a valley, all but lost in the majestic immensity of the Alleghenys.
+
+Meanwhile, while I was admiring the scenery in breathless wonder and convincing myself that if you've got to go you may as well go in beautiful surroundings but reminding myself I wasn't nearly ready to go, the pilot was making a momentous decision.
+
+Without even asking my opinion which I would have been glad to give him just then, he wheeled the little plane sideways and I found myself face downward at a snake-like muddy river, winding itself in the canyons of the nearly-enveloping mountains.
+
+He cut the engines frighteningly for a moment and we almost glided down toward the river. Daniel looked back at me then with his soul in his eyes. . . it was the only time he showed signs of life during the entire trip, being otherwise riveted to the seat like the upholstery.
+
+The pilot shouted that he was going to follow the river bed. "Lost, that's what we are," I informed my husband. "Shut up," he said to me for the first time in our 23 years of married life.
+
+Down out of the storm clouds we went, periously close to the towering mountains on either side, and thereafter winged our way by river. Its every turn and change of course was ours. . . at one point the New River which we were following down from the mountains connects with the Kanawha and I had visions of our taking the wrong river and ending up out in the Atlantic or where ever it empties . . . that is, if we didn't give out of gas first.
+
+Anyway, our river course got us there eventually. What a gorgeous sight that city of Charleston was, spreading out on both sides of the river with the mountains ominously stretching in every direction. The orange dome of the state capitol looked as welcome as Mecca to the pilgrims.
+
+The red plane we'd left on the Greenbrier runway was already there. The pilot of it came dashing out to meet us, evidently concerned that we had not arrived before him. He said he'd just gone through the storm . . . "Couldn't see a thing for 40 minutes," he said, "and to tell you the truth, had I known it was that bad I wouldn't have gone at all."
+
+Our pilot drawled, "Well, that's why I followed the river. I like to see where I'm going."
+
+Buster, that makes four of us!`,
+    media: [],
+  },
+  {
     id: 'amsterdam',
     place: 'Amsterdam',
     lat: 52.3676,
