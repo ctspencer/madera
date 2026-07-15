@@ -155,6 +155,50 @@ I needed to look higher at the reality of its blessings.`,
     media: [],
   },
   {
+    id: 'majestic-interlude',
+    place: 'Montgomery',
+    lat: 32.3668,
+    lng: -86.3,
+    year: null, // childhood memoir — no date given
+    title: 'Majestic Interlude',
+    // The Best of Madera pp. 41–43 (IMG_0604–0606). "Captiol" and
+    // "ensconsed" are the book's spellings, kept verbatim.
+    body: `Newcomers to Montgomery may find it hard to believe that lower Madison Avenue was once one of the most desirable residential districts of the city and many stately homes of prominent citizens lined the wide, tree-shaded street.
+
+Within easy walking distance of town, the area now bustling with car washes, furniture stores, diners and beauty product distributors was once the site of pleasant two-story Victorian houses or impressive columned antebellum edifices.
+
+My grandparents occupied one of them.
+
+When I was a little girl — which wasn't exactly the covered-wagon era, but on the other hand it was no space age either — I spent many happy afternoons with my two unmarried aunts and grandmother on Madison Avenue but the grandest thing that could happen to me was for my aunts to walk me to town.
+
+We'd saunter leisurely along by the Captiol where I was allowed to crawl in the sweet grass on the hillside and pick a pocketful of tiny babybreaths, those miniature blue daisies that sprig the tender grass like little stars in a clear night sky.
+
+Then we'd mosey on down Dexter Avenue past the tree-shaded medians that centered the street in double rows from the Capitol to Dexter Avenue Methodist Church corner.
+
+Usually we'd pause to admire the stained glass window of the old red brick church where my parents were married, for it seemed like Westminster Abbey to me.
+
+Walking slowly and looking in all the shop windows, we rounded Court Square Fountain then started our homeward trek.
+
+But the lovely adventure had just begun.
+
+Bailey Plumbing Co. was located about where Montgomery Seed and Supply is now, and it so happened that the Bailey brothers who were proprietors had a sister named Miss Agnes who was a bosom friend of my aunts and who minded the plumbing shop when her brothers went off installing things and unstopping clogged drains.
+
+Now it was our custom to stop by to see Miss Agnes on our way home and pass the remainder of the afternoon with her in the plumbing shop.
+
+In winter she and my aunts would pull up chairs to the heater and sit comfortably among the lavatories and tubs on display; in summer they sat in the shade inside the opened front doors. We always had soft drinks and cookies which materialized from somewhere as if whisked in by a plumbing shop genie especially for this soiree.
+
+While my aunts and Miss Agnes caught up on the daily news, I was free to roam amongst the gleaming bathroom equipage and the galvanized pipes. For some reason the glistening toilets seemed to inspire my already budding imagination and the spirit of "make-believe," like the arms of a mesmerized Morpheus, fantastically embraced my young mind.
+
+Choosing the biggest, highest, brightest, whitest stool in the dim recesses of the back room which served as a small warehouse for the brothers Bailey, I climbed aboard.
+
+Royally ensconsed and pretending the sentinel flanks of neatly-stacked sewer pipes were my worshipping subjects, I was queen of the realm for the immeasurable long, lazy hours of the rest of the afternoon. If Miss Agnes and my aunts watched me, I was oblivious to the fact.
+
+Princess Grace couldn't appreciate her Monaco throne more than I enjoyed my plumbing shop reign from the heights of the great white enameled john.
+
+I suspect a psychiatrist analyzing this revelation might surmise that the pristine purity of virgin white enamel set like a jewel amidst the dingy pipes might well have been the forerunner of my now imperishable appreciation for the finer things of life.`,
+    media: [],
+  },
+  {
     id: 'touched-by-adventure',
     place: 'Nassau',
     lat: 25.0443,
@@ -390,6 +434,47 @@ Alas and alack, I was weary, having been up approximately 25 hours. I fell into 
 But was it worth all that physical abuse just to have nine glorious days in Rome? You bet your life it was. I still have my bags packed in case something comes up this week.
 
 (1975)`,
+    media: [],
+  },
+  {
+    id: 'holy-year-in-rome',
+    place: 'Rome',
+    lat: 41.9028,
+    lng: 12.4964,
+    year: 1975,
+    title: 'Holy Year in Rome',
+    // The Best of Madera pp. 37–40 (IMG_0600–0603). "(Oct. 5, 1975)" printed at the end.
+    body: `The Italian skies were luminous and the air was brisk on the Sunday morning when Anne Hamilton, Jo Reid and I stepped into a taxi in front of the elegant Hotel Excelsior on Via Veneto in Rome. We were joining thousands of pilgrims and sightseers this Holy Year to go to Piazza San Pietro (St. Peter's Square) on the left bank of the River Tiber.
+
+Our taxi ride, usually so wild and reckless in Rome, today necessarily went at snail's pace as conveyances of every imaginable type — from horse-drawn carriages to huge transcontinental buses — thronged the wide thoroughfares and tiny by-ways leading to the majestic site of St. Peter's at the end of Via Conciliazione.
+
+When finally our taxi had threaded its way through the choking traffic to within walking distance of the Square, we alighted amidst the multitudes to push our way slowly the several blocks to the Piazza. In an atmosphere of seemingly suppressed excitement, thousands of people had already staked out standing room around the great, ancient obelisk in the center of the square and near the splashing fountains at either side.
+
+The sun was growing noticeably warmer, so we fortunately found a cool spot beneath the magnificent colonnades created by Bernini in 1656, and which he envisioned as "like the motherly arms of the church which embrace Catholics to reinforce their belief."
+
+As I rested in the shade on the cold stone base of one of the splendid columns, I looked at those around me and those closest to me on the Square. There were groups of nuns in black habits or in white, scurrying after one another like little birds in a covey. There were fascinating Franciscan friars in their brown robes and thong sandals, little changed from the time of St. Francis himself. There were families with small children, some babies strapped to their mothers' backs like little papooses. There were rich men, poor men, beggar men, and yes, probably thieves.
+
+There were hundreds of tour groups among the multitudes, their leaders holding aloft all manner of identification, from leafy branches to flags, and many had signs atop long poles that bounced in the air designating villages or small cities from whence they came. . . Spoleto, Terni, Perugia, Assissi.
+
+The crowds were for the most part Italian, but if one listened there were languages and dialects from the far corners of the world. A huge group of black Ugandans, some in their native dress, hoisted a banner declaring "Uganda" and drew crowds to surround them by beating on tom-toms near the foot of the steps of the Basilica. There were Indians in their beautiful sheer saris, and one little man with the look of a pixie played tunes on a bagpipe made of innertubes and wooden whistles.
+
+As the noon hour approached, the hour of the blessing, I gazed with contemplation into the sun-filled square, now literally filled with some 35,000 people, and thought how here in the year 67 A.D. St. Peter, like his Master, was crucified to death for his faith. At that time, this was Nero's "circus" or sports arena, and nearby was a cemetery where Peter's friends laid the martyred remains of the Prince of the Apostles to rest. The tomb of St. Peter is now directly beneath the high altar of the Basilica. Later in the week I was to go back to visit the underground crypts of St. Peter and the Popes.
+
+But even though meditating on these ancient wonders, I still was aware of the restlessness of the crowds, and I could watch the pigeons swooping down from the colonnades over the Square and hear the gushing waters of the nearby fountains.
+
+Exactly at 12 o'clock, a red carpet was unfolded from the window of the Pope's study on the top floor of the residence to the right of the colonnades, and a great cry of jubilation arose from the crowds. A tremendous applause rang out as the Pope appeared, a wraithlike figure in white from this distance. When he lifted his hands in greeting, many of the pilgrims fell upon their knees on the hot, sun-washed stones of the Piazza. In an almost unbelievable hush and attentiveness, the Pope recited the Angelus and in five languages blessed the crowds. As his voice droned over the loudspeakers in the square, there was little movement from the thousands of people, but as soon as the Pope retreated from the window, there was a great surging tide of humanity toward the Basilica and through the Holy Door.
+
+The massive bronze doors, opened last Christmas Eve by the Pope for the first time in 25 years, will be sealed and bricked over again this Christmas Eve, not to open again until the year 2000 when there will be another Jubilee Year. As crowds surged through the doors, they touched the figure of Christ in bas relief on the right door, his body now golden-hued from the warmth of faithful hands, and startling against the tarnished bronze of the rest of the door.
+
+Just inside the Holy Door is Michelangelo's masterpiece, the exquisite and delicate Pieta. Now behind glass since a maniacal attack several years ago damaged the sweet face of the Madonna, it is nonetheless stirring and awe-inspiring to gaze upon the limp form of the Christ in his mother's arms, the sheen of the polished marble glimmering as though alive.
+
+It is said the Holy Door is symbolical, not so much as a physical door but as a voluntary transition from the mundane world into the House of God. The Holy Year had its beginnings in Mosaic times and was taken up again in Christian times in 1300. It is symbolically a year "of Renewal and Reconciliation, a renewal of faith, hope and love. . . reconciliation with God and with neighbor."
+
+To be among the pilgrims on this Holy Year, regardless of one's church affiliations or lack of them, is to feel humbly at one with mankind. To absorb the beauties and history of the masterpieces of art and sculpture and architecture that are Rome seems to me a rare privilege.
+
+It is said that good art conveys its message without further explanation. When you gaze upon the wonders of Rome, especially St. Peter's where Bramante, Raffaello, Bernini and Michaelangelo, the greatest of them all, used their talents so extensively, it is to understand how it truly speaks in a thousand tongues.
+
+(Oct. 5, 1975)`,
     media: [],
   },
   {
