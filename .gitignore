@@ -2,3 +2,7 @@ node_modules
 dist
 .DS_Store
 *.local
+
+# Raw photos of her book pages — working material for transcription,
+# never committed. See TRANSCRIBING.md.
+book-photos/

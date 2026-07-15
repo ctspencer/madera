@@ -22,6 +22,11 @@ A memorial site built around one person's travel writing. There is no deadline; 
 - Never simulate her cursive or her typewriter (no handwriting webfonts, no Courier pastiche). If her cursive appears at all, sparingly — her name, maybe. Never body text.
 - No AI-generated imagery anywhere on this site.
 
+## Transcription sessions
+
+If the task is transcribing her articles from photos, read **TRANSCRIBING.md**
+first and follow it exactly. Raw photos live in `book-photos/` (gitignored).
+
 ## Content rules
 
 - Placeholders are fine; invented content is not. The open-questions list in README.md must be answered by the site's owner, never guessed.
