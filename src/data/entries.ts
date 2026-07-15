@@ -118,6 +118,43 @@ Madera Spencer`,
     media: [],
   },
   {
+    id: 'lifes-reflections',
+    place: 'Montgomery',
+    lat: 32.3668,
+    lng: -86.3,
+    year: null, // no date given — the pond on the golf course behind her house
+    title: "Life's Reflections",
+    // The Best of Madera pp. 34–36 (IMG_0597–0599).
+    body: `It was almost dark when I sat down dejectedly upon the grass at the edge of the small pond on the golf course behind my house. The full moon was already riding the eastern sky and it's likeness lay like a painted canvas in the middle of the small lake.
+
+I gazed disconsolately at the reflections in the still water — the trees around the rim pointing their silhouetted black branches inward like gaunt witches' fingers and the shadows of the approaching night making a dark duplication on the pond.
+
+But I wasn't really seeing it.
+
+What I was seeing were pictures in my mind's eye of the day that had started out badly from the beginning. I had burnt the breakfast bacon, and from then on inconveniences and annoyances had seemed to multiply like mold on stale bread. My nerves were all on edge and my body ached with weariness, caused mostly perhaps from the futile frustration of having left some tasks unfinished.
+
+By the time I had gotten home that afternoon I was so cross I had gone skulking off to the pond like a small hurt animal who hides to lick its wounds.
+
+There was a chill in the coming night's air as I sat recalling vividly the grievances of the day, counting them one by one as if they were beads on a string. It seemed from faraway that I heard the tiny frogs on the bank plop into the pond, and watched crazy little purple-winged bugs zigzag through the water making ripples in the mirrored moonlight.
+
+It was a long time before I slowly began to perceive the scene at which I stared so gloomily. With eyes cast downward at the water, I thought, "That's the way my world has been today. . . everything upside down."
+
+I don't know what caught my attention and drew my eyes upward from the water and its inverted pictures. Perhaps it was a bird flying overhead to its roost. But slowly my eyes did raise upward from the reflections and the scene changed magically.
+
+The gnarled black limbs that were so menacing in the water in reality reached strong and sturdy and straight up through the twilight sky. The evening clouds that were so black and treacherous-looking in the pond were tinged with deep lavender sunset colors in the sky. The moon now high in the heavens was round and white and luminous whereas the ripples from the waterbugs had made it look lopsided and wavery.
+
+And then it hit me.
+
+The irritations of the day were only life's reflections. I had rebelled against those things that come to us all so that we may better appreciate the beauties that abound.
+
+The problem of my day had not been the burned bacon or the unfinished work or the incessant telephone calls that made me fret with impatience. I could cook more bacon; tomorrow was another day to finish the work I didn't get to today; and without the telephone calls how dull the day would be.
+
+No, my only problem had been in looking downward at life's inconsequential reflections.
+
+I needed to look higher at the reality of its blessings.`,
+    media: [],
+  },
+  {
     id: 'touched-by-adventure',
     place: 'Nassau',
     lat: 25.0443,
@@ -292,6 +329,67 @@ The red plane we'd left on the Greenbrier runway was already there. The pilot of
 Our pilot drawled, "Well, that's why I followed the river. I like to see where I'm going."
 
 Buster, that makes four of us!`,
+    media: [],
+  },
+  {
+    id: 'detour-to-newfoundland',
+    place: 'Gander, Newfoundland',
+    lat: 48.9578,
+    lng: -54.6089,
+    year: 1975,
+    title: 'Detour to Newfoundland',
+    // The Best of Madera pp. 29–33 (IMG_0592–0596). "(1975)" printed at the end.
+    body: `They say that travel is broadening, but this is not especially true when you are imprisoned with 393 other passengers in an aircraft for more than 13 hours.
+
+I shall not soon forget my return flight from Rome recently, but even now its inconveniences are fast fading as the pleasures of the trip loom ever larger in the memory.
+
+However, the trip is worth recounting.
+
+We were awakened in our room at the Hotel Excelsior at 6:30 a.m. (Rome time), and after breakfasting in bed as is our custom in Europe, put out our luggage at 8:30 and went down to take the bus to Leonardo da Vinci Airport at 9:45.
+
+The bus was late, so we stood outside the Hotel on the Via Veneto in the fresh morning sunshine, shuffling from foot to foot with anxiety.
+
+The 20-mile ride to the airport is difficult at best, for traffic is so congested and thick in Rome that several blocks often takes 20 minutes to negotiate, so one is never sure when one will arrive anywhere, especially the airport.
+
+However, as is the custom in Rome, the plane was also late. Pummeled and pushed, we squeezed in line for seat assignments for the 12:30 plane, only to be told, as we neared claustophobic asphyxiation, that it would be more than an hour before the plane arrived from Iran and Istanbul.
+
+We didn't mind too much right then. We happily munched on Perugino chocolates and drank numerous cups of cappuccino in order to get rid of our last Italian lire.
+
+When we found our seats on the mammoth 747, I was penalized with only half a seat since the lady next to me was a 300-pounder from Malta and one seat can accommodate only so much body, you know. But she was pleasant and didn't talk too much, which is a blessing when sitting next to someone for 13 hours.
+
+Finally the great aircraft taxied out to flight position on the runway. . . and we waited and waited and waited. The Captain came on the address system to inform us that another plane had just made an emergency landing and all the fire equipment was deployed for its safety, so we would have to wait for the signal that the equipment was free before we would be allowed to take off.
+
+It was 2:30 p.m. (Rome time) when we left. . . two hours late.
+
+My mood, which was growing darker by the minute, was lightened somewhat when the flight attendants served me a piping hot dish of cannelloni. It was considerably dimmed again when I found out that due to the flight being programmed to take longer than had been expected (8 hours and 50 minutes) there would be not one but two movies shown. I hate movies on planes. I hate pulling down the shades and shutting out all the sunlight so that the plane interior is a labyrinth of unidentifiable figures slouched down in their seats, their eyes glued to the screen and the earphones making them look like creatures from outerspace.
+
+So I meditated. . . mainly on the fact that we had already missed our connection in New York and there wouldn't be another plane out that night.
+
+At 10:35 p.m. (Rome time) the Captain, whom I was beginning to feel that I knew very well but whom I had not seen, came on the speaker to say that headwinds along our flight path had unexpectedly slowed down our progress and that fuel was running low, but not to worry, we would soon be landing at Gander.
+
+The lady from Malta nudged me and said, "Where's Gander?" I told her it was in Newfoundland, but from the blank expression on her face I could tell she didn't know where that was either. But since we were already late and I like adventure, I began to anticipate landing in an unknown country.
+
+The sun was still high, for after all, it was only late afternoon here, in spite of it being 11 p.m from the time I had gotten up that morning. As the big plane came low over the flat, marshy country, I could look down on thousands of small lakes interspersed with twisting landfalls laid out like a giant jigsaw puzzle beneath us. Not a mountain, not a house, not a city in sight. And then the small airport came into view, and in the distance, clinging to the side of the lake as if fearful of sliding in, there was a small settlement isolated and desolate.
+
+As if giving us a reward for being such good passengers, the Captain came on again to tell us that when he turned the plane to the right on the concourse if we would look to the left we'd get to see Air France's notorious Concord Supersonic Jet. It was well worth a look, for it was as sleek as an eel with a sharp, pointed nose like a needle. Yessir, Gander was doing a rushing business that day. . . the Concord, an observation plane, and now us.
+
+When we came to a halt, all the doors of 747 were flung open to the cool, crisp Newfoundland air, but we were not allowed to disembark, due, said the Captain, to "health precautions". The lady from Malta said, "Whose health?" That was a good question.
+
+I stood in the airplane door, and breathed the clean, crisp air. And then I saw that someone, after all, had been allowed to disembark. . . and his master. But a poor poodle on a 13-hour airplane ride certainly deserved to deplane if possible, I should think.
+
+While the poodle was sniffing around the refueling trucks outside, all the 393 passengers were milling up and down the aisles of the 747, stopping to chat and commiserate with each other about the woes of missing their connections in New York.
+
+Finally at 11:15 p.m. (Rome time), we took off from Gander. On each side of the deserted runway were fringes of soft, green meadow grass dotted with small yellow and lavender wildflowers, and beyond that what looked like brown, dry sagebrush. Looking back over the little flat-topped airport as we ascended, I saw the sky illuminated with silver-lined sunset clouds and colors like the inside of a seashell.
+
+Lovely, yes. But my watch still told me it was nearly midnight and I had awakened at 6:30 that morning. Nevertheless, the good Captain said not to worry, we should be in New York in two and a half hours. What he didn't say was that when we got there we would have to circle in a holding pattern for another hour or so, making it well after 2:30 a.m. (Rome time) when we got to New York, where it was only 8:30 p.m.
+
+The night seemed endless. There was the queuing up for passport control, the fighting for luggage amidst 393 other passengers also fighting for luggage; the queuing up to get a night's lodging, courtesy of the airline of course, and waiting for a bus to take us to the motel and queuing up at the check-in desk for our room with some 300 others who were equally as dead on their feet.
+
+Alas and alack, I was weary, having been up approximately 25 hours. I fell into bed for a few hours sleep to restore my stamina enough to get up early, get a bus to the airport, get tickets changed, wait for take-off, change planes in Atlanta. . . et cetera, et cetera, et cetera.
+
+But was it worth all that physical abuse just to have nine glorious days in Rome? You bet your life it was. I still have my bags packed in case something comes up this week.
+
+(1975)`,
     media: [],
   },
   {
