@@ -14,8 +14,56 @@ export function EulogyPage({ onClose }: EulogyPageProps) {
           ×
         </button>
         <h2 className="about-title">Eulogy</h2>
-        <p className="about-text about-placeholder">
-          <em>Placeholder — the eulogy will live here when it is written.</em>
+        <p className="about-text">
+          As I write from my studio desk in Chelsea, Manhattan, I see the
+          Empire State Building to my far left, the lush townhouse gardens
+          below; a sanctuary amidst the hustle and bustle of New York. Each
+          morning I draw the blinds up to let the sunlight in, and receive
+          the daily guests that alight my windowsill: pigeons (of course),
+          sparrows, and the rarer bluejay. When the bluejay decides to make
+          its presence on my fire escape, its blue wings juxtaposed against
+          the far chrome skyscrapers, red brick pre-war townhouses, and green
+          gardens, I feel as though Deedie is right there next to me, saying
+          &ldquo;Well I declare, look at that!&rdquo;
+        </p>
+        <p className="about-text">
+          Growing up, I would go on yearly trips to Alabama for holidays and
+          gatherings, always stopping by Deedie&rsquo;s to hear her stories
+          and watch nature outside the window together (there was always a
+          bird feeder in sight). She made me realize what a full life could
+          be, and instilled in me a wanderlust that has carried me to New
+          York, Munich, London, Istanbul, Athens, Milan, Madrid, and beyond.
+          It was through her eyes that I saw how beautiful, how bountiful the
+          world is, and how many small wonders it holds.
+        </p>
+        <p className="about-text">
+          Being Southern in New York often comes with an implicit bias from
+          those in the North; I can see the subtle, immediate change in their
+          faces when they learn where my roots are. They associate being
+          Southern with prejudice and ignorance. But when I think of what
+          being Southern means to me, I think of Deedie: her kindness,
+          elegance, intelligence, curiosity, and acceptance of others. She is
+          the South made manifest, a woman who traveled Europe and Asia,
+          promoted acceptance in the Civil Rights era, attended fashion
+          shows, interviewed movie stars, socialized in the New York party
+          scene, served on the first Women&rsquo;s commission for the
+          Department of Defense, and more.
+        </p>
+        <p className="about-text">
+          Her lush life invites us to reflect on our own, to savor the small
+          serendipities of our daily rhythms while striving to see the world
+          around us. Deedie reminds us that wonder can be found everywhere,
+          and that appreciating that wonder, the inherent diverse beauty of
+          people and places, is what makes a life full and connects us to
+          each other.
+        </p>
+        <p className="about-text">
+          So the next time you mosey down, stop and look closer into the
+          trees, lest you miss the mockingbird and the stories it sings.
+        </p>
+        <p className="eulogy-signature">
+          —Collin Spencer
+          <span className="eulogy-dateline">New York, New York, 2026</span>
         </p>
       </article>
     </div>

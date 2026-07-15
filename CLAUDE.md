@@ -16,7 +16,7 @@ A memorial site built around one person's travel writing. There is no deadline; 
 - Current palette (owner's direction, 2026-07): soft lilac ground, opaque soft-sapphire ocean (#6f8bc0), pale cream land, muted faded-red markers, gold wordmark (#a8862d), ink-plum UI text; her words on warm ivory. Refined and elegant over loud.
 - Layout: header top-LEFT (MADERA / About / Eulogy); all places as a chip strip along the bottom. Entries, About, and Eulogy open as centered modals (X or backdrop click to close).
 - Pin labels are zoom-gated (fade in below ~1.7 altitude) because 16+ always-on labels collide; the chip strip is the always-visible index. Label text: U.S. places city-only, abroad add country only when the name isn't self-recognizable (`mapLabel` in entries.ts; her dateline `place` shows in the modal).
-- **Typography exception (owner-approved 2026-07):** her words — entry bodies only — are set in Special Elite (Apache 2.0, self-hosted at `public/fonts/`). Titles, UI, About/Eulogy stay in the serif. Do not spread the typewriter face further.
+- **Typography exception (owner-approved 2026-07):** her words — entry bodies only — are set in Courier Prime (OFL, self-hosted at `public/fonts/`; chosen over Special Elite for readability). Titles, UI, About/Eulogy stay in the serif. Do not spread the typewriter face further.
 - Type runs large on purpose — the site must be readable with reading glasses. Don't shrink it for aesthetics.
 - Forbidden defaults: black starfield globe, glowing arcs, script fonts, lace, monograms, antebellum nostalgia, anything that reads as a tech dashboard or genealogy service.
 - The globe is an object — warm, turned, held — not a data visualization. Land over ocean.

@@ -34,7 +34,6 @@ First real entries are in: her January 1956 letter from New York (transcribed ve
 ## Open questions — ask, don't invent
 
 - The About page text (currently a marked placeholder)
-- The eulogy (nav item exists; page is a marked placeholder)
 - Titles and text for the remaining placeholder places
 - The full list of places (Greek islands and Czechoslovakia are known future additions)
 - What the book actually is
@@ -52,4 +51,4 @@ First real entries are in: her January 1956 letter from New York (transcribed ve
 
 - Country shapes: [Natural Earth](https://www.naturalearthdata.com/) 110m Admin 0 (public domain), pruned and committed at `public/data/countries.geo.json` so the build never depends on an external URL.
 - Letter scan and photographs: family collection / Alabama Textual Materials Collection.
-- Typewriter face for her words: [Special Elite](https://fonts.google.com/specimen/Special+Elite) by Astigmatic, Apache 2.0, self-hosted at `public/fonts/`.
+- Typewriter face for her words: [Courier Prime](https://fonts.google.com/specimen/Courier+Prime) by Alan Dague-Greene (OFL), self-hosted at `public/fonts/`.

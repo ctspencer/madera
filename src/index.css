@@ -1,18 +1,19 @@
 /*
  * Refined and quiet: a soft lilac ground, land as pale paper,
  * a soft sapphire ocean, muted red markers, her name in gold.
- * Her words are set in Special Elite — a typewriter face, used for
- * her writing only, so it reads as quotation rather than theme.
+ * Her words are set in Courier Prime — a typewriter face built for
+ * sustained reading, used for her writing only, so it reads as
+ * quotation rather than theme.
  * Type runs large on purpose — this site is meant to be read by
  * an old reader on a phone. Restraint over ornament.
  */
 
 @font-face {
-  font-family: 'Special Elite';
+  font-family: 'Courier Prime';
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url('/madera/fonts/special-elite.woff2') format('woff2');
+  src: url('/madera/fonts/courier-prime.woff2') format('woff2');
 }
 
 :root {
@@ -28,7 +29,7 @@
   --ink: #29221b;
   --ink-plum: #322843;
   --serif: 'Iowan Old Style', 'Palatino Linotype', Palatino, Georgia, serif;
-  --typewriter: 'Special Elite', 'Courier New', Courier, monospace;
+  --typewriter: 'Courier Prime', 'Courier New', Courier, monospace;
 }
 
 * {
@@ -328,6 +329,21 @@ body {
 
 .about-placeholder {
   color: var(--rust);
+}
+
+.eulogy-signature {
+  margin: 2.5rem 0 0;
+  font-size: 1.4rem;
+  line-height: 1.5;
+  color: var(--green-ink);
+}
+
+.eulogy-dateline {
+  display: block;
+  font-size: 1.1rem;
+  letter-spacing: 0.06em;
+  color: var(--rust);
+  margin-top: 0.35rem;
 }
 
 /* ---- mobile: sized for old eyes on a phone ---- */
