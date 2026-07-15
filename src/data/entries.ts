@@ -169,6 +169,46 @@ But I took something very precious with me. An experience to remember.`,
     media: [],
   },
   {
+    id: 'a-happening-in-new-york',
+    place: 'New York',
+    lat: 40.7128,
+    lng: -74.006,
+    year: 1965,
+    title: "A 'Happening' in New York",
+    // The Best of Madera pp. 14–16 (IMG_0577–0579). The editor's note is
+    // the newspaper's, kept because the book prints it as part of the piece.
+    body: `**EDITOR'S NOTE: Advertiser Fashion Editor Madera Spencer is in New York for the fashion showings of the American Designers Series and the New York Couture Group. The events began with an unusual party Saturday night and the following is her report.**
+
+NEW YORK, July 1965 — There are a lot of peculiar things happening in New York this week, like peculiar fashion showings in which the kookier designers show voluminous wool dresses with hemlines halfway to the thighs and with matching suede leggings up over the kneecap; but most peculiar of all are the "happenings."
+
+Happenings are the newest fashion of entertaining. They are "simultaneous actions resulting in spontaneous reactions" and are sweeping the city as thoroughly as the sanitation department.
+
+The famed hairstylist Mr. Kenneth had a "happening" Friday night.
+
+Held in the Eastside ground floor, brick-walled studio of fashion photographer Milton Green, the Happening began at 10 p.m. A giant kleig light exploded the sky from the back of a truck parked in the street and interested pedestrians clustered around the doorway to see what was happening inside because blasts of jazz notes whined out into the humid night air.
+
+Inside, Mr. Kenneth, in his usual neat camel colored summer suit, was welcoming his guests and inviting them to "get with it."
+
+First he insisted you stick your face through a hole in the wall in the dim hallway, while from the next room inside you were photographed with your head attached to an artist's sketch of a nude body and wearing one of Mr. Kenneth's famous wigs on your head.
+
+Inside, the dimly lit bare room was crowded with Mr. Kenneth's friends who included journalists from Paris magazines; Betty Furness in bright pink stockings and a little blue and green print cotton shift; ex-heavyweight boxing champion Rocky Marciano; an assortment of beatniks in need of baths, editors from newspapers and magazines, and heaven only knows who else. Several couples with dirty sweat shirts and Beatle haircuts were doing the Frug and the combo called "The Exciters" was blaring out ear-splitting music.
+
+Suddenly out of a huge, cardboard, birthday party cake crawled an oiled-skin, long limbed girl clad only in an iddy bitty bikini and, to the mortification of not a few of those present, she gyrated on top of the cake in the spotlight for the next couple of hours.
+
+Meanwhile, one could stand on a wooden crate next to the wall and have one of Mr. Kenneth's sidekicks affix a set of floppy eyelashes on your eyes and make them up to look like some of the weirder models.
+
+Also meanwhile, right next to you in the crowded smoke-filled room, now carpeted wall-to-wall with perspiring humans, was a blubbering little chimpanzee dressed in an artist's smock and painting oil portraits of people. On the other side was a barrel of cold beer and a trestle table of goodies including grapes and watercress sandwiches.
+
+Other things were going on around the crowded room including a recitation by an anonymous long-haired poet.
+
+And all this time the dancer (who was Sally Kirkland Jr., daughter of Life magazine fashion editor Sally Kirkland) was still bumping and grinding and dripping perspiration in the hot spotlight on top of the fake cake.
+
+When the heat and the beat became unbearable and even the poor chimp seemed to be pretty disgusted with the human race, you bade adieu and hoped a happening wouldn't happen again any time soon.
+
+In fact, you felt that the chimp and you were the only sane ones left in the whole place.`,
+    media: [],
+  },
+  {
     id: 'amsterdam',
     place: 'Amsterdam',
     lat: 52.3676,
@@ -179,13 +219,44 @@ But I took something very precious with me. An experience to remember.`,
     media: [],
   },
   {
-    id: 'mont-saint-michel',
-    place: 'Mont Saint-Michel',
+    id: 'stone-walls-or-treetops',
+    place: 'Mont St. Michel',
     lat: 48.6361,
     lng: -1.5115,
-    year: null,
-    title: 'Placeholder — title TBC',
-    body: '*Placeholder.* Her writing from Mont Saint-Michel will go here once transcribed.',
+    year: null, // "an afternoon in June" — no year given
+    title: 'Stone Walls or Treetops',
+    // The Best of Madera pp. 17–20 (IMG_0580–0583).
+    body: `It was after 5:30 on an afternoon in June when we approached the ancient stronghold of Mont St. Michel jutting into the English Channel off the northwest coast of France.
+
+As our coach drove from the mainland over the causeway which at certain times of the year is perilously inundated with swift tide waters and quicksands, the great Abbey built in the early Middle Ages on the summit of the rock mountain towered in brooding splendor in the misty afternoon sunlight. Just inside the time-stained city walls, on a narrow twisting cobblestone street, was our Hotel de la Mere Poulard, its rooms clinging to the precipitous mountainside as if they had grown out of the solid granite.
+
+It was late when I finally climbed the narrow, almost vertical steps to my assigned room on the third floor and flung open the French window to see what view it afforded. Views from strange windows are often so indelibly etched upon the memory they become integral recollections of travel experiences.
+
+This one would be especially so.
+
+The smell of the sea was almost tangible. Just across the busy cobblestoned way far below my windowsill, the blackened fortress wall curled from the outside city gate to a crenelated rampart, and beyond it was a panoramic view of the shallow low-tide waters spread out over the treacherous sands on both sides of the causeway.
+
+Enchanted, I stood immobile with my arms still flung out on the windows on either side, letting the stillness and the rarity of the scene seep into my consciousness. I pondered that perhaps this same scene had been thus for long-forgotten travelers to Mont St. Michel over its more than thousand-year history.
+
+And as I reflected, transported by reverie into another era and another time, with fierce, whirring wings a small bird swooped past my face, its lightening-like passage stunning me, its feathers almost brushing my nose.
+
+It darted upward, and following its swift passage with my eyes I perceived just above my head in the corner of the window a small cluster of dried mud like a tiny gray sack blending into the stone of the old building. As the bird perched momentarily at a quarter-sized opening, a chorus of chirps and cheeps greeted its arrival, and as I stood transfixed six tiny opened beaks bobbed at the threshold.
+
+I was as ecstatic as if I had discovered a cache of treasure hidden in the ancient windowsill. The little mother bird, called a house-martin in that part of France I was told, stayed only long enough to deposit into the hungry little mouths some morsel of food she had retrieved from air or sand or sea, then darted out again to continue her foraging expeditions.
+
+I stood rooted to the floor just inside the window, staring at the now quiet glob of dried mud. I had seen similar nests only a few days earlier clinging to the walls under the eaves of castle towers as we visited old chateaux of northwest France. They had been so high they had looked like small bulges in the stone of the towers, but now I had one within arm's reach.
+
+Outside the window, the afternoon sky was filled with swallow-like birds dipping and soaring gracefully over the sands. As I watched them at the window, mama bird, taking no notice of me whatever, darted in again and the same little cacophony of peeps and chirps greeted her, the tiny mouths bobbing again just inside the nest opening.
+
+It must have been 10:30 when I went back to my room after dinner. The window was still open to the gathering twilight, and the busy mama bird was still working as diligently as at 5:30. In and out, in and out, without an interlude of rest. I dropped off to sleep before she did.
+
+I awakened once during the night and listened for the whirring of wings and the begging cries of the babies, but all had been quiet in the darkness. . . not a sound on the ancient rock mountain.
+
+In that part of France at that time of year daylight creeps in as early as 3:30 or 4 a.m. When the first light of dawn seeped in to awaken me, mama bird was already at it again. She was off on another day of providing for her demanding babies. Surely those small wings were exhausted after more than 18 hours of unceasing flight the day before. How long had she stopped during the night?
+
+When we departed that morning, I stood in the now busy cobblestoned street below my window, looking up, up, up to the gray mud nest which was all but indistinguishable from this distance. I wondered how those small babies would ever learn to fly without falling to the cobblestones below.
+
+How very comforting to know the same benevolent Creator who gives precious flight and song to the cardinals and mockingbirds in the green trees and hedges of my own back yard also lovingly gives the confidence of flight to the little creatures born in the gray mud nests incredibly high on the stone walls in France.`,
     media: [],
   },
 ]
