@@ -241,6 +241,78 @@ The refrigerator was filled with succulent, fresh bass filets, but the question 
     media: [],
   },
   {
+    id: 'a-penalty-for-difference',
+    place: 'Montgomery',
+    lat: 32.3668,
+    lng: -86.3,
+    year: null, // no date given — the white sparrow at her home feeder
+    title: 'A Penalty for Difference',
+    // The Best of Madera pp. 50–52 (IMG_0613–0615).
+    body: `Several weeks ago, amidst the fluttery flock of small brown sparrows that take their meals at my house, coming in for breakfast just after the break of day and for supper in late afternoons, I thought I saw the flash of white wings, but told myself surely it must be the glint of the afternoon sun upon iridescent feathers.
+
+Next day, when seed was spread in the small red-roofed feeder house high in the tree, the bird's dining room open on all sides for easy access by our boarders, again amidst the brown was a white bird that stood out from the drab little bevy like Cinderella at the ball.
+
+In unbelief and with great excitement I zeroed in, eye-to-eye, with the binoculars which are always handy, and sure enough, the little creature was a perfect sparrow but solid white, without a trace of color anywhere. Apparently a young one, it fluttered its wings demandingly to get attention from its mother, she as brown and anonymous as all the others in the flock. When mother flew to the birdbath for water, the little white bird followed, sitting on the rim continuing to beat its small wings for attention.
+
+A call to the state wildlife department informed me that, yes, it could be a white sparrow, possibly an albino, but it was very rare. A question to the director at the Zoo informed me that if it didn't have pink eyes it was not an albino, but a "sport." But, he said, it was unusual that a small white bird had survived long enough to fly, since his obviousness so easily attracted predators.
+
+My white sparrow clearly had brown eyes, and he had survived long enough to fly and to follow his mother from feeder to bath to the leafy limbs of the crabapple tree, and then away to the field behind the house after supper.
+
+The odd thing about it was that it never appeared in the mornings for breakfast when the trough was alive with twittering, hungry birds, but it always came for the afternoon soiree. At that time, there was no one else around to see my white sparrow, and I was beginning to need a witness for when I talked about it, my sanity and my veracity were in question, and at best I was put down as perhaps over-zealous in stretching my bird tales.
+
+When finally I got my witness, he said, "Well, I'll be. . .!" in astonished wonder.
+
+After several days the white sparrow no longer fluttered its wings for its mother to put a cracked seed into its beak, for it had got the strength, and perhaps the courage, to join the flock in the feeder.
+
+But alas, when it tried to squeeze into the melee, the fussy, uncivilized brown sparrows literally pushed and nudged it off the edge of the feeder, forcing it to perch perilously on a tiny twig nearby. No matter how many times it tried to get to the seed, it was shunted and scolded away by its brethren.
+
+Why were the brown sparrows so unkind to one of their own? Was it because they were too greedy to share the precious seed, or was it because the small bird was of another color?
+
+If these wild creatures, who know not what they do except by instinct, will banish a bird from their society because it is "different", how much more inexcusable it is for humankind who do know what they do, to be as unjust.
+
+One day the small white bird did not come to supper. I waited at the window until twilight, but there were only the brown ones gobbling up the gift of seed from the feeder.
+
+Had the white bird finally given up? Had it found a feeding place where it was accepted as it was and not ostracized because it was unlike the others? Or had it been stalked and killed by a predator because, in its pristine whiteness and uniqueness, it was easier prey? If so, what a penalty to pay for beauty!
+
+But I still look for it in the afternoons.
+
+I miss it.`,
+    media: [],
+  },
+  {
+    id: 'retreat-to-the-sea',
+    // OPEN QUESTION for owner: no town is named — "a small hotel on the
+    // sugar-white beach of the Gulf of Mexico," a 180-mile drive from home.
+    // Pinned provisionally at Gulf Shores; correct place/lat/lng if the
+    // family knows which beach.
+    place: 'The Gulf of Mexico',
+    lat: 30.246,
+    lng: -87.7008,
+    year: null, // no date given — an end-of-summer weekend
+    title: 'Retreat to The Sea',
+    // The Best of Madera pp. 53–55 (IMG_0616–0618).
+    body: `The similarity of greyness of sky and sea obliterated the demarkation of the horizon that afternoon when I looked out my window onto an empty gulf beach. It was like looking into infinity. Only the great, angry, spume-encrusted waves, rolling and rolling in thunderous defiance as they broke close to the shore, were visible through the veil of falling rain, and their turbulence seemed unending through the deepening twilight. Turbulent like my nerves, I murmured to no one.
+
+The week had been one of those that strains both body and spirit, and which is the infliction perhaps of the age in which we live. But by chance (or was it?) the morning's meditation had fallen upon the words of Mark 6:31, "Come ye yourselves apart into a desert place, and rest awhile; for there were many coming and going and they had no leisure so much as to eat."
+
+The words leapt out at my frail spirit as if they were a direct answer to supplication for peace, and unhesitatingly I telephoned a small hotel on the sugar-white beach of the Gulf of Mexico and reserved a room for the night. Cancelling engagements, settling pending weekend tasks, and gathering the barest essentials, I drove the 180 miles to the shore, thankfully finding my refuge almost deserted this end-of-summer day.
+
+Now I was alone with the sea, the rain, the greyness, with blessed hours ahead with no telephones or deadlines or voices, for even when those voices are of the beloved they can sometimes intrude on the need for silence.
+
+Those towering, thunderous waves and the lonely beach outside the windows beckoned with immediacy. Without unpacking, I wrapped myself in a raincoat, with a showercap and scarf protecting my hair, and barefooted fled across the beach to the water's edge. The cold, wet sand was intricately and symmetrically pockmarked by raindrops, and at the water's edge each huge breaker was leaving fringes of foam patterned like old Belgian lace. Ecstatic sandpipers paid no mind to me and ran frantically to and fro, their long thin legs propelling like pistons as they sought the delicacies of the deep each wave brought to shore.
+
+As I walked along the deserted beach in the gathering twilight, with only the piercing, plaintive cry of the seabirds for company, the pounding of the waves was like a crescendo of the symphony of the sea, yet as soothing as a sedative. I walked on and on, each step in the rain diminishing the fatigue, renewing the vigor.
+
+When I turned back home, lamps in the small glassed-walled dining room of the hotel were like little beacons in the dusk and I was glad for the night to come.
+
+Although the vehement sea roared all night and its rumbling seemed part of a restless dream, by sunset the next day the sky was mother-of-pearl with puffs of pink illuminated clouds reflecting in calm and translucent water. Where was the violence? Where was the relentless roaring of irrepressible waves? How had they been placated so quickly?
+
+But more than that, my body and spirit were as calm as the sunset and the sea. Weariness was now exaltation; burdens were lifted, joy mounted on wings.
+
+The retreat was complete. My "desert place" had worked miracles.`,
+    media: [],
+  },
+  {
     id: 'touched-by-adventure',
     place: 'Nassau',
     lat: 25.0443,
