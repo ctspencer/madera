@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState } from 'react'
+import { useEffect, useMemo, useRef, useState } from 'react'
 import GlobeGL, { type GlobeMethods } from 'react-globe.gl'
 import { AmbientLight, DirectionalLight, MeshPhongMaterial } from 'three'
 import type { Place } from '../data/entries'
@@ -42,10 +42,20 @@ export function Globe({ places, selected, onSelect }: GlobeProps) {
   const globeRef = useRef<GlobeMethods | undefined>(undefined)
   const { width, height } = useWindowSize()
   const [countries, setCountries] = useState<object[]>([])
-  // Labels crowd each other at full-globe zoom (Europe especially), so they
-  // fade in once the camera is close enough for them to have room; the
-  // places strip carries the full index at every zoom, hover reveals one.
-  const [showLabels, setShowLabels] = useState(false)
+  // Labels are always on. Two de-clashing measures: places sharing a pin
+  // label (two Bahamas pins) show it once, and latitude-neighbors cycle
+  // through four label positions so clustered pins spread their names.
+  const pinData = useMemo(() => {
+    const POSITIONS = ['pin-below', 'pin-above', 'pin-right', 'pin-left']
+    const seenLabels = new Set<string>()
+    const byLat = [...places].sort((a, b) => a.lat - b.lat)
+    const posByPlace = new Map(byLat.map((p, i) => [p.place, POSITIONS[i % 4]]))
+    return places.map((p) => {
+      const showLabel = !seenLabels.has(p.pin)
+      seenLabels.add(p.pin)
+      return { ...p, showLabel, labelPos: posByPlace.get(p.place) ?? 'pin-below' }
+    })
+  }, [places])
   const resumeTimer = useRef<number | undefined>(undefined)
   const onSelectRef = useRef(onSelect)
   onSelectRef.current = onSelect
@@ -106,14 +116,11 @@ export function Globe({ places, selected, onSelect }: GlobeProps) {
   }, [selected])
 
   return (
-    <div className={showLabels ? undefined : 'labels-hidden'}>
+    <div>
       <GlobeGL
       ref={globeRef}
       width={width}
       height={height}
-      onZoom={(pov: { altitude?: number }) =>
-        setShowLabels((pov.altitude ?? 99) < 1.7)
-      }
       backgroundColor="rgba(0,0,0,0)"
       globeMaterial={oceanMaterial}
       showAtmosphere={true}
@@ -125,15 +132,17 @@ export function Globe({ places, selected, onSelect }: GlobeProps) {
       polygonStrokeColor={() => '#a89f8c'}
       polygonAltitude={0.006}
       polygonsTransitionDuration={0}
-      htmlElementsData={places}
+      htmlElementsData={pinData}
       htmlLat="lat"
       htmlLng="lng"
       htmlAltitude={0.015}
       htmlElement={(d: object) => {
-        const place = d as Place
+        const place = d as Place & { showLabel: boolean; labelPos: string }
         const el = document.createElement('div')
-        el.className = 'pin'
-        el.innerHTML = `<span class="pin-dot"></span><span class="pin-label">${place.label}</span>`
+        el.className = `pin ${place.labelPos}`
+        el.innerHTML =
+          `<span class="pin-dot"></span>` +
+          (place.showLabel ? `<span class="pin-label">${place.pin}</span>` : '')
         el.addEventListener('click', (ev) => {
           ev.stopPropagation()
           onSelectRef.current(place)

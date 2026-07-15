@@ -74,9 +74,10 @@ body {
   font-weight: 500;
   letter-spacing: 0.3em;
   text-transform: uppercase;
-  color: var(--gold);
-  /* a whisper of depth so the gold holds its edge on the lilac */
-  text-shadow: 0 1px 2px rgba(50, 40, 67, 0.25);
+  /* near-black for legibility; the gold lives in the rule beneath */
+  color: #241b36;
+  padding-bottom: 0.4rem;
+  border-bottom: 3px solid var(--gold);
 }
 
 .site-nav {
@@ -177,17 +178,32 @@ body {
   padding: 0.2rem 0.6rem;
   border-radius: 2px;
   white-space: nowrap;
-  transition: opacity 0.3s ease;
 }
 
-/* Labels fade out at full-globe zoom where they'd pile up; the strip
-   below carries the names, and hovering a dot reveals its label. */
-.labels-hidden .pin-label {
-  opacity: 0;
+/* Latitude-neighbors cycle label positions so nearby names don't stack. */
+.pin-above .pin-label {
+  top: auto;
+  bottom: 100%;
+  margin-top: 0;
+  margin-bottom: 0.35rem;
 }
 
-.labels-hidden .pin:hover .pin-label {
-  opacity: 1;
+.pin-right .pin-label,
+.pin-left .pin-label {
+  top: 50%;
+  transform: translateY(-50%);
+  margin-top: 0;
+}
+
+.pin-right .pin-label {
+  left: 100%;
+  margin-left: 0.4rem;
+}
+
+.pin-left .pin-label {
+  left: auto;
+  right: 100%;
+  margin-right: 0.4rem;
 }
 
 /* ---- modal: entries, About, and Eulogy open centered ---- */
@@ -374,6 +390,40 @@ body {
   letter-spacing: 0.06em;
   color: var(--rust);
   margin-top: 0.35rem;
+}
+
+/* ---- photos ---- */
+
+.photo-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+  gap: 1.75rem;
+}
+
+.photo-figure {
+  margin: 0;
+}
+
+.photo-figure img {
+  display: block;
+  width: 100%;
+  border: 1px solid var(--ivory-deep);
+}
+
+.photo-figure figcaption {
+  margin-top: 0.6rem;
+  font-size: 1.05rem;
+  line-height: 1.45;
+  color: var(--ink);
+}
+
+.photo-figure .photo-place {
+  display: block;
+  font-size: 0.9rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--rust);
+  margin-bottom: 0.2rem;
 }
 
 /* ---- mobile: sized for old eyes on a phone ---- */
