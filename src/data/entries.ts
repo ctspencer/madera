@@ -505,6 +505,101 @@ It was a great trip. We are home. (1980)`,
     media: [],
   },
   {
+    id: 'at-small-hope-bay',
+    place: 'Small Hope Bay',
+    mapLabel: 'Small Hope Bay, Bahamas',
+    lat: 24.7255, // Small Hope Bay Lodge, Andros Island
+    lng: -77.786,
+    year: null, // no year given — "that hot June afternoon"
+    title: 'At Small Hope Bay',
+    // The Best of Madera pp. 90–95 (IMG_0650–0655). Her spellings kept
+    // ("over-synthetized", "rolleddowned", "jungledy", "in these water").
+    body: `The best way to get the full impact of the incredibly colored waters and coral reefs, the channels and famous Tongue of the Ocean that lie amongst the 700 or more Out Islands of the Bahamas, is to fly over them in a small aircraft at bird's eye altitude. Like a seagull, you look down with no obstruction into the very depths of the sea, the crystal clearness as seemingly close as if you were viewing it from a glass-bottomed boat.
+
+That is what four friends and I did on a recent trip that took us to Abaco in the northeast of The Bahama chain, to Andros in the southwest, and to Eleuthera on the east of the approximately 750-mile area which is within proximity of the southeast coast of Florida.
+
+The morning we left Abaco, we took Bahamasair to Nassau International Airport on the island of New Providence, then in a small five-passenger Bahama Island Charters airplane with a Bahamian pilot, flew the 50 miles to the island of Andros to the west. The pilot wore a white mess jacket with gold stripes on the shoulder, and had the enchanting Bahamian accent which is part British and part Creole, and the courteous manners we were to encounter throughout the islands.
+
+After only a 15-minute flight over cerulean waters which change from azure and sapphire when the coral reef shows through, to deep impenetrable ultramarine when one crosses the Tongue of the Ocean, I could clearly understand why Andros is the least inhabited island in The Bahamas. Coming in over the island lying thickly matted with scrub and tropical forest beneath us, it seemed miraculous to me that the pilot was able to locate a narrow clearing in the jungle-like landscape and bring us down to earth within it. The tiny strip of runway glistening in the sunshine looked like a machete slash in the dense green growth.
+
+The 100-mile-long island is the least-explored of the Out Islands, its mystery remaining intact since nature has endowed its west coast with dangerously sharp reefs and tricky shallows that prevent boats from venturing in, and its interior is infested with rugged tropical forests that discourage intruders as well. But on the island's east coast, along which runs the third largest barrier reef in the world and which is only sparsely populated, there are small settlements with intriguing names like Congo Town, Mangrove Cay, Love Hill, and Fresh Creek.
+
+This area, I was to learn, is a veritable Mecca for experienced divers and sports fishermen. The divers are attracted by the ocean's lush underwater gardens, by the towering pillars of coral and the fascinating caves where it is said pirates once hid their treasure. The continuous ballet of marine life is incomparable in these water, I am told, and it is a supreme challenge to descend the Wall of Andros where the sheer coral reef drops vertically into the mile-deep chasm of the Tongue of the Ocean. They say it is a vast scenic fairyland of underwater splendor there.
+
+The anglers come to fish the creeks and small bays where bonefish abound.
+
+But I must admit, being neither diver nor angler, I was near desperation when we were left unceremoniously on the lonely little runway in the sweltering tropical sun, our clothes sticking to our bodies in the sultry heat. Only the somewhat devil-may-care joviality already established by our small group kept us ambulatory as we lugged the heavy suitcases across the hot sand to the front of a garage-size building which serves as the airport.
+
+But, glory be, our chariot awaited us.
+
+In the hot sun on the dusty, dead-end road, a friendly Bahamian woman was there to pick us up. Her "taxi", the interior of which was like a brick oven on baking day, had been thoughtfully provided by our host at Small Hope Bay Lodge who usually meets his incoming patrons in his pick-up truck. Obviously the taxi was a veteran of a losing battle with the rocky roads of the island for baling wire held some of its parts together, but when all the baggage was stowed in the taxi's sagging trunk we bumped off through the palmetto and pines and over the swash to Small Hope Bay.
+
+Now swashes are frequently seen on the islands. They are swampy low-lands where tides push up under the coral rock and sand. The good news about swashes is that all kinds of jungle flora thrive in the murky waters—tiny wild orchids, water lilies and other vegetation—but the bad news is that so do the critters.
+
+To get to Small Hope Bay Lodge we traversed a narrow "reclaimed" road over a swash to come out suddenly and surprisingly in a grove of magnificent coconut palms bordering creamy, sandy beaches along infinite stretches of ocean in front. It is here that Dick Birch, a Canadian by birth, came more than 20 years ago to find a special peace and substance of life; and by hand, with island craftsmen, built the low-lying, rambling, one-story lodge of native limestone and pine. Through the years cabins have been added and now 20 meander zigzaggedly through the palm grove between the beach and the woodsy swash.
+
+The first jolt to my highly-organized, over-synthetized way of life was that to "sign in" at the Lodge, one writes his name on a sliver of paper which is then thumb-tacked to a small brown box with slots over each name. The box is moved around to wherever drinks and refreshments are being served. In the daytime it might be the sitting room of the lodge where the box sits unobtrusively on a bar made from an ancient sea-washed, sun-dried hull of a dinghy named "Panacea" for which Dick paid 25 cents; and in the late afternoons and nights the box sits on the counter of a little three-sided thatched open bar beside the beach. When one wishes refreshments he helps himself even if no one is there, and makes his mark on a ticket in the slot above his name. The honor system prevails.
+
+The second jolt to my city-bred reflexes was that there are no locks on any doors on the premises—the cabins, the lodge, anywhere. At first I felt panic at the dismal thought of spending a night alone in my rustic room of limestone and unpainted pine rafters, with the swash creatures back of my room making eerie noises in the night and only the expanse of deserted beach and palm grove in front. It drained my courage to the core.
+
+By the second day, I delighted in the freedom and the refreshing trust in one's fellow man, and I contemplated with sadness the world's warranted suspicions and growing necessities for caution.
+
+There are no radios, televisions or air-conditioners, and a telephone line was only put in. Good conversation—open conversation—is indulged in freely, and everyone gathers in a circle of chairs by the thatched bar about sunset to talk, or sits long at table after meals which are taken communal-style, each person serving himself. Identification at Small Hope Bay is by first name only, regardless of whether one is cook, boss, diving master, or guest.
+
+We found that most of the guests of whom there were only about 20 or so when we were there, fly in themselves in their own private planes. Some come to escape the hectic city life for a few days perhaps, but most come to dive with the two experienced diving masters, whose conversation and witty repartee are like scheduled entertainment.
+
+The day we left Small Hope Bay Lodge in a taxi driven by a friendly Bahamian named Lenny will be memorable. His taxi too was held together with wire, and the foam rubber armrests were bare from wear. It took us an hour and a half to travel 35 miles to San Andros Beach Hotel at the north end of the island. The hot wind blowing in the rolleddowned windows also blew in the white dust from the road which mingled like sprinkled talc with the perspiration on our faces and bodies. When the car jolted over a bump, the radio would blare out in my ear. But we all laughed hysterically.
+
+The tune being played on the radio as we bumped down that deserted, jungledy road on that hot June afternoon was "Santa Claus is Coming to Town."`,
+    media: [],
+  },
+  {
+    id: 'czechoslovakia-another-world',
+    place: 'Czechoslovakia', // her name for the country, never modernized
+    lat: 50.0755, // pinned at Prague
+    lng: 14.4378,
+    year: null, // no year printed — the Queen's Silver Jubilee she mentions was 1977; owner to confirm
+    title: 'Czechoslovakia: Another World',
+    // The Best of Madera pp. 96–101 (IMG_0656–0661). Her spellings kept
+    // ("doudy", "Czechslovakia" once, "zodiak", "near out hotel").
+    body: `It was a dreary, rainy day when we boarded our private motorcoach in Nuremberg, West Germany, to continue a journey across southern Germany to the Balkan countries of Czechoslovakia, Hungary and Yugoslavia.
+
+The group of 18 travelers from this area with me on the Advertiser-Journal sponsored tour to Europe had already had three glorious days in London, seeing all the colorful preparations for the Queen's Silver Jubilee, visiting the Tower of London and Madame Tussaud's Wax Museum, among other landmarks. We also had had several splendid and invigorating days in Zurich and Lucerne, Switzerland. But the rain had begun to fall on that Sunday when we rode comfortably through the Black Forest area, stopping to view the natural wonder of the magnificent Rhinefalls on the Swiss-German border, quaint villages like Dinkelsbuhl and Freudenstadt, and with lunch at the hilltop hotel, Schoneblick, in Stuttgart.
+
+Even in the rain, the exquisite neatness of the German countryside is remarkable, every verdant field of grain and every vineyard seemingly devoid of one unwanted blade of grass. Almost every farmhouse with its stables attached and neatly stacked hayrack and woodpile looked like a painting by Durer.
+
+It was with some apprehension that we approached the heavily guarded Czechoslovakian border, for we had been regaled with tales that a tour bus sometimes had to wait as long as five hours for the visa inspection by the patrols. We also had been told by our German-born courier "to sit quietly" while the inspector was aboard the bus, which we took to mean "no good-natured American wise-cracks, please."
+
+On the German side of the crossing, it took only 15 minutes for the officer to inspect our passports. Then the long barrier rail was lifted and we were in a "no man's land" to the Czech side. Since there was no long line of cars and trucks and buses which we were to encounter at other border crossings, we assumed that perhaps more people were wanting to get out of the country than in. When I saw the towers manned by guards with rifles just beyond the checkpoint, I briefly had the same sentiments.
+
+While the Czech officer in his dark green uniform with epaulet insignia depicting the head of the German shepherd dog went down the aisles of the bus looking each of us in the face with an intense stare and checking our identification, there wasn't a sound, believe me. Adjustments had to be made on our visas, such as the addition of the make and color of the bus in which we were riding, as well as a list of all our valuables like watches, gold bracelets and diamond rings. But the officer was very polite and even ventured a faint smile now and then. All in all, it took us about 45 minutes to pass inspection and be allowed to enter the country.
+
+But a funny thing happened when we first stopped at the border station, which is located in a remote wooded section of the countryside. We had no more than stopped before a grand-motherly, doudy little woman knocked on the shut door of the bus and told our courier she had been sent to accompany us during our travels in Czechslovakia. We were never told by whom she had been sent, but Mrs. Yakyak (at least, her name sounded like Yak-yak) went with us morning, noon, and night for the whole time we were in the country, even to all meals in the hotel and to the theater.
+
+While we sat waiting quietly for the inspection to be completed, we watched with curiosity the fate of a small automobile in the out lane of the border station. Its two elderly occupants were made to unload all their luggage, and to spread the contents on the ground nearby. Then even the seats of the little car were taken out and inspected on the roadside. It was finally repacked, and allowed to cross the border into Germany.
+
+When the border guard gave us the all-clear signal and the restraining arm of the barrier was lifted, we passed beneath the tall watchtower with its rifle-carrying guards, and saw in the woods to the right of the road iron-barred cages of off-duty guard dogs. We passed several soldiers along the road leading on-duty dogs.
+
+With a lunch stop in the bustling, air-polluted, beer brewing city of Pilsen, we drove through countrysides of rolling fields of brilliant yellow hops, laid out like soft carpets across the landscape, past woodlands studded with small lakes and ponds, and little villages with deserted market squares and street-lined houses with window-boxes of roses.
+
+Actually hops have been cultivated in Bohemia since time immemorial, and regulations for their utilization and export were issued as far back as the first decades of the 14th century. Some of the fish ponds we passed had been established as far back as the Middle Ages, and the countryside even now is filled with wild game including hares, pheasants, boars, red roe and fallow deer. Castles and chateaux dot the countryside, and as you enter the old city of Prague on the Vltava River, you see architecture and monuments ranging from the Romanesque (10th and 11th centuries) and Gothic (Middle Ages) through the Renaissance and Baroque of the 15th through the 18th centuries.
+
+The morning of sightseeing in Prague took us on a short walk from our modern hotel to Old Town Square where the ancient Gothic Tyn Church stands guard over a square filled on this morning with benches on which old people and young mothers with infants in baby carriages sat languidly among the pigeons in the pale sun.
+
+We gathered with flocks of lively little Hungarian school children to watch the Old Town Hall's "horologe", an astrological clock that has shown the seasons, months, days, hours, minutes and zodiak signs for the past 600 years. When certain hours of the days are struck, a small skeleton at the right of the astrological face pulls a bell to start other figures to moving and dancing, and finally a bronze rooster at the top flaps its wings just before the hour is solemnly chimed. Hundreds gather to watch the performance each day, as has been done for ages past.
+
+On the days that followed, we marvelled at the richness of St. Vitus Cathedral on the hill with Prague Castle high across the Vltava, at the remarkable and beautifully-preserved libraries of Strahov Monastery, and the nearby Golden Lane of small shops built into the castle's fortification walls. It is so called Golden Lane because goldsmiths once occupied the tiny cubicles which earlier had served as quarters for the castle's domestic servants. During the last century, the tiny rooms of Golden Lane were popular abodes for Bohemian artists and writers, and now are craft and stamp shops, and yes, even in Prague Castle, souvenir shops.
+
+We were warned repeatedly not to sell American dollars on the black market, and several of our group were approached on the street with offers to change money from dollars to Czech korunas or crowns "at good value." But since it was against the law, you can bet no one dared.
+
+Stores in Czechoslovakia, a socialist country, are all state-owned, and we found them poorly stocked, some almost bare. There was a half-block long queue at one small grocery shop near out hotel, the dejected looking men and women waiting patiently in line with empty shopping bags.
+
+One event that kept us chuckling for hours was when we stopped in the small city of Tabor to view the ancient cathedral and old town square. What we actually did, however, was scurry like a covey of quail behind Mrs. Yak-yak across traffic-filled highways and busy crossroads in search of the local W.C., which turned out to be located underground in a grassy plot in the center of the bustling intersection. When finally found, there still remained the usual financial hassle over who had enough koruna to pay the dour looking attendant for the use of the Necessary. (Nobody uses one free in Czechoslovakia.)
+
+Our last meal in Czechoslovakia was in a small hotel in Trevor, near the Austrian-Czech border. After lunch, Mrs. Yakyak departed nonchalantly, walking off through a weeded stretch of deserted land at the edge of the small village. We waved goodbye as we drove past her on our way to gay Vienna, and the last we saw of the small, somehow pathetic figure, she was walking alone in the weedy grass beside the dusty road.`,
+    media: [],
+  },
+  {
     id: 'touched-by-adventure',
     place: 'Nassau',
     mapLabel: 'Nassau, Bahamas',
