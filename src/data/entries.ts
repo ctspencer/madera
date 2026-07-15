@@ -199,6 +199,48 @@ I suspect a psychiatrist analyzing this revelation might surmise that the pristi
     media: [],
   },
   {
+    id: 'night-time-fish-tale',
+    // OPEN QUESTION for owner: the lake-cottage's lake is never named in the
+    // piece. Pinned provisionally with Montgomery (home) — if the family
+    // knows which lake (and wants its own pin), change place/lat/lng.
+    place: 'Montgomery',
+    lat: 32.3668,
+    lng: -86.3,
+    year: null,
+    title: 'Night-Time Fish Tale',
+    // The Best of Madera pp. 48–49 (IMG_0611–0612).
+    body: `It was after midnight and the breeze off the lake had completely stilled. Not a breath of air was stirring and the lady of the lake-cottage gave up fighting for sleep, deciding just to get up and read and make the best of it.
+
+She tiptoed out of the darkened bedroom where her husband was giving nasal testimony that he was having no trouble at all sleeping. She switched on the lamp on the big screened porch overlooking the now-black lake and settled down amidst the little chirping night-sounds to read.
+
+Earlier that afternoon, as was their custom just about dark, the couple had each baited their big cane fishing poles, anchored them with concrete blocks at each end of the little wooden pier in front of the house, and forgot them.
+
+Now, sitting quietly in the lamplight, the lady had a premonition that something was going on out there in the dark on the other side of the pier. She switched on the spot-light and sure enough, her husband's cane pole was bending almost double and swizzles in the water attested that there was something on the end of that line beside the bait minnow.
+
+Out onto the pier she went in her nightgown, snatched up the big pole and as she expected, there was the finest, plumpest, gleamingest three-and-a-half-pound bass you ever saw, still fighting on the end of the line.
+
+Hoping that the neighbors across the darkened lake had not also had insomnia and might now be staring at the nocturnal fisherwoman in her nightclothes on the little pier catching fish, she hooked her finger under the gill of the whopper and returned to the house.
+
+This was too good to keep to herself, so she crept into the bedroom, shook her husband's shoulder and said, "Look!"
+
+It took a moment for him to come to his senses when he opened his eyes and saw his nightgown-clad wife standing in the bedroom with a big, dripping, flipping fish in the middle of the night.
+
+When he was rational, she explained what had happened. "Which pole was it on?" he inquired.
+
+"The one on the left side of the pier," she told him.
+
+"Well, that's MY pole. So its MY fish," he reminded.
+
+"Well, I pulled him in, so it's MINE!" she answered.
+
+"You just don't know anything about fishing, that's all. Everybody knows that baiting the hook is more than half of catching a fish, and I baited that hook on my own pole, so it's MINE," said he.
+
+The discussion continued heatedly while he cleaned the fish. The first rays of the morning sun were turning the dark lake to rosy grey when they finally climbed back into bed.
+
+The refrigerator was filled with succulent, fresh bass filets, but the question remains, "Whose fish was it?"`,
+    media: [],
+  },
+  {
     id: 'touched-by-adventure',
     place: 'Nassau',
     lat: 25.0443,
@@ -475,6 +517,49 @@ To be among the pilgrims on this Holy Year, regardless of one's church affiliati
 It is said that good art conveys its message without further explanation. When you gaze upon the wonders of Rome, especially St. Peter's where Bramante, Raffaello, Bernini and Michaelangelo, the greatest of them all, used their talents so extensively, it is to understand how it truly speaks in a thousand tongues.
 
 (Oct. 5, 1975)`,
+    media: [],
+  },
+  {
+    id: 'hobnobbing-with-stars',
+    place: 'Los Angeles, Calif.',
+    lat: 34.0522,
+    lng: -118.2437,
+    year: null, // no year printed — films mentioned suggest late 1950s
+    title: 'Hobnobbing With Stars',
+    // The Best of Madera pp. 44–47 (IMG_0607–0610). "GRAND TOUR" is the
+    // book's mid-article subhead. Her spellings kept ("Orson Wells",
+    // "Dona Winters", "candelight").
+    body: `LOS ANGELES, Calif. — When they say movies are colossal, stupendous and magnificent, they aren't kidding. I've been subjected to enough glamour since last night to tide me over many a gloomy day. Only thing is my head is reeling so that it will take a lot of plain ordinary living to get my feet back on the ground.
+
+Last night M-G-M was host to fashion editors attending the California Fashion Creators Press Week here in Beverly Hills. A whole Thin Man T-V show was written around our visit to California and 15 editors' names were drawn from a box by "Nick Charles" to appear in the show.
+
+There were some 200 people milling about the stage — prop men, make-up artists, sound men, the director (Oscar Rudolph), wardrobe women, six beautiful models, producers and assistants, not to mention 7 fashion editors.
+
+After the shooting, we were taken into Stage 24 which is the largest sound stage in the world and there in the gigantic barn-like building, stepped into fairy land. We were served dinner at beautifully appointed tables for eight with crystal, china, candelight, flowers — in the elegance of nothing other than the palace of Monaco, the beautiful winding stairs and ballroom set used in "The Swan." A buffet table was at one end with indescribable delicacies such as Alaskan crab legs, marinated mushrooms, great mounds of colorful congealed fruit salads. It was a feast in technicolor.
+
+My dinner partner was Mal Kaplan, head of M-G-M wardrobe department.
+
+He explained in detail the problems of dressing stars, beside providing costumes and clothing for the thousands of extras who work there. He introduced me to Helen Rose, Academy Award winning designer, who is doing the clothes for "Cat On a Hot Tin Roof" and "Tunnel of Love," and to designer Walter Plunkett, who has done "Rain Tree County."
+
+One of our hosts was genial George Murphy, former actor who has been with M-G-M 22 years, and now is director of Public Relations there.
+
+Peter Lawford was most charming, particularly in view of the fact he had been working since 7 o'clock that morning. Phyllis Kirk, who had flubbed one take on the modeling shot, told me she was so embarrassed she had gone back to her dressing room and cried, because after all, she had started her career as a junior model. Her competition was enough to make anyone flub, being six of Hollywood's most beautiful models including Mary Lou Miles.
+
+Helen Rose had on a beautiful cream colored diadem mink great coat. Her dress was a three-quarter sleeved beige wool, very simple and quiet. She had designed all the clothes for the scene of the Thin Man show we saw filmed, the most outstanding of which was the mink dress Lauren Bacall wore in "Designing Woman" and which had been restyled for this show. After all, you don't wear $4,000 dresses just once.
+
+GRAND TOUR
+
+This morning I was the guest of 20th Century Fox for a grand tour done in the royal manner. Spent two hours with the famous Charles LeMair, head designer, who personally took me through the fabulous wardrobes showing me the clothes he's designed for the great stars. In the sewing room were dummy models of Marilyn Monroe (whoops), Bacall, Dona Winters — all the top movie queens — and he showed me the clothes that are being worn in "Fraulein," "Peyton Place" and many others. LeMair won three Academy Awards for "Love Is A Many Splendored Thing," "All About Eve" and "The Robe."
+
+I had lunch with LeMair in Cafe De Paree (commissary) and sitting all about us were Marlon Brando, a very distinguished Dick Powell, who is now a producer; star Joanne Woodward; Orson Wells in his make-up for "Long Hot Summer," his co-star Paul Newman who can almost pass as a twin to Brando and who is one of the hottest properties of M-G-M; Angela Lansbury; John Kerr; Floyd Simmons, Walter Wanger, Charles Brackett, and Joshua Logan and his wife. Mr. LeMair was generous with introductions.
+
+But of all the events of the long, full day, nothing compared to being on the set of the actual filming of the fabulous Boar's Head ceremonial dance of "South Pacific," with Joshua Logan directing.
+
+And then too, we watched a scene between Orson Wells and Paul Newman being filmed for "Long Hot Summer."
+
+The friendliness and courtesy of every person we met — stars, directors, producers, executives — was amazing and they all made us feel we were the celebrities, not they.
+
+When I returned to the Beverly Hilton, I stopped in the lounge to wash the stardust off my hands. I ran into Jane Russell standing in front of the mirror — curling her eyelashes!`,
     media: [],
   },
   {
