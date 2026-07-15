@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from 'react'
 import GlobeGL, { type GlobeMethods } from 'react-globe.gl'
-import { MeshPhongMaterial } from 'three'
+import { AmbientLight, DirectionalLight, MeshPhongMaterial } from 'three'
 import type { Place } from '../data/entries'
 
 interface GlobeProps {
@@ -59,6 +59,13 @@ export function Globe({ places, selected, onSelect }: GlobeProps) {
     controls.autoRotateSpeed = 0.4
     controls.minDistance = 130
     globe.pointOfView({ lat: 25, lng: -50, altitude: 2.1 })
+
+    // Mostly-ambient light so the land reads as flat matte paper from every
+    // angle — the default fixed directional light leaves whole hemispheres
+    // black. A faint directional adds just enough modeling.
+    const fill = new DirectionalLight('#fff6e6', 0.9)
+    fill.position.set(100, 150, 200)
+    globe.lights([new AmbientLight('#ffffff', 2.4), fill])
 
     // The globe keeps turning: pause only while the user is actually
     // dragging or the camera is flying, drift again a few seconds later.

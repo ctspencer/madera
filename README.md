@@ -1,6 +1,6 @@
 # Madera
 
-A memorial website. An interactive globe: click a place she traveled, and her own writing from there comes up. Her words, mapped to the world she went and saw.
+A memorial website for Madera Spencer — the site carries her name. An interactive globe: click a place she traveled, and her own writing from there comes up. Her words, mapped to the world she went and saw.
 
 Live at: https://ctspencer.github.io/madera/
 
@@ -25,14 +25,16 @@ Keep `place` exactly as she wrote it (Czechoslovakia stays Czechoslovakia); `lat
 
 Several entries can share one `place` — they render as one pin whose panel reads like a chapter: all pieces stacked in year order, separated by a quiet divider.
 
-## Current state (second session)
+## Current state (third session)
 
-Structure first, content later. Stylized vector globe (dark green ground, paper-tan countries), one pin per place with hover labels, a Places list bottom-left, Audubon's Plate 21 mockingbird bottom-right, mobile bottom-sheet reading panel. Montgomery carries two placeholder entries to demonstrate the chapter layout. All titles and bodies are placeholders awaiting transcription from the book.
+Stylized vector globe (black ground, paper-tan countries), one pin per place with hover labels, top-right nav (MADERA / About / Places), mobile bottom-sheet reading panel. Type runs large on purpose — the site is meant to be read with reading glasses.
+
+First real entries are in: her January 1956 letter from New York (transcribed verbatim, scan attached) and a photograph of her on a tank at a National Guard training camp in Florida. Montgomery carries two placeholder entries to demonstrate the chapter layout; remaining placeholders await transcription from the book.
 
 ## Open questions — ask, don't invent
 
-- Her name, and what appears on the site
-- Titles and text for the first four places
+- The About page text (currently a marked placeholder)
+- Titles and text for the remaining placeholder places
 - The full list of places (Greek islands and Czechoslovakia are known future additions)
 - What the book actually is
 - Whether photographs are included
@@ -48,4 +50,4 @@ Structure first, content later. Stylized vector globe (dark green ground, paper-
 ## Credits
 
 - Country shapes: [Natural Earth](https://www.naturalearthdata.com/) 110m Admin 0 (public domain), pruned and committed at `public/data/countries.geo.json` so the build never depends on an external URL.
-- Mockingbird: *Mocking Bird*, Plate 21 of John James Audubon's *Birds of America*. Courtesy of the John James Audubon Center at Mill Grove, Montgomery County Audubon Collection, and Zebra Publishing.
+- Letter scan and photographs: family collection / Alabama Textual Materials Collection.

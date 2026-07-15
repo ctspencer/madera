@@ -13,12 +13,12 @@ A memorial site built around one person's travel writing. There is no deadline; 
 ## Design rules
 
 - Elegant, southern, feminine in a strong way. Restraint over ornament: if a decision is decorative, cut it.
-- Palette leads from a magnolia leaf: dark glossy green, rust-brown underside, warm ivory. No pastels, no sepia.
+- Palette leads from a magnolia leaf: rust-brown, warm ivory, deep green accents, on a near-black ground (owner's choice, 2026-07). No pastels, no sepia.
+- Type runs large on purpose — the site must be readable with reading glasses. Don't shrink it for aesthetics.
 - Forbidden defaults: black starfield globe, glowing arcs, script fonts, lace, monograms, antebellum nostalgia, anything that reads as a tech dashboard or genealogy service.
 - The globe is an object — warm, turned, held — not a data visualization. Land over ocean.
 - Typography carries the design. The reading experience of a single entry matters more than the globe.
-- **The mockingbird is the only bird.** It carries voices that aren't its own; that is the site's thesis. Never use the yellowhammer/northern flicker — its Alabama symbolism is explicitly Confederate.
-- Bird artwork comes from Audubon's *Birds of America* (Plate 21, Northern Mockingbird), public domain — verify the specific scan's license.
+- **The mockingbird is the only bird.** It carries voices that aren't its own; that is the site's thesis. Never use the yellowhammer/northern flicker — its Alabama symbolism is explicitly Confederate. (The Audubon Plate 21 corner image was tried and removed at the owner's request, 2026-07 — if the bird returns, it returns somewhere it earns.)
 - Never simulate her cursive or her typewriter (no handwriting webfonts, no Courier pastiche). If her cursive appears at all, sparingly — her name, maybe. Never body text.
 - No AI-generated imagery anywhere on this site.
 

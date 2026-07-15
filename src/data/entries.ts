@@ -60,14 +60,29 @@ export function groupByPlace(list: Entry[]): Place[] {
 
 export const entries: Entry[] = [
   {
-    id: 'new-york',
+    id: 'new-york-1956-01',
     place: 'New York',
     lat: 40.7128,
     lng: -74.006,
+    year: 1956,
+    title: 'From Madera Spencer, January 1956 New York, New York',
+    // Transcribed verbatim from her typed letter, her spellings kept.
+    body: `Dear John T. and Johnny, and Mama.
+
+Am having a wonderful time. This is one crazy place. Today was grand with showings all day. Yesterday was a mad house rushing from one place to the other in taxis all day and last night the weather was horrible! Ice and sleet were so bad on the streets that they called in all the cabs and the buses even stopped running. I was down in some weird part of New York at a party and five of us left to come home and couldn't get a cab. We walked in the sleet and icy wind for blocks and not one taxi would stop because they were all heading in. It was awful. Finally we took shelter in an apartment house on Park avenue and paid the doorman two dollars to stand out in the ice and try to stop a cab. One finally stopped and it was a negro driver from N. C. Sure was glad to see him, too. He crept along the streets and when I finnally got back about 11:30 mother was of course having a fit, since the television had interrupted all broadcasts to tell people to stay off the streets, it was too dangerous! It was kind of fun for us, however, especially since we finally got home! Have met lots of nice people. Was with a crowd from Canada today, and its right fun to talk newspaper with all these women. I never saw such gorgeous clothes in all my life, and such gorgeous prices on these originals. The models are all so skinny they look like they can't make it, but so made up they look unreal and beautiful. Everybody up here wears heaps of make-up, and especially pan cake and eye stuff, and look gummy. You sweet fellows take care of yourself. Seems I've been up here a month already. Miss you and love you so much, and will be glad to get home even though this is fun. I love my sweet home and family. Wouldn't trade it for all of N. Y., Paris and the world.
+
+Always Deedie.`,
+    media: ['media/1956-01-letter-new-york-p1.jpg'],
+  },
+  {
+    id: 'florida-national-guard',
+    place: 'Florida',
+    lat: 29.95,
+    lng: -81.98,
     year: null,
-    title: 'Placeholder — title TBC',
-    body: '*Placeholder.* Her writing from New York will go here once it has been photographed and transcribed from the book.',
-    media: [],
+    title: 'Madera Spencer on a tank with soldiers at a National Guard training camp in Florida.',
+    body: null,
+    media: ['media/national-guard-florida-tank.jpg'],
   },
   {
     id: 'montgomery',

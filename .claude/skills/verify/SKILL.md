@@ -37,7 +37,11 @@ close button `.entry-close`. Bird plate is `.bird` (non-interactive).
   `page.mouse.move` to its current rect.
 - Land polygons take ~1-2s to build after load; wait ~3s before screenshotting or the
   globe is a bare dark sphere.
-- Mobile emulation: use `deviceScaleFactor: 1` — at 2, `page.screenshot` hangs.
+- **Headless screenshots can capture a stale pre-polygon canvas frame** (dark globe,
+  pins visible) even when the page renders fine — take two consecutive screenshots and
+  trust the second, or interact first. Verified not a real rendering bug.
+- Mobile emulation: use `deviceScaleFactor: 1` — at 2, `page.screenshot` hangs. Headed
+  (`headless: false`) screenshots also hang on this page.
 - Pins on the far side of the globe are occlusion-hidden.
 - `/favicon.ico` 404s in the console — no favicon exists yet; ignore.
 

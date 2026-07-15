@@ -25,7 +25,12 @@ export function EntryPanel({ place, onClose }: EntryPanelProps) {
             <div className="entry-body">
               {entry.body && <ReactMarkdown>{entry.body}</ReactMarkdown>}
               {entry.media.map((src) => (
-                <img key={src} src={src} alt="" className="entry-media" />
+                <img
+                  key={src}
+                  src={import.meta.env.BASE_URL + src}
+                  alt={entry.title}
+                  className="entry-media"
+                />
               ))}
               {!entry.body && entry.media.length === 0 && (
                 <p className="entry-empty">Not yet transcribed.</p>

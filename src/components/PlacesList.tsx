@@ -10,7 +10,14 @@ export function PlacesList({ places, onSelect }: PlacesListProps) {
   const [open, setOpen] = useState(false)
 
   return (
-    <nav className="places" aria-label="Places">
+    <div className="places">
+      <button
+        className="nav-link places-toggle"
+        aria-expanded={open}
+        onClick={() => setOpen((o) => !o)}
+      >
+        Places
+      </button>
       {open && (
         <ul className="places-list">
           {places.map((place) => (
@@ -28,13 +35,6 @@ export function PlacesList({ places, onSelect }: PlacesListProps) {
           ))}
         </ul>
       )}
-      <button
-        className="places-toggle"
-        aria-expanded={open}
-        onClick={() => setOpen((o) => !o)}
-      >
-        Places
-      </button>
-    </nav>
+    </div>
   )
 }
