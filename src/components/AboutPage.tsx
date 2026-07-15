@@ -9,7 +9,7 @@ export function AboutPage({ onClose }: AboutPageProps) {
   return (
     <div className="modal-backdrop" onClick={onClose}>
       <article
-        className="modal-card"
+        className="modal-card serif-page"
         aria-label="About"
         onClick={(e) => e.stopPropagation()}
       >

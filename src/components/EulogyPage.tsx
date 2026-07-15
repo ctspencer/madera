@@ -50,10 +50,10 @@ export function EulogyPage({ onClose }: EulogyPageProps) {
           means, I think of Deedie: her kindness, her elegance, her
           intelligence, her curiosity, her openness to others. She is the
           South made manifest; a woman who traveled Europe and Asia,
-          championed acceptance in the Civil Rights era, attended fashion
-          shows, interviewed movie stars, moved through the New York party
-          scene, and served on the Defense Advisory Committee on Women in
-          the Services, the first of its kind at the Department of Defense.
+          attended fashion shows, interviewed movie stars, moved through
+          the New York party scene, and served on the Defense Advisory
+          Committee on Women in the Services, the first of its kind at the
+          Department of Defense.
         </p>
         <p className="about-text">
           Her lush life invites us to reflect on our own: to savor the small

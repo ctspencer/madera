@@ -16,10 +16,12 @@ export default function App() {
   const [selected, setSelected] = useState<Place | null>(null)
   const [overlay, setOverlay] = useState<Overlay>(null)
   const [archiveOpen, setArchiveOpen] = useState(false)
+  const [hasReadSomething, setHasReadSomething] = useState(false)
 
   const openPlace = (place: Place) => {
     setOverlay(null)
     setSelected(place)
+    setHasReadSomething(true)
   }
 
   return (
@@ -59,8 +61,14 @@ export default function App() {
           </div>
         </nav>
       </header>
-      <Globe places={places} selected={selected} onSelect={setSelected} />
+      <Globe places={places} selected={selected} onSelect={openPlace} />
       <PlacesStrip places={places} onSelect={openPlace} />
+      {!hasReadSomething && (
+        <p className="globe-hint">
+          Click a pin on the globe — or a place below — to read what she
+          wrote there.
+        </p>
+      )}
       {selected && <EntryPanel place={selected} onClose={() => setSelected(null)} />}
       {overlay === 'about' && <AboutPage onClose={() => setOverlay(null)} />}
       {overlay === 'eulogy' && <EulogyPage onClose={() => setOverlay(null)} />}
