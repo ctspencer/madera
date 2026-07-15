@@ -635,6 +635,128 @@ When I returned to the Beverly Hilton, I stopped in the lounge to wash the stard
     media: [],
   },
   {
+    id: 'magical-greece',
+    place: 'Greece',
+    lat: 37.9838, // pinned at Athens
+    lng: 23.7275,
+    year: null, // no date given — an Advertiser-Journal European tour, June
+    title: 'Magical Greece',
+    // The Best of Madera pp. 56–59 (IMG_0619–0622). Her spellings kept
+    // ("pistacio", "promotory", "Fierra", "Along, the way").
+    body: `When the sun goes down over the Aegean Sea, incredible colors wash the afternoon sky. Rose, lavender and molten gold spread along the horizon and the reflection in the deepening blue of the water makes shimmering paths of red and purple.
+
+If you're lucky enough to watch the sun set behind one of the numerous islands scattered in the Aegean like jewels dropped from a broken necklace, you see an even more spectacular sight, for the rich, brilliant colors are contrasted dramatically with black silhouettes of hills and stark mountains, and the fleeting moments of sunset are indelibly etched upon the memory.
+
+On one of the Advertiser-Journal European tours, we cruised the Mediterranean and Aegean south of Greece, going ashore at the barren, deserted island of Delos, the legendary birthplace of Apollo; at thriving, lively and picturesque Mykonos, alight like a carnival midway circling the small harbor; and at Santorini where the thing to do is ride at a fast clip up 600 zigzag steps astride a donkey to the cobblestoned streets and white-washed village of Fierra on the summit.
+
+We spent a day ashore in Rhodes, the "Island of Roses", visiting the old city where ghosts of the Crusaders seem still to lurk, and drove to the island's tip to Lindos with its Sanctuary of Athena Lindaia on its acropolis dominating the small, treeshaded village below it.
+
+On the road to Lindos are verdant groves of pistacio and pomegranate trees, their red fluted blossoms dashes of contrasting color next to lemon trees heavy with fruit. Along, the way, small sad-looking donkeys ambled in the dust carrying black-garbed women with thick white scarves wrapped about their heads and chins. Upon their feet the women wore heavy boots for protection against snakes which once infested the island.
+
+And yet another day we visited Herakleion, Crete, spending a lazy morning sipping cool drinks in the town square, visiting the Archeological Museum, and gazing with veneration at the remains of the once-magnificent Palace of Knossos where Minoan civilization blossomed two thousand years before Christ.
+
+If the mind is boggled by the beauties of the islands, it is equally awed by the mainland of Greece itself.
+
+One day we disembarked early from our cruise ship in the fascinating, flourishing port of Piraeus (of "Never on Sunday" fame). By bus we drove along the winding coast of Attica that curves around coves and inlets, past small beaches with names of Glyfada, Vouliagmeni and Varkiza, which afford breathtaking views of the blue Saronic Gulf dotted with small islands.
+
+In June the flowers along the roadside are in full blossom and we gasped with delight at the magnificence of great bushes of red geraniums along the way.
+
+Our destination was Cape Sounion, the southernmost tip of Attica, but no guidebook or history lesson prepares one for the sensational sight of the Temple of Poseidon rising in lonely splendor on its rocky promotory overlooking the sea.
+
+Constructed in the age of Pericles, the stone skeleton of the Temple rises majestically on a hilltop with its tall white columns like giant sentinels against the sky. On one of the front columns Lord Byron left his signature carved into the stone, and through the years thousands of other sightseers from over the world have done the same.
+
+Since we were early risers on this morning, our small group had the ancient ruins to ourselves. We stood at the base of one of the giant columns to look down a pine-studded rocky slope to see the small harbor where it is said St. Paul landed in Greece on his way to preach to the Corinthians. And although Sounion is famous for its spectacular sunset, it could scarcely have been lovelier than in the fresh morning sunshine.
+
+During our days in Athens the more familiar sights got their just due as well — the timeless Parthenon atop the incomparable Acropolis and the museums and city buildings. Some of our group took the funicular up Lycabettus hill for the panoramic view of the whole city and a visit to St. George's Chapel.
+
+If the Acropolis by day is breathtaking, by night it is even more magical. We sat one chilly evening on Pnyx Hill to watch the Sound and Light production. As voices came out of the dark shadows of the hill telling the story of ancient Greece, floodlights moved mysteriously over the Acropolis across the valley and one was almost mesmerized into another time in history.
+
+As if awakening from a trance, we shuffled to our bus through oleander-bordered walkways, and shaking off the spell, changed to a merry mood to drive to old Plaka and a gay taverna featuring bouzouki music, dancing and good food.
+
+When departure day arrives flying out of the bustling modern Airport of Athens is unmistakably a 20th century adventure, but the memories one has accumulated in Greece make it all too clear why poets through the ages sang praises to its glory.`,
+    media: [],
+  },
+  {
+    id: 'malaysian-sultans-palace',
+    place: 'Johore',
+    lat: 1.4927, // modern Johor Bahru, Malaysia
+    lng: 103.7414,
+    year: null, // arrival in Singapore "May 13" — no year printed
+    title: "Malaysian Sultan's Palace",
+    // The Best of Madera pp. 60–62 (IMG_0623–0625). Her spellings kept
+    // ("unobstrusive", "intersanctums", "bayonetted").
+    body: `'Though East is East and West is West', as Kipling so aptly put it, the twain meets swiftly nowadays with expeditious airliners whisking hundreds of travelers at one time from one continent to another in a mere half a day.
+
+Although the centuries-old cultures of the East still hold to ancient traditions in numerous ways, modern technology confronts the eye with incredible impact in some of the East's — and the world's — largest cities like Tokyo, Bangkok, Singapore and Hong Kong, not to mention out-of-the-way places unfamiliar to the average Westerner.
+
+The 24 travelers on the Advertiser-Journal Orient Tour, who returned home after an approximately 25,000 mile journey, will long remember the East's mysterious splendors, as well as the superb accommodations in deluxe hotels and the titillating tastes of exotic foods. And they will remember especially, I think, some of the unusual events arranged along the way.
+
+For instance, it is not often a group can roam the marble halls of the Grand Palace of the Sultan of Johore, but through the kindly efforts of Dr. John Haggai, we were able to do that very thing.
+
+The arrangements began months before when Dr. Haggai of Atlanta, founder of Haggai Institute for Advanced Leadership Training in Singapore, told me at a meeting in Atlanta he would try to arrange a visit to the palace of His Royal Highness Sultan Ismail Ibni Al-Marshum, in Johore, a Malaysian state connected to Singapore by a causeway over the Johore Straits. The Sultan is the most senior of nine Malaysian sultans and took his hereditary title and the throne upon the death of his father, Sultan Ibrahim, in 1960.
+
+And so it was that upon arrival in Singapore May 13, a telephone call to Dr. Chandu Ray of Haggai Institute advised me that arrangements had been made for our visit to the palace next morning, a Sunday, and I was to contact Dr. Said, curator of the Grand Palace, who would be expecting us.
+
+Since our regular touring coach in Singapore did not have license plates to go into Johore, another coach was chartered and a telephone call made to Johore by our capable tour escort who was with us for three weeks throughout the Orient. A Johore guide would have to meet us at the border.
+
+Passport inspection was surprisingly strict at the border, where our Malaysian guide was awaiting us.
+
+Rain began to fall as we approached the ecru-colored palace set in verdant rolling lawns and gardens, and guarded by soldiers with bayonetted rifles. Our guide, brown-skinned and with a charming English accent and pleasant personality, and I were admitted first by the guards and made contact with Dr. Said in a cluttered upstairs office of the palace, where pictures of the royal family were pointed out to me.
+
+And then while the rain came down in torrents, my group was guided about inside the marble-floored palace with unobstrusive guards unlocking barred doors to treasure-filled intersanctums.
+
+There was the Sultan's trophy room, filled to overflowing with dusty stuffed Bengal tigers, a great rhinoceros, the Sultan's favorite polo pony's legs, and elephant feet, among other relics of the hunt. Heads of fierce beasts lined the walls as did candid pictures, yellowing with age, of the Sultan and his party on some of the hunts.
+
+In other rooms on the ground floor, glass-enclosed shelves held royal table services, such as solid golden place settings for a thousand guests, ornate centerpieces and ornaments, and solid platinum serving trays.
+
+In yet another room were glass cases holding the Sultan's uniforms which he had worn to Queen Elizabeth II's coronation, and gowns and furs that had belonged to the late Sultana. The Sultan himself was educated in England and has close ties with the British throne.
+
+Upstairs the huge throne room was bare except for two golden chairs, and sitting rooms were filled with invaluable furnishings like delicate crystal musical tables and beautiful objets d'art, as well as family portraits. And we were even privileged to go into the Sultan's and Sultana's bedrooms where great, heavy carved and canopied beds dominated the space.
+
+On this Sunday morning the Sultan himself was at his other palace, but being able to wander at will and exclaim with awed enthusiasm over the palace's contents made up for not being greeted by the Sultan in person.`,
+    media: [],
+  },
+  {
+    id: 'bangkok-unique-to-senses',
+    place: 'Bangkok',
+    lat: 13.7563,
+    lng: 100.5018,
+    year: null, // no date given — the Advertiser-Journal Orient Tour
+    title: 'Bangkok: Unique to Senses',
+    // The Best of Madera pp. 63–67 (IMG_0626–0630). Her spellings kept
+    // ("subsistance", "life line", "King Mongkok", "flavoured").
+    body: `The dazzling rays of the early morning sun slanting across the brownish waters of the Chao Phraya River that flows beside the city of Bangkok, Thailand, were already making us hot and sticky when the 25 travelers on the Advertiser-Journal Orient Tour boarded small motor-propelled boats to take us to the famous floating market in Dhonburi on the river's other side. There the winding klongs (canals) create a unique way of life for thousands of inhabitants, and the floating market, found in no other part of the world, is literally a life line to their subsistance.
+
+Along the klongs in sparsely furnished, partially open-sided dwellings, many built on stilt-like foundations and surrounded with tropical vegetation growing rampant in the muggy climate, people are born, live all their lives, and die at the water's edge, and their lifestyle is extraordinarily primitive in comparison with the centuries-old culture flourishing just across the river.
+
+As we passed through the jungle-like canals on this early morning, in some places thick beds of waterlilies were almost clogging the waterways and graceful trees hung limply over the river. I felt like an intruder, however, watching sarong-clad women squatting by the riverside washing the family rice bowls, or lathering their hair and bathing themselves in public view, while naked brown children swam and splashed and dived near our boat, usually waving friendly greetings to these strangers invading their privacy.
+
+We saw old people with brown leathery skins standing placidly waistdeep in the water, possibly to keep cool, and sometimes we saw a man bathing his poor, skinny, mangy-looking dog of indeterminable origin, of which there are multitudes in every nook and cranny of Bangkok, including the temples.
+
+Many klong houses have their own fish trap in front, which is an intricate-appearing rig of long bamboo poles supporting a huge round net that lets down into the water, and when triggered snaps up into the air with the family dinner entangled therein.
+
+After threading through the winding klongs which seem mercilessly endless, we came upon a wide area of water literally thronged with sampans, each filled to overflowing with fresh vegetables or fruits, some of which we had never seen; or with sacks of rice, or flowers (oh, the great clusters of orchids!); and with meats and fresh-killed fowl piled in the hot sun on the stern and bow of the small boats, as well as other goods to maintain life on the klongs. This teeming business by boat has been a part of klong existence for generations, and possibly the only change to be wrought in modern times has been the addition of curious tourists who watch in awe and fascination while the klong people go their ways seemingly undisturbed.
+
+On one afternoon, we had a floating party on a large converted rice barge, happily chugging through the klongs as our dauntless and uninhibited Thailand guide, Methi Boonlupyanon (or just plain Paul) and small girls in sarongs kebaya, served us fruits and cookies and what Paul aptly called "Thai dynamite," a drink so potent that only the more intrepid try it, much to their regret next day.
+
+But even as incredible as the water traffic may be, it is as nothing compared to Bangkok's streets and roads. The night we drove into Bangkok from Don Muang Airport just after dark and in a drizzling rain, it was like participating in a Thailand Grand Prix. Our side of the highway was apparently meant to be two-lane, but buses, cars, trucks, motorcycles, bicycles, trishaws (three-wheeled vehicles known as "tuk tuks" for the noise they make), and foolhardy pedestrians were bumper-to-bumper, in most places making as much as five lanes across the road. Daring and reckless drivers zoomed wildly around the left of the traffic through muddy potholes, then nudged places back into the frenzied traffic, creating a kind of mechanized bedlam. It was with unrestrained relief that we arrived intact at the elegant Dusit Thani Hotel and I could watch the maniacal traffic in isolated safety from the balcony of my 17th floor room.
+
+During our stay in Bangkok, there was an exciting visit to the remarkable Grand Palace, made famous to Americans perhaps through the Broadway play, "The King and I," and the movie, "Anna and the King of Siam," which, by the way, has never been shown in Thailand, said our guide Paul, because of the inaccuracy in depicting King Mongkok. Said Paul, "King had plenty hair. Not bald like Yul Brynner."
+
+However, the visit to the Grand Palace is like stepping into storybook-land where towering "demon gods" guard some of the buildings.
+
+During the days in Bangkok, there were visits also to Wat Po where lays the Reclining Buddha, 160 feet long and a little over 39 feet high, covered with flaking gold leaf; and to Wat Trimitr where the great solid gold Buddha ten feet high and weighing five and a half tons sits inscrutably in regal splendor. But unforgettable amidst all the splendor are the ragged, persistent street vendors who tag along behind you with handicrafts and with whom you haggle unendingly until you've purchased whatever they're selling, want it or not.
+
+Also there were elaborate meals including some of the heavily spiced dishes that Thais love, and that include curries and chili peppers. Warned Paul, "Eat hot peppers, smoke come out ears." Even so, we preferred smoking ears to some of the other Thai delicacies available in restaurants and street stalls which include crocodile tail filets, cobra flavoured with sour Chinese plums, "catlets," monkey brains, elephant feet, and deep fried bat.
+
+Perhaps one of the most memorable experiences of Bangkok was a visit from Lt. Col. Somjanok Kridakorn, who is the great-grandson of King Mongkok (Rama IV) of "Anna and the King of Siam" fame. His mother, Princess Rudivoravan Arnold, now living in Montgomery, had written her son that we would be in Bangkok. Col. Somjanok and I had coffee together one morning and he graciously brought me a gift of beautiful Siamese dolls.
+
+And then I thought, "How strange this is." The world had seemed so vast and alien as we ticked off the miles and the days and the countries we had traveled. Now it seemed small indeed as this pleasant, friendly man — the great-grandson of the King of Siam — and I sat over coffee here on the other side of the earth and talked enthusiastically of his mother in Alabama.
+
+Suddenly, the world with all its differences and variations had dwindled to familiar proportions.`,
+    media: [],
+  },
+  {
     id: 'amsterdam',
     place: 'Amsterdam',
     lat: 52.3676,
