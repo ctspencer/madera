@@ -1,20 +1,20 @@
 /*
- * Palette from a magnolia leaf: dark glossy green on top,
- * warm rust-brown underneath, warm ivory for the page.
- * The globe sits on near-black; her words sit on ivory.
- * Type runs large on purpose — this site is meant to be read
- * with reading glasses. Restraint over ornament.
+ * Refined and quiet: a soft lilac ground, land as pale paper,
+ * a glassy sapphire ocean, and muted red markers. Her words sit
+ * on warm ivory. Type runs large on purpose — this site is meant
+ * to be read with reading glasses. Restraint over ornament.
  */
 :root {
-  --ivory: #f2ecdf;
+  --lilac: #cdc4dd;
+  --lilac-deep: #b4a8c9;
+  --ivory: #f4efe4;
   --ivory-deep: #e9e1cf;
   --green: #21402e;
-  --black-ground: #141312;
-  --black-ground-deep: #050505;
   --green-ink: #142619;
+  --red-muted: #a8433d;
   --rust: #9a512b;
-  --rust-bright: #b56134;
   --ink: #29221b;
+  --ink-plum: #322843;
   --serif: 'Iowan Old Style', 'Palatino Linotype', Palatino, Georgia, serif;
 }
 
@@ -29,7 +29,7 @@ body {
 }
 
 body {
-  background: radial-gradient(ellipse at 50% 42%, var(--black-ground) 0%, var(--black-ground-deep) 100%);
+  background: radial-gradient(ellipse at 50% 42%, var(--lilac) 0%, var(--lilac-deep) 100%);
   color: var(--ink);
   font-family: var(--serif);
   overflow: hidden;
@@ -62,7 +62,7 @@ body {
   letter-spacing: 0.3em;
   margin-right: -0.3em; /* balance the trailing letter-space */
   text-transform: uppercase;
-  color: var(--ivory);
+  color: var(--ink-plum);
 }
 
 .site-nav {
@@ -81,9 +81,9 @@ body {
   letter-spacing: 0.22em;
   margin-right: -0.22em;
   text-transform: uppercase;
-  color: var(--ivory);
+  color: var(--ink-plum);
   cursor: pointer;
-  opacity: 0.8;
+  opacity: 0.75;
 }
 
 .nav-link:hover,
@@ -117,7 +117,7 @@ body {
   font-family: var(--serif);
   font-size: 1.35rem;
   letter-spacing: 0.04em;
-  color: var(--ivory);
+  color: var(--ink-plum);
   opacity: 0.75;
   cursor: pointer;
   text-align: right;
@@ -127,7 +127,7 @@ body {
   opacity: 1;
 }
 
-/* ---- pins: rust dot in a thin ivory ring ---- */
+/* ---- pins: muted red dot, named ---- */
 
 .pin {
   position: relative;
@@ -144,17 +144,15 @@ body {
   width: 11px;
   height: 11px;
   border-radius: 50%;
-  background: var(--rust-bright);
+  background: var(--red-muted);
+  opacity: 0.85;
   box-shadow:
-    0 0 0 4px rgba(5, 5, 5, 0.3),
-    0 0 0 5px rgba(242, 236, 223, 0.8);
+    0 0 0 4px rgba(244, 239, 228, 0.25),
+    0 0 0 5px rgba(168, 67, 61, 0.45);
 }
 
 .pin:hover .pin-dot {
-  background: var(--ivory);
-  box-shadow:
-    0 0 0 4px rgba(5, 5, 5, 0.3),
-    0 0 0 5px var(--rust-bright);
+  opacity: 1;
 }
 
 .pin-label {
@@ -164,51 +162,64 @@ body {
   font-family: var(--serif);
   font-size: 1rem;
   letter-spacing: 0.08em;
-  color: var(--ink);
-  background: rgba(242, 236, 223, 0.94);
-  padding: 0.2rem 0.55rem;
+  color: var(--ink-plum);
+  background: rgba(244, 239, 228, 0.88);
+  padding: 0.2rem 0.6rem;
   border-radius: 2px;
   white-space: nowrap;
-  opacity: 0;
-  transition: opacity 0.15s ease;
 }
 
-.pin:hover .pin-label {
-  opacity: 1;
-}
+/* ---- modal: entries and About open centered, over everything ---- */
 
-/* ---- entry panel ---- */
-
-.entry-panel {
+.modal-backdrop {
   position: absolute;
-  top: 0;
-  right: 0;
+  inset: 0;
   z-index: 20;
-  height: 100%;
-  width: min(36rem, 94vw);
-  padding: 3.5rem 3.25rem 3.25rem;
-  overflow-y: auto;
-  background: var(--ivory);
-  border-left: 1px solid var(--ivory-deep);
-  box-shadow: -24px 0 48px rgba(0, 0, 0, 0.45);
-  animation: panel-in 0.35s ease-out;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  background: rgba(50, 40, 67, 0.45);
+  animation: fade-in 0.25s ease-out;
 }
 
-@keyframes panel-in {
+@keyframes fade-in {
   from {
-    transform: translateX(2.5rem);
     opacity: 0;
   }
   to {
-    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.modal-card {
+  position: relative;
+  width: min(42rem, 100%);
+  max-height: 86vh;
+  overflow-y: auto;
+  padding: 3.25rem 3.25rem 3rem;
+  background: var(--ivory);
+  border-radius: 6px;
+  box-shadow: 0 30px 80px rgba(25, 18, 38, 0.45);
+  animation: card-in 0.3s ease-out;
+}
+
+@keyframes card-in {
+  from {
+    transform: translateY(1.25rem);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
     opacity: 1;
   }
 }
 
 .entry-close {
-  position: absolute;
-  top: 1.1rem;
-  right: 1.35rem;
+  position: sticky;
+  top: 0;
+  float: right;
+  margin: -2rem -1.9rem 0 0;
   border: none;
   background: none;
   font-family: var(--serif);
@@ -280,34 +291,19 @@ body {
   font-style: italic;
 }
 
-/* ---- about page ---- */
-
-.about-page {
-  position: absolute;
-  inset: 0;
-  z-index: 30;
-  overflow-y: auto;
-  background: var(--ivory);
-  animation: panel-in 0.35s ease-out;
-}
-
-.about-inner {
-  max-width: 44rem;
-  margin: 0 auto;
-  padding: 5.5rem 2rem 4rem;
-}
+/* ---- about ---- */
 
 .about-title {
-  margin: 0 0 1.75rem;
-  font-size: 2.6rem;
+  margin: 0 0 1.5rem;
+  font-size: 2.3rem;
   font-weight: 500;
   line-height: 1.2;
   color: var(--green-ink);
 }
 
-.about-inner p {
+.about-text {
   margin: 0 0 1.25em;
-  font-size: 1.35rem;
+  font-size: 1.32rem;
   line-height: 1.72;
 }
 
@@ -336,28 +332,17 @@ body {
     font-size: 1.2rem;
   }
 
-  .entry-panel {
-    top: auto;
-    bottom: 0;
-    height: 72vh;
-    width: 100vw;
-    border-left: none;
-    border-top: 1px solid var(--ivory-deep);
-    border-radius: 10px 10px 0 0;
-    padding: 2.75rem 1.5rem 2rem;
-    box-shadow: 0 -18px 40px rgba(0, 0, 0, 0.5);
-    animation: sheet-in 0.3s ease-out;
+  .modal-backdrop {
+    padding: 1rem;
   }
 
-  @keyframes sheet-in {
-    from {
-      transform: translateY(2.5rem);
-      opacity: 0;
-    }
-    to {
-      transform: translateY(0);
-      opacity: 1;
-    }
+  .modal-card {
+    max-height: 90vh;
+    padding: 2.5rem 1.5rem 2rem;
+  }
+
+  .entry-close {
+    margin: -1.4rem -0.4rem 0 0;
   }
 
   .entry-title {
@@ -368,15 +353,11 @@ body {
     font-size: 1.18rem;
   }
 
-  .about-inner {
-    padding: 4.5rem 1.5rem 3rem;
-  }
-
   .about-title {
-    font-size: 2rem;
+    font-size: 1.9rem;
   }
 
-  .about-inner p {
+  .about-text {
     font-size: 1.2rem;
   }
 }

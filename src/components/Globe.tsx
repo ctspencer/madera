@@ -13,12 +13,17 @@ interface CountryFeature {
   properties: { name: string }
 }
 
-// Matte paper tans for the landmasses, assigned steadily by name so a
+// Soft creams for the landmasses, assigned steadily by name so a
 // country keeps its shade across sessions.
-const LAND_TONES = ['#cfc6a6', '#c5bb98', '#d6ceb2', '#bdb28d', '#c9c09f']
+const LAND_TONES = ['#efe8d8', '#e5ddc9', '#f3eee1', '#ded5c0', '#eae2d0']
 
-// Near-black ocean with a green cast; the land polygons carry the light.
-const oceanMaterial = new MeshPhongMaterial({ color: '#0d120e' })
+// Sapphire ocean, glassy and translucent so the lilac ground breathes
+// through it rather than fighting the land.
+const oceanMaterial = new MeshPhongMaterial({
+  color: '#2a4d9e',
+  transparent: true,
+  opacity: 0.45,
+})
 
 function landTone(feature: object): string {
   const name = (feature as CountryFeature).properties.name
@@ -108,12 +113,12 @@ export function Globe({ places, selected, onSelect }: GlobeProps) {
       backgroundColor="rgba(0,0,0,0)"
       globeMaterial={oceanMaterial}
       showAtmosphere={true}
-      atmosphereColor="#94a58f"
+      atmosphereColor="#8f86c9"
       atmosphereAltitude={0.08}
       polygonsData={countries}
       polygonCapColor={landTone}
-      polygonSideColor={() => 'rgba(13, 18, 14, 0.6)'}
-      polygonStrokeColor={() => '#8a815f'}
+      polygonSideColor={() => 'rgba(60, 52, 82, 0.25)'}
+      polygonStrokeColor={() => '#a89f8c'}
       polygonAltitude={0.006}
       polygonsTransitionDuration={0}
       htmlElementsData={places}

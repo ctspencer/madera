@@ -9,11 +9,16 @@ interface EntryPanelProps {
 
 export function EntryPanel({ place, onClose }: EntryPanelProps) {
   return (
-    <aside className="entry-panel" aria-label={place.place}>
-      <button className="entry-close" onClick={onClose} aria-label="Close">
-        ×
-      </button>
-      <header className="entry-header">
+    <div className="modal-backdrop" onClick={onClose}>
+      <aside
+        className="modal-card"
+        aria-label={place.place}
+        onClick={(e) => e.stopPropagation()}
+      >
+        <button className="entry-close" onClick={onClose} aria-label="Close">
+          ×
+        </button>
+        <header className="entry-header">
         <p className="entry-place">{place.place}</p>
       </header>
       {place.entries.map((entry, i) => (
@@ -38,7 +43,8 @@ export function EntryPanel({ place, onClose }: EntryPanelProps) {
             </div>
           </section>
         </Fragment>
-      ))}
-    </aside>
+        ))}
+      </aside>
+    </div>
   )
 }

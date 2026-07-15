@@ -13,7 +13,7 @@ A memorial site built around one person's travel writing. There is no deadline; 
 ## Design rules
 
 - Elegant, southern, feminine in a strong way. Restraint over ornament: if a decision is decorative, cut it.
-- Palette leads from a magnolia leaf: rust-brown, warm ivory, deep green accents, on a near-black ground (owner's choice, 2026-07). No pastels, no sepia.
+- Current palette (owner's direction, 2026-07): soft lilac ground, glassy translucent sapphire ocean, pale cream land, muted faded-red markers, ink-plum UI text; her words on warm ivory. Refined and elegant over loud. Entries and About open as centered modals (X or backdrop click to close), not side panels.
 - Type runs large on purpose — the site must be readable with reading glasses. Don't shrink it for aesthetics.
 - Forbidden defaults: black starfield globe, glowing arcs, script fonts, lace, monograms, antebellum nostalgia, anything that reads as a tech dashboard or genealogy service.
 - The globe is an object — warm, turned, held — not a data visualization. Land over ocean.
