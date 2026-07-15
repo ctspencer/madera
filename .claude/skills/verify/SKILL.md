@@ -42,6 +42,9 @@ close button `.entry-close`. Bird plate is `.bird` (non-interactive).
   trust the second, or interact first. Verified not a real rendering bug.
 - Mobile emulation: use `deviceScaleFactor: 1` — at 2, `page.screenshot` hangs. Headed
   (`headless: false`) screenshots also hang on this page.
+- **Mobile emulation against the prod URL runs at ~1fps** (SwiftShader software WebGL)
+  — taps/screenshots starve waiting on rAF. Drive it with `page.evaluate` JS clicks
+  instead, or test against localhost dev. Not a real-device signal.
 - Pins on the far side of the globe are occlusion-hidden.
 - `/favicon.ico` 404s in the console — no favicon exists yet; ignore.
 
