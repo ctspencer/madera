@@ -757,6 +757,51 @@ Suddenly, the world with all its differences and variations had dwindled to fami
     media: [],
   },
   {
+    id: 'japan-land-of-contrast',
+    place: 'Japan',
+    lat: 35.6762, // pinned at Tokyo
+    lng: 139.6503,
+    year: null, // no date given — the Advertiser-Journal Orient Tour, Golden Week
+    title: 'Japan: Land of Contrast',
+    // The Best of Madera pp. 72–76 (IMG_0632–0636).
+    body: `When they talk about the "bullet trains" of Japan, they aren't just kidding. There we sat, 25 of us on the Advertiser-Journal Orient Tour, hurtling through tea plantations and rice paddies at 130 miles an hour, reclining languidly in our reserved "green class" seats for the three-and-a-half hour journey from Atami to Kyoto. It was close akin to the magic carpet as we soundlessly zoomed through the countryside.
+
+The ride on Japan National Railroad's "Kodama" train is an experience unto itself, the only hazard being to hop quickly enough through the automatic doors before the train silently slides out of the station. (On the other hand, Japan's commuter trains, far removed from the bullets, have professional "pushers" who mercilessly jam riders into overcrowded cars during rush hour traffic.)
+
+On our day of travel from Atami, we were doubly rewarded, for at every station there was a Japanese wedding party assembled to bid adieu (no, sayonara) to newlyweds who timidly took their seats in our green car compartment. The wedding party stood waving and bowing on the station platform, with the young men invariably in black suits and the young women in beautiful, elaborate, traditional kimonos. Our Japan tour guide told us the ceremonial kimonos often cost thousands of dollars and are handed down from mother to daughter as heirlooms.
+
+Our recent visit to Japan started in Tokyo, the world's largest city with a capital population of nearly 12 million, and where there are acres of high-rise office buildings and apartments, rush-hour traffic jams and asphalt jungles, but also serene gardens, colorful and mysterious Buddhist shrines and temples, and wide boulevards lined with intricately trimmed gingko trees and azaleas.
+
+We had the good fortune to be in Japan during "Golden Week", when there are three holidays — the Emperor's Birthday, Constitution Memorial Day, and Children's Day — celebrated seemingly by the entire 105 million inhabitants who go in enormous groups to all the shrines and palaces and places of historic interest. Perhaps a tourist might complain of the crowds, but not so this time, for to meet the smiling delegations of clean-scrubbed, uniformed school children, walking two-by-two in unending procession with their teacher waving a banner at the head of the line, was a memorable pleasure.
+
+Apparently they enjoyed us too, for not only did they stare at us unabashedly with their sparkling little black eyes, but more often they put small hands over their mouths and giggled hysterically. We had the feeling we were like creatures from another planet, not another country. But always there was the friendly smile, often a "hello" in English, and never the wild rush and shoving that seems to infect most mass movements.
+
+I shall never forget the children.
+
+Through our guide's vast knowledge and patient explanation, we began to feel a rapport with Japan and its inordinately polite citizens. We learned to appreciate a single beautiful flower and a simply furnished room and a disciplined lifestyle.
+
+During the days in Tokyo, there were visits to such interesting places as the Asakura Kannon Temple, where a great "well" of burning incense sticks produces dense smoke said to cure ailments when it envelopes the body. (Needless to say, we soaked in smoke though there was not a Buddhist in the bunch.)
+
+One day we journeyed to Nikko National Park by train, where we marvelled at the fantastically elaborate Toshogu Shrine, one of Japan's greatest treasures which was built as a memorial to Ieyasu Tokugawa who was born in 1542. When he died in 1616 his son started the shrine, which consists of 23 structures today and which when built employed master-artists and a total of four and a half million laborers, all told, and cost $60 million in present currency. Among the magnificent and indescribable carvings are the original "hear no evil, see no evil, speak no evil" monkeys carved over the sacred stable door.
+
+After a day's journey along the Pacific coast's black sand beaches, where fishermen's nets drying in the sun looked like giant crocheted doilies, we arrived at Hakone National Park and boarded a ferry to traverse the lake. The afternoon was stormy and windy and the dark waters churned dangerously, but as we crossed the lake we could get a hazy view of the magnificent snow-covered peak of Mount Fuji in the distance.
+
+The night at Fujiya Hotel in Miyanoshita, Hakone, where dignitaries and royalty from almost every country of the world have stayed, was perhaps my own most treasured experience in Japan. I awoke next morning with the crisp, fresh mountain air wafting a scent of flowers through the opened window. As I stood in the early dawn chill, I could look down on a hillside garden fragrant with blossoming cherry trees, azalea, orchids and lilies, growing lushly around rock arrangements, and I could hear the tantalizing tinkle of a waterfall and the sweet notes of small birds joyously greeting the coming of day. This beauty beckoned like a magnet, and I spent an hour of solitary serenity under a cherry tree on the mountainside, in tranquil and thankful meditation.
+
+Through the many miles we traveled in Japan, we were enthralled to see the spectacular display of flying carp, the kite-like paper fish billowing in the breezes from tall poles at almost every house, large or small. The carp signify that the home is blessed with children, and the flying of the paper carp is a part of the holiday celebration.
+
+In almost every garden there is a pool with real carp swimming to and fro, brown, silver and gold in color, and some as large as 18 inches in length.
+
+The days in ancient Kyoto, for more than 11 hundred years the capital of Japan, were enchanting indeed, with a visit to Nijo Castle where we tread upon the "singing floors" (they were built to squeak "like nightingales" when footsteps fell upon them, thus discouraging spies in the Shogun's palace.)
+
+There were gay lunches and elegant dinners in places where we dined shoeless while semi-reclining on the floor, and there were rounds of shopping unending.
+
+This country, we found, puts emphasis on graceful perfection and courteous relationships. Where else would you see a sign in a hotel hallway saying, instead of "Quiet!", simply "Please join us in helping to keep the corridor peaceful"?
+
+Possibly only in Japan.`,
+    media: [],
+  },
+  {
     id: 'amsterdam',
     place: 'Amsterdam',
     lat: 52.3676,
