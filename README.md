@@ -33,8 +33,7 @@ First real entries are in: her January 1956 letter from New York (transcribed ve
 
 ## Open questions — ask, don't invent
 
-- The About page text (currently a marked placeholder)
-- Titles and text for the remaining placeholder places
+- Titles and text for any remaining placeholder places
 - The full list of places (Greek islands and Czechoslovakia are known future additions)
 - What the book actually is
 - Whether photographs are included

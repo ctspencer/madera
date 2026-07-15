@@ -100,39 +100,6 @@ Always Deedie.`,
     media: ['media/national-guard-florida-tank.jpg'],
   },
   {
-    id: 'introduction',
-    place: 'Montgomery',
-    lat: 32.3668,
-    lng: -86.3,
-    year: null, // book publication year unknown — she left the paper in 1982
-    title: 'Introduction',
-    // Her introduction to The Best of Madera (IMG_0568–0569).
-    body: `When I joined the staff of The Montgomery Advertiser-Alabama Journal on Jan. 10, 1955, I was stunned and awed by the clattering dinosauric Linotype machines clacking out "hot type" in the busy, noisy composing room on the ground floor of the building at 200 Washington Avenue.
-
-I wrote my copy on an upright manual Underwood typewriter, then wafted it down "the chute" at the copy editor's desk in the communal newsroom. It was clanked out into metal slugs by the Linotype operators.
-
-Later I graduated to a laid-back whirring electric IBM typewriter.
-
-By the time I left the newspaper in 1982 there was in use in the almost silent composing room a sleek, glassed-in Itek Digital System zipping out "cold type" and I wrote my copy on a computerized visual display terminal.
-
-What changes took place in those 27 years!
-
-Believe me, not a day of those years was dull.
-
-Beside reporting and writing about people, places and events of diverse nature, beside editing, making up pages, answering continuously ringing telephones, putting out special sections on food, fashion and features, I had the good fortune to cover glamorous fashion showings in New York and California several times a year, of interviewing celebrities at home and abroad, and of conducting travel tours to Europe or to the Orient at least once each year. I often went back to Europe on my vacations.
-
-But whatever I did and wherever I went, I knew with a certainty that my columns would be only as good as my readers' opinions of them.
-
-Readers have been my most valued friends through the years.
-
-They still are.
-
-I am grateful to The Advertiser-Journal for making it possible for me to communicate with them again, and perhaps to make new friends.
-
-Madera Spencer`,
-    media: [],
-  },
-  {
     id: 'lifes-reflections',
     place: 'Montgomery',
     lat: 32.3668,
@@ -1285,3 +1252,40 @@ How very comforting to know the same benevolent Creator who gives precious fligh
     media: [],
   },
 ]
+
+/**
+ * Her introduction to The Best of Madera (IMG_0568–0569). It lives on the
+ * About page rather than under a pin — it introduces all of it.
+ */
+export const introduction: Entry = {
+  id: 'introduction',
+  place: 'Montgomery',
+  lat: 32.3668,
+  lng: -86.3,
+  year: null, // book publication year unknown — she left the paper in 1982
+  title: 'Introduction',
+  body: `When I joined the staff of The Montgomery Advertiser-Alabama Journal on Jan. 10, 1955, I was stunned and awed by the clattering dinosauric Linotype machines clacking out "hot type" in the busy, noisy composing room on the ground floor of the building at 200 Washington Avenue.
+
+I wrote my copy on an upright manual Underwood typewriter, then wafted it down "the chute" at the copy editor's desk in the communal newsroom. It was clanked out into metal slugs by the Linotype operators.
+
+Later I graduated to a laid-back whirring electric IBM typewriter.
+
+By the time I left the newspaper in 1982 there was in use in the almost silent composing room a sleek, glassed-in Itek Digital System zipping out "cold type" and I wrote my copy on a computerized visual display terminal.
+
+What changes took place in those 27 years!
+
+Believe me, not a day of those years was dull.
+
+Beside reporting and writing about people, places and events of diverse nature, beside editing, making up pages, answering continuously ringing telephones, putting out special sections on food, fashion and features, I had the good fortune to cover glamorous fashion showings in New York and California several times a year, of interviewing celebrities at home and abroad, and of conducting travel tours to Europe or to the Orient at least once each year. I often went back to Europe on my vacations.
+
+But whatever I did and wherever I went, I knew with a certainty that my columns would be only as good as my readers' opinions of them.
+
+Readers have been my most valued friends through the years.
+
+They still are.
+
+I am grateful to The Advertiser-Journal for making it possible for me to communicate with them again, and perhaps to make new friends.
+
+Madera Spencer`,
+  media: [],
+}
