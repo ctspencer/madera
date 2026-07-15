@@ -22,11 +22,15 @@ No Playwright in this repo. Use `playwright-core` from a temp dir with the syste
 mkdir -p /tmp/madera-verify && cd /tmp/madera-verify && npm i playwright-core
 ```
 
-Selectors: pins are `.pin` (dot `.pin-dot`, always-visible label `.pin-label`), places nav
-is `.places-toggle` / `.places-item`. Entries open in a centered modal (2026-07
-redesign): `.modal-backdrop` > `.modal-card`, containing `.entry-place`,
-`.entry-section` (one per entry), `.entry-divider`, `.entry-title`, `.entry-body`,
-close button `.entry-close`. There is no `.entry-panel` anymore.
+Selectors: pins are `.pin` (dot `.pin-dot`, label `.pin-label` — zoom-gated: hidden via
+`.labels-hidden` ancestor until camera altitude < 1.7, hover always reveals). The places
+index is a bottom chip strip: `.places-strip` > `.chip` (one per place, always visible;
+horizontally scrollable on mobile). Nav is top-LEFT: gold `.wordmark`, `.nav-link`s for
+About and Eulogy. Entries, About, and Eulogy open in a centered modal:
+`.modal-backdrop` > `.modal-card`, containing `.entry-place` (full dateline),
+`.entry-section` (one per entry), `.entry-divider`, `.entry-title`, `.entry-body`
+(Special Elite typewriter face), close button `.entry-close`. No `.entry-panel` or
+`.places-toggle`/`.places-item` anymore.
 
 ## Gotchas
 

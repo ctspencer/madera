@@ -1,35 +1,41 @@
 import { useMemo, useState } from 'react'
 import { Globe } from './components/Globe'
 import { EntryPanel } from './components/EntryPanel'
-import { PlacesList } from './components/PlacesList'
+import { PlacesStrip } from './components/PlacesStrip'
 import { AboutPage } from './components/AboutPage'
+import { EulogyPage } from './components/EulogyPage'
 import { entries, groupByPlace, type Place } from './data/entries'
+
+type Overlay = 'about' | 'eulogy' | null
 
 export default function App() {
   const places = useMemo(() => groupByPlace(entries), [])
   const [selected, setSelected] = useState<Place | null>(null)
-  const [showAbout, setShowAbout] = useState(false)
+  const [overlay, setOverlay] = useState<Overlay>(null)
+
+  const openPlace = (place: Place) => {
+    setOverlay(null)
+    setSelected(place)
+  }
 
   return (
     <div className="app">
       <header className="site-header">
         <h1 className="wordmark">Madera</h1>
         <nav className="site-nav" aria-label="Site">
-          <button className="nav-link" onClick={() => setShowAbout(true)}>
+          <button className="nav-link" onClick={() => setOverlay('about')}>
             About
           </button>
-          <PlacesList
-            places={places}
-            onSelect={(place) => {
-              setShowAbout(false)
-              setSelected(place)
-            }}
-          />
+          <button className="nav-link" onClick={() => setOverlay('eulogy')}>
+            Eulogy
+          </button>
         </nav>
       </header>
       <Globe places={places} selected={selected} onSelect={setSelected} />
+      <PlacesStrip places={places} onSelect={openPlace} />
       {selected && <EntryPanel place={selected} onClose={() => setSelected(null)} />}
-      {showAbout && <AboutPage onClose={() => setShowAbout(false)} />}
+      {overlay === 'about' && <AboutPage onClose={() => setOverlay(null)} />}
+      {overlay === 'eulogy' && <EulogyPage onClose={() => setOverlay(null)} />}
     </div>
   )
 }

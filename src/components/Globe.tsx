@@ -17,13 +17,9 @@ interface CountryFeature {
 // country keeps its shade across sessions.
 const LAND_TONES = ['#efe8d8', '#e5ddc9', '#f3eee1', '#ded5c0', '#eae2d0']
 
-// Sapphire ocean, glassy and translucent so the lilac ground breathes
-// through it rather than fighting the land.
-const oceanMaterial = new MeshPhongMaterial({
-  color: '#2a4d9e',
-  transparent: true,
-  opacity: 0.45,
-})
+// Opaque soft sapphire — matched to the shade the old translucent ocean
+// showed over the lilac ground, without the see-through ghosting.
+const oceanMaterial = new MeshPhongMaterial({ color: '#6f8bc0' })
 
 function landTone(feature: object): string {
   const name = (feature as CountryFeature).properties.name
@@ -46,6 +42,10 @@ export function Globe({ places, selected, onSelect }: GlobeProps) {
   const globeRef = useRef<GlobeMethods | undefined>(undefined)
   const { width, height } = useWindowSize()
   const [countries, setCountries] = useState<object[]>([])
+  // Labels crowd each other at full-globe zoom (Europe especially), so they
+  // fade in once the camera is close enough for them to have room; the
+  // places strip carries the full index at every zoom, hover reveals one.
+  const [showLabels, setShowLabels] = useState(false)
   const resumeTimer = useRef<number | undefined>(undefined)
   const onSelectRef = useRef(onSelect)
   onSelectRef.current = onSelect
@@ -99,17 +99,21 @@ export function Globe({ places, selected, onSelect }: GlobeProps) {
     const controls = globe.controls()
     controls.autoRotate = false
     window.clearTimeout(resumeTimer.current)
-    globe.pointOfView({ lat: selected.lat, lng: selected.lng, altitude: 1.7 }, 900)
+    globe.pointOfView({ lat: selected.lat, lng: selected.lng, altitude: 1.5 }, 900)
     resumeTimer.current = window.setTimeout(() => {
       controls.autoRotate = true
     }, 3000)
   }, [selected])
 
   return (
-    <GlobeGL
+    <div className={showLabels ? undefined : 'labels-hidden'}>
+      <GlobeGL
       ref={globeRef}
       width={width}
       height={height}
+      onZoom={(pov: { altitude?: number }) =>
+        setShowLabels((pov.altitude ?? 99) < 1.7)
+      }
       backgroundColor="rgba(0,0,0,0)"
       globeMaterial={oceanMaterial}
       showAtmosphere={true}
@@ -129,13 +133,14 @@ export function Globe({ places, selected, onSelect }: GlobeProps) {
         const place = d as Place
         const el = document.createElement('div')
         el.className = 'pin'
-        el.innerHTML = `<span class="pin-dot"></span><span class="pin-label">${place.place}</span>`
+        el.innerHTML = `<span class="pin-dot"></span><span class="pin-label">${place.label}</span>`
         el.addEventListener('click', (ev) => {
           ev.stopPropagation()
           onSelectRef.current(place)
         })
         return el
       }}
-    />
+      />
+    </div>
   )
 }

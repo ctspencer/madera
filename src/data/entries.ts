@@ -16,6 +16,14 @@
 export interface Entry {
   id: string
   place: string
+  /**
+   * Short label for the globe pin and the places strip, when it should
+   * differ from `place`. Rules of thumb (owner's, 2026-07): U.S. places
+   * show the city alone; places abroad add the country only when the
+   * name isn't recognizable by itself — Cobh needs Ireland, Rome doesn't.
+   * The full `place` (her dateline) always shows in the opened entry.
+   */
+  mapLabel?: string
   lat: number
   lng: number
   year: number | null
@@ -30,6 +38,7 @@ export interface Entry {
  */
 export interface Place {
   place: string
+  label: string
   lat: number
   lng: number
   entries: Entry[]
@@ -41,7 +50,13 @@ export function groupByPlace(list: Entry[]): Place[] {
   for (const entry of list) {
     let place = byName.get(entry.place)
     if (!place) {
-      place = { place: entry.place, lat: entry.lat, lng: entry.lng, entries: [] }
+      place = {
+        place: entry.place,
+        label: entry.mapLabel ?? entry.place,
+        lat: entry.lat,
+        lng: entry.lng,
+        entries: [],
+      }
       byName.set(entry.place, place)
       places.push(place)
     }
@@ -284,6 +299,7 @@ I miss it.`,
     // The piece names no town ("a small hotel on the sugar-white beach of
     // the Gulf of Mexico"); the owner confirmed it was Gulf Shores (2026-07).
     place: 'Gulf Shores, Alabama',
+    mapLabel: 'Gulf Shores',
     lat: 30.246,
     lng: -87.7008,
     year: null, // no date given — an end-of-summer weekend
@@ -313,6 +329,7 @@ The retreat was complete. My "desert place" had worked miracles.`,
   {
     id: 'touched-by-adventure',
     place: 'Nassau',
+    mapLabel: 'Nassau, Bahamas',
     lat: 25.0443,
     lng: -77.3504,
     year: null, // no date in the piece — "many years ago" since her first visit
@@ -431,6 +448,7 @@ Bedlam reigned until the whistle blew for all ashore. To the music of the bagpip
   {
     id: 'perilous-journey-river-road-by-air',
     place: 'Charleston, W. Va.',
+    mapLabel: 'Charleston',
     lat: 38.3498,
     lng: -81.6326,
     year: null, // "this past Saturday" — no year printed
@@ -592,6 +610,7 @@ It is said that good art conveys its message without further explanation. When y
   {
     id: 'hobnobbing-with-stars',
     place: 'Los Angeles, Calif.',
+    mapLabel: 'Los Angeles',
     lat: 34.0522,
     lng: -118.2437,
     year: null, // no year printed — films mentioned suggest late 1950s
@@ -677,6 +696,7 @@ When departure day arrives flying out of the bustling modern Airport of Athens i
   {
     id: 'malaysian-sultans-palace',
     place: 'Johore',
+    mapLabel: 'Johore, Malaysia',
     lat: 1.4927, // modern Johor Bahru, Malaysia
     lng: 103.7414,
     year: null, // arrival in Singapore "May 13" — no year printed
