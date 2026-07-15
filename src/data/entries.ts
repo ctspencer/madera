@@ -17,13 +17,17 @@ export interface Entry {
   id: string
   place: string
   /**
-   * Short label for the globe pin and the places strip, when it should
-   * differ from `place`. Rules of thumb (owner's, 2026-07): U.S. places
-   * show the city alone; places abroad add the country only when the
-   * name isn't recognizable by itself — Cobh needs Ireland, Rome doesn't.
-   * The full `place` (her dateline) always shows in the opened entry.
+   * Short label for the places strip, when it should differ from `place`
+   * (e.g. 'Cobh, Ireland' for recognizability). The full `place` (her
+   * dateline) always shows in the opened entry.
    */
   mapLabel?: string
+  /**
+   * Label shown beside the pin on the globe (owner's rule, 2026-07):
+   * U.S. places show the city or place name; places abroad show the
+   * COUNTRY ('Ireland', 'Bahamas'). Falls back to mapLabel, then place.
+   */
+  pinLabel?: string
   lat: number
   lng: number
   year: number | null
@@ -39,6 +43,7 @@ export interface Entry {
 export interface Place {
   place: string
   label: string
+  pin: string
   lat: number
   lng: number
   entries: Entry[]
@@ -53,6 +58,7 @@ export function groupByPlace(list: Entry[]): Place[] {
       place = {
         place: entry.place,
         label: entry.mapLabel ?? entry.place,
+        pin: '',
         lat: entry.lat,
         lng: entry.lng,
         entries: [],
@@ -63,6 +69,10 @@ export function groupByPlace(list: Entry[]): Place[] {
     place.entries.push(entry)
   }
   for (const place of places) {
+    place.pin =
+      place.entries.find((e) => e.pinLabel)?.pinLabel ??
+      place.entries.find((e) => e.mapLabel)?.mapLabel ??
+      place.place
     place.entries.sort((a, b) => {
       if (a.year === null && b.year === null) return 0
       if (a.year === null) return 1
@@ -474,6 +484,7 @@ It was a great trip. We are home. (1980)`,
   {
     id: 'at-small-hope-bay',
     place: 'Small Hope Bay',
+    pinLabel: 'Bahamas',
     mapLabel: 'Small Hope Bay, Bahamas',
     lat: 24.7255, // Small Hope Bay Lodge, Andros Island
     lng: -77.786,
@@ -997,6 +1008,7 @@ The Bible Land — the most revered land in the world. The most fought over and 
   {
     id: 'touched-by-adventure',
     place: 'Nassau',
+    pinLabel: 'Bahamas',
     mapLabel: 'Nassau, Bahamas',
     lat: 25.0443,
     lng: -77.3504,
@@ -1089,6 +1101,7 @@ In fact, you felt that the chimp and you were the only sane ones left in the who
   {
     id: 'an-irish-adventure',
     place: 'Cobh, Ireland',
+    pinLabel: 'Ireland',
     lat: 51.851,
     lng: -8.2967,
     year: 1967,
@@ -1176,6 +1189,7 @@ Buster, that makes four of us!`,
   {
     id: 'detour-to-newfoundland',
     place: 'Gander, Newfoundland',
+    pinLabel: 'Canada',
     lat: 48.9578,
     lng: -54.6089,
     year: 1975,
@@ -1237,6 +1251,7 @@ But was it worth all that physical abuse just to have nine glorious days in Rome
   {
     id: 'holy-year-in-rome',
     place: 'Rome',
+    pinLabel: 'Italy',
     lat: 41.9028,
     lng: 12.4964,
     year: 1975,
@@ -1364,6 +1379,7 @@ When departure day arrives flying out of the bustling modern Airport of Athens i
   {
     id: 'malaysian-sultans-palace',
     place: 'Johore',
+    pinLabel: 'Malaysia',
     mapLabel: 'Johore, Malaysia',
     lat: 1.4927, // modern Johor Bahru, Malaysia
     lng: 103.7414,
@@ -1405,6 +1421,7 @@ On this Sunday morning the Sultan himself was at his other palace, but being abl
   {
     id: 'bangkok-unique-to-senses',
     place: 'Bangkok',
+    pinLabel: 'Thailand',
     lat: 13.7563,
     lng: 100.5018,
     year: null, // no date given — the Advertiser-Journal Orient Tour
@@ -1490,6 +1507,7 @@ Possibly only in Japan.`,
   {
     id: 'non-person-in-amsterdam',
     place: 'Amsterdam',
+    pinLabel: 'Netherlands',
     lat: 52.3676,
     lng: 4.9041,
     year: null, // no year printed — "last week", in her 20th year of European travel
@@ -1537,6 +1555,7 @@ As it was, no harm really was done. I had survived.`,
   {
     id: 'stone-walls-or-treetops',
     place: 'Mont St. Michel',
+    pinLabel: 'France',
     lat: 48.6361,
     lng: -1.5115,
     year: null, // "an afternoon in June" — no year given
