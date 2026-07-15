@@ -474,10 +474,6 @@ body {
 
 .carousel {
   position: relative;
-  display: grid;
-  grid-template-columns: auto 1fr auto;
-  align-items: center;
-  gap: 0.75rem;
   min-height: 0;
 }
 
@@ -487,18 +483,31 @@ body {
   scrollbar-width: thin;
 }
 
+/* Arrows live in the card's padding gutters so the content keeps its
+   full reading width. */
 .carousel-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 2;
   border: none;
-  width: 2.9rem;
-  height: 2.9rem;
+  width: 2.7rem;
+  height: 2.7rem;
   border-radius: 50%;
   background: rgba(180, 168, 201, 0.25);
   font-family: var(--serif);
-  font-size: 2.1rem;
+  font-size: 2rem;
   line-height: 1;
   color: var(--rust);
   cursor: pointer;
-  align-self: center;
+}
+
+.carousel-arrow:first-of-type {
+  left: -2.95rem;
+}
+
+.carousel-arrow:last-of-type {
+  right: -2.95rem;
 }
 
 .carousel-arrow:hover {
@@ -507,7 +516,6 @@ body {
 }
 
 .carousel-counter {
-  grid-column: 1 / -1;
   margin: 0.9rem 0 0;
   text-align: center;
   font-size: 1.05rem;
@@ -643,17 +651,35 @@ body {
     padding: 0.3rem 0.85rem;
   }
 
+  /* phone: content full width; arrows sit under it beside the counter */
   .carousel {
-    gap: 0.4rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 0.9rem;
   }
 
   .carousel-frame {
-    max-height: 58vh;
+    order: -1;
+    width: 100%;
+    max-height: 60vh;
   }
 
   .carousel-arrow {
-    width: 2.6rem;
-    height: 2.6rem;
+    position: static;
+    transform: none;
+    width: 2.7rem;
+    height: 2.7rem;
+  }
+
+  .carousel-counter {
+    order: 2;
+    margin: 0;
+  }
+
+  .carousel-arrow:last-of-type {
+    order: 3;
   }
 
   .modal-backdrop {
