@@ -600,6 +600,147 @@ Our last meal in Czechoslovakia was in a small hotel in Trevor, near the Austria
     media: [],
   },
   {
+    id: 'feathered-freeloaders',
+    place: 'Montgomery',
+    lat: 32.3668,
+    lng: -86.3,
+    year: null, // no date given — spring through "now the icy winter" at the Spencer house
+    title: 'Feathered Freeloaders',
+    // The Best of Madera pp. 102–104 (IMG_0662–0664). Her mockingbirds.
+    // Her spellings kept ("mocking birds", "cheesey").
+    body: `"Listen to the mocking bird; listen to the mocking bird."
+
+Remember that old song?
+
+Well, the words of that old ditty mean more to me now than they used to.
+
+You see, I have a pair of mocking birds that vocally demand special attention. In fact, they're permanent boarders at the Spencer house.
+
+Back when spring was in the air and April was soft and fragrant and gentle, a pair of young mocking birds joined the jubilant feathered freeloaders that cluster around our back door from dawn to dusk.
+
+When they first began coming for breakfast, they perched perkily on the crabapple tree limbs that reach out toward the kitchen door, and even through the fluffy, pink blooms of the blossoming crabapple tree, we could tell these two characters seemed to possess unusually curious personalities.
+
+Knowing that mocking birds are partial to protein and goodies like apples, I could only supply the apples for them. I refused to catch their insects. But they seemed to expect more from me. While the other birds flocked to the wild bird seed scattered on the ground, those two little creatures, not long out of the nest, just perched there saucily and looked me in the eye — imploringly, I do declare.
+
+One day in all the melee at feeding time (now all the time is feeding time), I put a few fingers' full of shredded cheddar cheese on the roof of the small storage house beside the back steps.
+
+Keeping one eye on me and one on the cheese, the largest of the mocking birds swooped in to gobble up the feast, and thereby established a pattern that has flourished through the hot summer, the glorious fall, and now the icy winter. The larger one comes first, then the smaller takes the leftovers.
+
+By mid-summer the two mocking birds had begun sitting on the edge of the roof outside the door, where they have a clear view into the kitchen. Side by side they stare in at me. I began to feel guilty when preparing a good meal for us without first giving those mocking birds their cheese.
+
+When the pigeons discovered the bounty on the roof, they came in by the dozens. While they gobbled up everything in sight, the mocking birds' piercing little eyes stared gloomily into the kitchen.
+
+Well, we've worked out a scheme, the mocking birds and I.
+
+I get all the food on one tray — millet seed and corn, sunflower seeds (they're for the cardinals), and the grated cheese for you know who. First I toss out the wild bird seed and the waiting pigeons scramble gluttonously to the ground. Then quickly I sprinkle the cheese on the roof for the waiting mocking birds, who are almost within arm's reach. They know now to fly down quickly to eat their meal before the pigeons have finished and come foraging for more. I can almost touch my mocking birds, they have become so tame. They come soaring in from the fence or the trees whenever the back door opens. Their territory, like their spirit, is invincible.
+
+But each day now when the wintry wind is blowing and the frosty nights and icy dawns often take their toll, I hurry to the back door to answer their call. In the dimness of first break of day I look up to see the two little birds, side by side on the roof by the kitchen door, feathers ruffling in the cold wind, calling for their cheesey delights.
+
+Sometimes if one is a few seconds late, my heart stands still.
+
+How long, I wonder, can these delicate creatures survive?
+
+And then I remember. Whatever a life span may be, it is quality, not quantity, that counts.
+
+My little mocking birds must qualify for immortality, for they've brought months of untold pleasure.`,
+    media: [],
+  },
+  {
+    id: 'master-of-suspense',
+    place: 'Los Angeles, Calif.',
+    mapLabel: 'Los Angeles',
+    lat: 34.0522,
+    lng: -118.2437,
+    year: null, // no year printed — she visits the "Vertigo" set (the film was released 1958)
+    title: 'Master Of Suspense',
+    // The Best of Madera pp. 105–107 (IMG_0665–0667). Her spellings kept
+    // ("Montgmery", "draftmanship", "movie directions", "was an art director
+    // of", "Jimmie Stewart", and "Stewart and Bel Geddes" without "Miss" on
+    // the second mention).
+    body: `Sitting beside me on the sofa in a tiny private dressing room rolled onto a huge sound stage on the Paramount lot in Hollywood, talking quietly and seriously about a man who had vertigo and whose whole existence was tied up with this appalling fear of heights, was the master of suspense himself, Alfred Hitchcock. He was telling me the story of his new picture "Vertigo," the name of which had been changed from "Among the Dead."
+
+This celebrated director, whose antics during his television series, "Alfred Hitchcock Presents," leave viewers wondering what's to come next, and whose movies such as "Rebecca," "The Man Who Knew Too Much" and "To Catch A Thief" are super-suspense mysteries, is a pleasant and charming conversationalist.
+
+Immediately after our introduction he asked me all about Montgomery, and as a photographer snapped our picture he was asking me jokingly if Montgmery were named for British Field Marshall Viscount Montgomery. As soon as his questions stopped, I got in a few myself.
+
+Hitchcock was the son of a London poulterer and even as a small boy acquired the urge to travel. He used to ride the buses to the ends of the lines in London and for a hobby kept a huge map of the world on his wall. Each afternoon he asked a newsdealer to let him see Lloyd's bulletin, then hurried home to mark with flag-pins the positions of British ships throughout the world.
+
+He was educated in a Jesuit seminary and the University of London and studied art and engineering. He says the two subjects aid him enormously in the complex job of movie directions, for he uses technical draftmanship to create scenes before the camera.
+
+He never looks through the camera, unlike other directors, but sketches his scenes in advance and knows precisely what he wants before arriving on the set.
+
+His first milestone in movies was an art director of "Woman To Woman" in 1923, and from then on he moved up the ladder of success, adopting unique methods of getting ideas across on the screen and building up suspense and interest.
+
+He says, "You ask an audience to look at a square frame for an hour and a half at a time. You've got to put something in there to keep 'em looking."
+
+He was nominated for an Academy Award four times, for "Rebecca" in 1940; "Lifeboat" in 1944; "Spellbound" in 1945; and "Rear Window" in 1954. In addition, he has received high acclaim and won many awards from other mediums.
+
+Hearing him tell about this latest picture, starring James Stewart, Kim Novak and Barbara Bel Geddes, was almost as good as seeing it.
+
+Outside the dressing room, a scene in Miss Bel Geddes' apartment was being set up. Jimmie Stewart and Miss Bel Geddes, the camera and sound crews had taken their places, and still Mr. Hitchcock calmly continued his account of the picture for me. Finally when the story was over and I had thanked him for his courteous reception, he suggested I go around close to the camera to get a good view of the filming.
+
+Out on the set behind the shell of the apartment walls, which represented the commercial art studio of Miss Bel Geddes in the movie, a tremendous colored aerial photograph of the San Francisco skyline illuminated from behind with bright lights giving the appearance of sunshine, was placed behind the fake windows. Stewart and Bel Geddes were seated in the living room and after Mr. Hitchcock gave them a few quiet instructions, the cameras rolled. Once Mr. Stewart faltered in his lines and they started over again. The sequence lasted only about 3 minutes, and was done over and over and over, the make-up man coming in between takes to dab a little more color on Stewart's wrists or to adjust another small detail.
+
+In contrast to the other movies I had watched that week, the atmosphere was quiet and unhurried and there were no shouts or bustling about on the set.
+
+Perhaps Mr. Hitchcock's premeditated scene-laying could account for the difference. But whatever it was, the public can look forward to Paramount's "Vertigo," since the tag "Produced and directed by Alfred Hitchcock" means the master craftsman has left no stone unturned to present entertainment at its best.`,
+    media: [],
+  },
+  {
+    id: 'hollywood-heyday',
+    place: 'Los Angeles, Calif.',
+    mapLabel: 'Los Angeles',
+    lat: 34.0522,
+    lng: -118.2437,
+    year: null, // no year printed — the Hemingway film she watches being made was released 1962
+    title: 'Hollywood Heyday',
+    // The Best of Madera pp. 108–111 (IMG_0668–0671). Her spellings kept
+    // ("Hemingway's Young Man", "hugh kleig lights", "Orson Wells",
+    // "Fresque Isle River", "riverlets", "Alcoa, Webb and Knat",
+    // "delapidation", "the 'Welsh town" with its stray opening quote, and
+    // "it was to go too to make room"). Spaced ellipses ". . ." as printed.
+    body: `The big sound stage No. 5 on the 20th Century-Fox lot in Beverly Hills was all abustle when I visited the set of the filming of "Hemingway's Young Man." When I stepped out of the sunlight inside the big stucco building I was suddenly transported to the upper wilderness of Michigan.
+
+High off the floor, a murky pond surrounded with hills covered with pine trees, stumps, bushes and dense growth rose in front of me, a little log cabin perched on the hilltop to the left. It even smelled like the north woods, the scent of pine needles permeating the air. Surrounding the woods on three sides was a great ceiling-high blue-painted canvas curtain — the sky in all its glory.
+
+Above us the rafters of the great building were a maze of pipes and lights. . .I was to see later a dense and blinding rain pour over the set from the overhanging pipes. . .giant wind-machines off the set whipping it into a blinding storm.
+
+Men in hip boots were wading around in the lake, adjusting bushes and rearranging the growth on the banks. . .one man had a tree in his arms carrying it across the pond. Others were adjusting the hugh kleig lights for just the right effect. It was fantastic.
+
+My host for the day, Julian Myers of the Fox publicity department, who had fetched me from my hotel for the occasion, introduced me to Director Martin Ritt. Although busily engaged in getting the next shots ready and dictating to a secretary following him around the set, Mr. Ritt took time to explain some of the goings-on to me. A man of great ability, he directed "Long Hot Summer," with Orson Wells, "Houseboat" with Sophia Loren, "The Sound and The Fury," "No Down Payment," and a host of other first-rate movies.
+
+Next I met handsome young Richard Beymer, who plays the starring role of Nick Adams in the Hemingway movie, and Mike Pollard of "Bye Bye Birdie," who were viewing rushes of shots on a small projector off to the side of the set. Richard Beymer, 22 years old and 6'1½" tall, also starred in "West Side Story" and "The Diary of Anne Frank." He's one of the hottest properties on the Fox lot, to use Hollywood language.
+
+All of the characters were dressed in woodsmen clothing, and when the photographer snapped our picture, Richard said, "I'm not dressed very fittingly to have my photograph made with a fashion editor."
+
+One of the most charming actors on the set was Simon Oakland, who plays the role of the husband of an Indian woman who is "saved" by Dr. Adams (Arthur Kennedy) in the movie. Mr. Oakland, a New Yorker, came to Hollywood in 1958 with the Lunts in "The Great Sebastian," and stayed on to play the part of the newspaper reporter in "I Want to Live," with Susan Hayward; the role of the psychiatrist in "Psycho," as well as many television roles in "The Defenders" and "The Untouchables."
+
+I had the good fortune also of meeting and chatting with Monty Elliott, assistant art director of the film in progress. He told me it took more than two months to erect the woods-set described above, and its cost was over $30,000 "including the rain," he added.
+
+The set had been used in nine different sequences in the filming. . .one time a train trestle had been erected over it for a sequence. He said, "See that dirt along the banks of the pond? That's cement really. . .it just looks like dirt."
+
+We strolled over behind the "sky" to a rustic three-sided room of a mountain cabin. Here was where the inside shots of the cabin located on the hill would be made. . .the sequence of Dr. Adams performing the operation on the Indian woman in the movie. . .All this. . .pond, woods, log cabin, inside of log cabin, and Heaven only knows what else set up inside one building! Truly the resourcefulness of Hollywood is astonishing.
+
+Sequences also were made in Verona, Italy, as well as at the mouth of Fresque Isle River in Michigan.
+
+When we started to leave to keep a luncheon appointment at the commissary with actress Lili Gentle, Richard Beymer said, "I think we'll be here a little longer. We have to shoot the storm again before lunch."
+
+Already the towering pines were glistening with water from the previous rainstorm. . .the cement dirt running riverlets into the murky pond.
+
+The sunlight outside came as a shock to my senses. One minute the intensive activity of the north woods set, the next the warm sunlight and brilliant stucco buildings landscaped with blossoming California flowers.
+
+Late in the afternoon when it was time to say goodbye, Julian drove me through what is left of the 20th Century Fox lot. When last I was there the Lot spread out over 272 acres. Now there are only 72 acres left. . .the 200 acres sold to Alcoa, Webb and Knat for the erection of a great development to be called Century City. Already modern apartments were being erected. . .once we saw a great sound stage on wheels being rolled off to make room for buildings going up almost under it.
+
+The massive equipment that used to spread out over the whole 272 acres has been stored in the streets, in the remaining sound stages — everywhere there's an inch of space available. One has literally to step over it to navigate through the concentrated area of the Lot now.
+
+The quaint "towns" that used to dot the landscape like figments from a dream. . .the old western city streets, the New England houses, the street of "little old New York" with its brownstone tenement "fronts," the 'Welsh town where many war movies were shot. . .all are in a state of delapidation and waiting for the wrecking crews to get to them. It was a sad sight to me. Like riding through deserted ghost towns.
+
+We passed the now lonely bamboo grove where on my last trip out I had watched the unbelievable filming of the Boar's Head Ceremonial scene from "South Pacific". . .it was to go too to make room for the rising modern metropolis of Century City.
+
+When one dream goes, another is ready to take its place — but then Hollywood is a land where men's dreams are put into being.`,
+    media: [],
+  },
+  {
     id: 'touched-by-adventure',
     place: 'Nassau',
     mapLabel: 'Nassau, Bahamas',
