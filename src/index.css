@@ -1,0 +1,185 @@
+/*
+ * Palette from a magnolia leaf: dark glossy green on top,
+ * warm rust-brown underneath, on a warm ivory ground.
+ * Restraint over ornament. No pastels, no sepia, no script.
+ */
+:root {
+  --ivory: #f2ecdf;
+  --ivory-deep: #e9e1cf;
+  --green: #21402e;
+  --green-ink: #142619;
+  --rust: #9a512b;
+  --ink: #29221b;
+  --serif: 'Iowan Old Style', 'Palatino Linotype', Palatino, Georgia, serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  height: 100%;
+}
+
+body {
+  background: var(--ivory);
+  color: var(--ink);
+  font-family: var(--serif);
+  overflow: hidden;
+}
+
+.app {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+}
+
+/* ---- header ---- */
+
+.site-header {
+  position: absolute;
+  top: 2rem;
+  left: 2.25rem;
+  z-index: 10;
+  pointer-events: none;
+}
+
+.wordmark {
+  margin: 0;
+  font-size: 1.35rem;
+  font-weight: 500;
+  letter-spacing: 0.32em;
+  text-transform: uppercase;
+  color: var(--green);
+}
+
+/* ---- pins ---- */
+
+.pin {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.3rem;
+  transform: translateY(-42%);
+  pointer-events: auto;
+  cursor: pointer;
+}
+
+.pin svg path {
+  fill: var(--rust);
+}
+
+.pin svg circle {
+  fill: var(--ivory);
+}
+
+.pin:hover svg path {
+  fill: var(--green);
+}
+
+.pin-label {
+  font-family: var(--serif);
+  font-size: 0.72rem;
+  letter-spacing: 0.09em;
+  color: var(--ink);
+  background: rgba(242, 236, 223, 0.92);
+  padding: 0.15rem 0.45rem;
+  border-radius: 2px;
+  white-space: nowrap;
+}
+
+/* ---- entry panel ---- */
+
+.entry-panel {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 20;
+  height: 100%;
+  width: min(30rem, 94vw);
+  padding: 3.25rem 3rem 3rem;
+  overflow-y: auto;
+  background: var(--ivory);
+  border-left: 1px solid var(--ivory-deep);
+  box-shadow: -24px 0 48px rgba(41, 34, 27, 0.18);
+  animation: panel-in 0.35s ease-out;
+}
+
+@keyframes panel-in {
+  from {
+    transform: translateX(2.5rem);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.entry-close {
+  position: absolute;
+  top: 1.1rem;
+  right: 1.35rem;
+  border: none;
+  background: none;
+  font-family: var(--serif);
+  font-size: 1.6rem;
+  line-height: 1;
+  color: var(--rust);
+  cursor: pointer;
+  padding: 0.25rem;
+}
+
+.entry-close:hover {
+  color: var(--green);
+}
+
+.entry-header {
+  margin-bottom: 2rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid var(--ivory-deep);
+}
+
+.entry-place {
+  margin: 0 0 0.35rem;
+  font-size: 0.8rem;
+  letter-spacing: 0.28em;
+  text-transform: uppercase;
+  color: var(--rust);
+}
+
+.entry-year {
+  margin: 0 0 0.35rem;
+  font-size: 0.85rem;
+  color: var(--green);
+}
+
+.entry-title {
+  margin: 0;
+  font-size: 1.55rem;
+  font-weight: 500;
+  line-height: 1.25;
+  color: var(--green-ink);
+}
+
+.entry-body {
+  font-size: 1.02rem;
+  line-height: 1.7;
+}
+
+.entry-body p {
+  margin: 0 0 1.1em;
+}
+
+.entry-media {
+  display: block;
+  width: 100%;
+  margin: 1.25rem 0;
+}
+
+.entry-empty {
+  color: var(--rust);
+  font-style: italic;
+}
