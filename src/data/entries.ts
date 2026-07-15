@@ -897,6 +897,104 @@ That voice I heard. . .was it really the sea? Oh, be quiet and listen. . .it may
     media: [],
   },
   {
+    id: 'confessions-of-a-fainter',
+    place: 'Montgomery',
+    lat: 32.3668,
+    lng: -86.3,
+    year: null, // no date printed — "just this last Monday" at the First Alabama Bank fashion show
+    title: 'Confessions of a Fainter',
+    // The Best of Madera pp. 122–126 (IMG_0683–0687). Her spellings kept
+    // ("claustophobic", "adverse to" for averse, "faint hearted" as two
+    // words across the line break). Spaced ellipses ". . ." as printed.
+    body: `In my long career as a journalist, I have recorded numerous personal experiences that at the moment seemed timely if not particularly edifying. However, it is only now, in view of my experience this past Monday, that I intrepidly reveal a life-long inclination to faint in public places. That's right. . .faint, like in fall out or swoon.
+
+My doctor, who says that basically fainting is caused by an insufficient amount of oxygen reaching the brain, has known about my penchant for fainting for years, as have my family, close friends, and an assortment of bewildered witnesses. Still, in an era when women stolidly scale mountains, run in marathons, and engage in wrestling, I must say I feel a bit archaic in admitting that I am afflicted with the vapors.
+
+The first experience of fainting that drifts to light in the dim recesses of my past, discounting vague recollections of passing out in school hallways and once in science class, was when I was with child. One night, between the chicken breasts with almonds and the country fried steak in the serving line at old Morrison's Cafeteria then located on Commerce Street, I dissolved silently into a huge lump at the feet of my poor, young and then inexperienced husband. Responding more out of embarrassment than concern, I suspect, he scooped me into his arms and lugged me through the maze of tables of curious diners, up the narrow, angled stairway to the second-floor ladies' room where I was soon revived by the off-duty cashier. As was to become my custom, I continued with dinner afterwards.
+
+Before the child was born, however, there were other notable faints, including one in the lobby of a downtown bank. Apparently they removed me from the mainstream of traffic and deposited me on the floor behind the tellers' desks, for I awoke with stacks of money all around me.
+
+Possibly the most spectacular faints I have executed have been at the speaker's table at local banquets. There seems to be something mysteriously compelling to the dysfunctioning of my oxygen system when a visiting speaker arises to commence his address. I have been accused of trying to steal the show.
+
+The first time I recall a fainting spell in this category was when the then newly-organized Knife and Fork Club met in the upstairs Pine Room of Montgomery Country Club. With only a few words of acknowledgement by the speaker of his introduction, I fainted. Befuddled and more than likely exasperated, the speaker was forced to resume his seat while they prised me out from the narrow space between the chair and the wall and hauled me downstairs to a sofa.
+
+Another episode was at a Rotary Club luncheon when I was one of only three ladies present amidst a room full of Rotarians. Again, as the speaker (William Gargan, the movie star) arose to begin his talk, the tell-tale blindness, weakness, and clamminess that indicate an approaching fainting fit washed over me. Bingo. . .I was out. After eons of oblivion, I awoke to find myself lying prostrate on a rolling serving trolley in the alley behind the Whitley Hotel, surrounded by four Rotarian doctors (a G.P., a surgeon, a gynecologist, and an eye-ear-nose-and-throat man), as well as my minister at that time, Dr. Wilbur Walton. When I was ambulatory, Dr. Walton took me home. A few years later when Dr. Walton was elevated to District Superintendent of the Methodist Church I greatly rejoiced, for had he not left his Rotary Club lunch to shepherd home one of his puny sheep?
+
+As spectacular as it is fainting at head tables, for pure adventure there is nothing to compare with fainting in a foreign country. I have fainted in Czechoslovakia, in Singapore, and in the mid-North Atlantic, to mention a few places of distinction.
+
+In Czechoslovakia, my episode took place in a medieval basement restaurant, and was triggered by the fact that I was wedged into what appeared to my claustophobic senses a cul de sac with a straight view into the interior of a kitchen which would score sub-zero in a health department survey. With the first whiff of the greasy soup, I responded by making the only exit possible. . .sliding under the table. Although I'm sorry my fellow tour members were surpassingly alarmed, my predicament did not remotely faze the Czech workers from the nearby factories whose olfactory senses apparently are accustomed to odoriferous soup. While my group continued the meal, I was laid out prone on the back seat of the bus which had been pulled into a no-parking zone in front of the cafe, and only the visions of being jailed in Czechoslovakia kept me alert enough to clutch my passport in case the necessity of protest arose.
+
+The mid-Atlantic caper was at 2 a.m. in my own stateroom aboard the old "Queen Mary" ocean liner, and was a direct result, no doubt, of the midnight buffet after the Captain's party. I was able to summon the steward before unconsciousness set in, and he in turn roused the nurse who gave me an injection that put me entirely out of commission for two days.
+
+But the most memorable faint of all was only last summer in Singapore. I succumbed to the stifling heat and the hot curry by fainting in a taxi — alone. The driver was Chinese with a limited English vocabulary. I had not gone a block in his cab before I gouged him in the back and told him I was going to faint, which was apparently all Greek to him. As I lay inert on the back seat in a pool of perspiration, the hot Malaysian wind blowing through the rolled-down windows, the driver cast swift and astonished glances at me over his shoulder as we tooled through Singapore's narrow streets of Chinatown. Even in my semi-conscious state I wondered feebly what my fate would be. Would he rob me of my handbag thrown unguarded upon the seat? I had been robbed once in Amsterdam and did not feel I could cope with the police just now. But worse than that, would he molest me physically and throw my ravished body into already polluted waters of Singapore harbor?
+
+I did the only thing I could do under the circumstances, I prayed the most fervent prayer I could muster, then just gave myself up to the miseries.
+
+The driver did not do any of the things I feared. Apparently he was as scared as I was and equally adverse to the prospect of my expiring in the back seat of his taxi. When we reached the Shangri La Hotel at breakneck speed, he shouted to the doorman before the wheels stopped rolling, "Lady sick! Lady sick!" in the same tone of voice one warns "Mad dog! Mad dog!" I was ministered to with genuine concern by the kind hotel manager, the assistant manager, two little maids in pretty cotton sarongs, and assorted other personnel who accompanied me ceremoniously to my room to which I was conveyed by wheelchair. None of them — not even the taxi driver — would accept a proffered tip for their solicitude.
+
+What has dredged these confessions of the faint hearted from the misty caverns of memory is that just this last Monday as I was finishing a fashion show in the auditorium of the First Alabama Bank, I felt a faint coming on. Having been unwell earlier in the morning, I was aware of the possibility. My vast store of experience has taught me to avert approaching disaster by immediately getting into a horizontal position, so my first impulse was to lie down on the stage. But this seemed a bit showy even for me, and especially so at 10:30 on a cold winter's morning. So I just abruptly brought the program to an end and crept down to where the chairs were lined up for the audience.
+
+It was there I lay me down to faint on the nice, soft carpet.
+
+Every public establishment ought to be required by law to have nice, soft carpeting for people like me.`,
+    media: [],
+  },
+  {
+    id: 'israels-ancient-land',
+    place: 'Israel',
+    // Pinned at Tiberias, where the opening journal entry was written; the
+    // piece itself roams the whole pilgrimage.
+    lat: 32.7959,
+    lng: 35.531,
+    year: 1982, // printed "(1982)" at the end; her journal entry is dated March 1
+    title: "Israel's Ancient Land",
+    // The Best of Madera pp. 133–136 (IMG_0694–0697) — the last piece in the
+    // book. Her spellings kept ("Tiberias, built by Herod Antipas in 25
+    // A.D.", "It were as though", "others are a modern as Fifth Avenue",
+    // "Caesarea Phillipi", "Massada", "Askelon", "bibical times",
+    // "Revelations"). Spaced ellipses ". . ." as printed.
+    body: `"The sun is setting. The billowing clouds of pearly pink grow gray as mourning doves over the darkening Golan Heights across the sea. I hear birdsong and children's voices drifting over the ancient stones of Tiberias, built by Herod Antipas in 25 A.D."
+
+These words I wrote in my journal March 1 when our group of 12 settled in our hotel in Tiberias, Israel, after a day's journey from Jerusalem. Now, as I sat alone in the twilight, I watched tiny, flickering lights on the hills across the sea, the growing dusk displaying them like precious jewels on a knotted string. Graceful gulls with plaintive cries soared effortlessly over the water's edge where small fishing boats waited to go out for the night's catch, as did Peter's and Andrew's and James' and John's so many years ago.
+
+"Just think," I whispered to myself in the gathering darkness, "this is the same sea, the same twilight, the same breeze sweeping down from the Golan hills that caressed the tired Jesus as he taught and healed the multitudes on this Sea of Galilee."
+
+Next morning we took an early boat across the crenulated lake to Capernaum where the ancient synagogue built by the appreciative Centurion and relics of bygone glories lay moldering in the sun, the waving shadows of palms and eucalyptus trees creeping like the skittering lizards over the old, gray crumbling stones.
+
+Near to Capernaum is the Mount of Beatitudes, now marked by the Italian Franciscan sisters with a small octagonal-shaped shrine, its stained glass windows under the lofty dome proclaiming in Latin the eight beatitudes. Its acoustics are so remarkable that when together we sang and prayed the Lord's Prayer, our voices reverberated like a heavenly choir and not our small band of 12. Deep emotion marks the remembrance.
+
+And so went the comprehensive pilgrimage to Israel. It were as though we had lived from Genesis to Revelations. Life will forever be more meaningful.
+
+With limited space, let me share only a few of my personal reflections:
+
+. . .As one walks the dingy, cobbled Via Dolorosa where Jesus trod with his cross to Calvary, the winding streets are an arcade of kaleidoscopic, small shops selling the wares of the world. Some pedestrians seem to have stepped out of the Book of Samuel, while others are a modern as Fifth Avenue. Little donkeys heavily laden with wares plod wearily along the narrow streets as well. The aromas of sweets and of breads and of sheepskins and of incense and oil and spices are heady reminders of the Middle East.
+
+. . .Our voices lifted in song in the crisp morning air were tremulous as together we closely stood in the Garden of Gethsemane. The old, twisted olive trees may be the very ones under which Jesus sat that last agonizing day when Judas betrayed him with a kiss.
+
+. . .Shall I ever forget the reading aloud, at our guide's request, the 37th chapter of Ezekiel as we sat on the hot stones of the synagogue ruins atop incredible Massada? Herod the Great had built a palace upon the massive rock, looking upon the barren wasteland of the wilderness and to Moab across the Dead Sea. Here at Massada the last of the Zealots retreated in 66 A.D. to be besieged later by the Romans for three long, tedious years. Rather than be taken, the 960 Zealots put themselves to death and Massada fell in 73 A.D.
+
+. . .Ah, the joy of putting one's foot in the cooling waters of the River Jordan and of wading upon the rocks of the Dead Sea! To see the Jordan gush forth from its source at Caesarea Phillipi at the foot of Mt. Hermon and to follow its meandering progress through the Sea of Galilee to the fertile valley beyond is to realize the magical importance of water in carving out the history of this land.
+
+. . .How beautiful is Jericho nestling in a fertile oasis near the wilderness of Judea! Fruits and flowers and palms in abundance bloom in the desert air. We stopped at Elisha's spring to touch the healing water which has succored man for thousands of years (II Kings 2:19-21).
+
+. . .And look up there! Upon that hill is Bethlehem, its winding, narrow streets and its people are much the same as when Ruth and Naomi came home from Moab, and when Mary and Joseph sought a room at an inn. Nearby on the rocky hillsides shepherds still tend their sheep and gather them into caves for protection from the storms.
+
+. . .Nazareth lies somnolently on a hilltop, too, and Mary's Well still offers fresh water to the traveler.
+
+. . .The Bedouin tents sprawl filthily across hot wastelands as they have from time immemorial. The Bedouin market in Beer Sheva was bedlam. With donkeys and camels and sheepskins and oil, with olives and vegetables and almonds and fruits, the nomads mill madly at the market, their dark-skinned faces under their dirty head-dresses are faces of the wanderers of bibical times. Their nomadic lives have changed little as they now spread their tents near bustling cities and tend their flocks on sandy hills.
+
+. . .And then one sees those once proud, mighty cities of Caesarea, Askelon, Ashdod and Accho, reduced now to silt-covered ruins, their past glories buried in rubble or taken away by plunderers for thousands of years. The crows and the hoopoe birds are Askelon's inhabitants.
+
+But new cities like Tel Aviv arise. Citizens of modern Israel have turned deserts into orchards. Fruits, avocados, almonds, dates and vegetables grow on green, fertile, irrigated land. Miracles are wrought as land is restored.
+
+Wildflowers still bloom in the valleys, in crevices of old rocks and upon the rolling hills. From Mt. Carmel one looks upon the splendors of the Valley of Jezreel and on Carmel's slopes, red anemones are arrayed like Solomon in all his glory.
+
+The Bible Land — the most revered land in the world. The most fought over and sought after land on the globe. And the most remembered.
+
+(1982)`,
+    media: [],
+  },
+  {
     id: 'touched-by-adventure',
     place: 'Nassau',
     mapLabel: 'Nassau, Bahamas',
@@ -1390,13 +1488,50 @@ Possibly only in Japan.`,
     media: [],
   },
   {
-    id: 'amsterdam',
+    id: 'non-person-in-amsterdam',
     place: 'Amsterdam',
     lat: 52.3676,
     lng: 4.9041,
-    year: null,
-    title: 'Placeholder — title TBC',
-    body: '*Placeholder.* Her writing from Amsterdam will go here once transcribed.',
+    year: null, // no year printed — "last week", in her 20th year of European travel
+    title: 'Non-Person in Amsterdam',
+    // The Best of Madera pp. 127–132 (IMG_0688–0693). Replaces the old
+    // placeholder entry. Her spellings kept ("polygot", "Nieuwenstraat",
+    // "Leidesplein", "armsful", "regaling Anne of our adventure",
+    // "passpoort"/"vliegticket"/"travellerscheques" as the Dutch report
+    // renders them).
+    body: `The sunset sky over Amsterdam was like an old Dutch painting with iridescent pink clouds floating languidly through the twilight haze. There was only one thing amiss about the tranquil view — I was looking at it through a small dingy, third-floor window of the police station.
+
+How I came to be sitting in the Amsterdam police station at sunset is a saga that proves one is never too old nor too sophisticated to be immune from new experiences. My experience in Amsterdam last week will be memorable, for in 20 years of European travel I have never been a non-person in a foreign country.
+
+The whole episode started one afternoon when my traveling companion, Gladys Sellers, and I left the third member of our party, Anne Hamilton, in the hotel to rest while we joined the throngs of Amsterdam's polygot population to take a tram ride to Dam Square. With enthusiasm we walked through the bustling Nieuwenstraat (walking street) listening enthralled to the music of the barrel organs grinding out calliope tunes, on past the herring and "patates frites" (fried potato) stands, looking in shop windows filled with wares from all over the world. At Dam Square near the old palace we bought armsful of fragrant, fresh flowers to brighten our hotel rooms and to take to Anne.
+
+At the tram (electric street car) boarding area, we were blithely gay and filled with enthusiasm at the whirl of noise and people speaking in languages of faraway places.
+
+As we stepped into the tram, with a rush so fast I didn't know what was happening, three strapping, unwashed teenagers of indeterminate origin rushed upon me, pushing and shoving and chattering as the tram roared to the next station several minutes away. With my armload of flowers my view was cut off from my zippered handbag close to my body, so it was only at the next stop when the doors flew open and the boys lurched off the tram discarding my small make-up bag and notebook to the floor that I realized they had chosen me as their victim and had left me a veritable non-person. They had stolen my passport, my travelers checks and my airline ticket. Out of my still half-closed handbag, they had taken my coinpurse with Dutch guilders in it as well, as they made off in the dense, surging crowd boarding the loaded tram.
+
+Believe me, my heart sank as low as Holland's polder lands. Speechless, Gladys and I pushed off the tram, stood dejectedly on the Leidesplein, one of the busiest and most boisterous squares in Amsterdam with hippies in weird getups and long, greasy hair surging around us like the tide that isolates Mont St. Michel. A crawling fear left me almost paralyzed, my wits momentarily benumbed as if there had been a blow on the head.
+
+But then I thought, Thank God, there hadn't been a blow on the head! I was still ambulatory and suffering no bodily harm.
+
+With eyes the size of saucers and a voice that quivered, Gladys shakily asked, "What in the world are you going to do?" That seemed a fair question at the moment, but gathering up all the bravado I could muster, I said, rather cheerfully under the circumstances, "Well, one thing for sure, I'm not going to let it spoil my trip!"
+
+So with both of us still tightly clutching our flowers, we hastened to the nearby police station where the potential danger lurking on the Leidesplein is viewed passively through open windows with limp net curtains dangling tiredly at each side. Inside, another couple was telling a young policeman their tale of woe, they having had the same experience five minutes earlier on the same tram line. The trembling man said he was in Holland to study Rembrandt in order to lecture at the Metropolitan in New York and they were to leave the next day, only now there were no passports, travelers checks or credit cards. But the woman was doing most of the talking.
+
+We were told by the policeman in charge that we had to go to the main police station to make our complaint. It was back downtown on the Singel Canal, he said, and all one had to do was take the tram outside and retrace our steps. Well, Gladys and I weren't having any of that. We queued up at the taxi stand on Leidesplein and got a cab which careened us over at least half of Amsterdam's 700 canal bridges to a remote street where thousands of bicycles spilled onto the cobblestones.
+
+Inside the seemingly deserted station, we were told by a lone attendant in a cubbyhole that we were to report to room 25 on the third floor. Now unless you have been in an old Dutch 17th century building you can't imagine what the staircases are like. They go straight up like a ladder and are about as wide. Up, up, up we went, still clutching the now wilting flowers. Our predicament suddenly touched our funny-bones and we giggled hysterically as we climbed the steep steps and knocked on the shut door of No. 25.
+
+A nice-looking young Dutchman in a sport shirt was taking the statement from the same couple who had been at the other police station, and another casually-dressed young man sat me down by his desk and asked me a million questions, translating the interrogation into Dutch as he typed the report. It noted that the M.O. (method of operation, like on Kojak) was "tassenrollerij" (pickpocket), and that beside my "U.S. passpoort", my KLM "vliegticket" and my "travellerscheques" were stolen. Every now and then the two young clerks would seem to get off on another subject and chatter to each other in Dutch. One time one handed the other a lock and key. Gladys sitting quietly over against the wall with her flowers, said she thought for a moment they were intending to lock me up, but after about 45 minutes the report was finished and I was given copies to take to the American Consulate and the American Express. While all of this was going on, Gladys used the police phone to call Anne and tell her we were at the police station.
+
+Well, it was nearly night when we carefully crawled back down those steps to the ground floor, went out into the narrow cobbled-stone canalside street and contemplated how we were going to get back to the hotel. You see, the problem was that taxis in Amsterdam do not cruise as in other large cities. You have to find a taxi rank and stand in line until your turn, and if you don't know where a taxi rank is you could wander for days around those canals. Studying my city-map in the eerie approaching darkness, I located the nearest "plein" (square) and in no time at all we were sitting in our hotel room with our cobble-stone-bruised feet propped on the bed, regaling Anne of our adventure.
+
+During the days that followed, between marvelous visits to the tranquil villages of Holland — Gouda, Utrecht, Wassenaar, bustling Hague and Rotterdam — as well as walking tours from east to west and north to south in Amsterdam to visit museums, flea markets, and renowned restaurants, I made three trips to the American Consulate away out on Museumplein, one trip back down to the Nieuwenstraat to have my photos made in case I got a new passport, another trip down to American Express in the dirty Damrak area near Central Station where the riffraff is as thick as the flies on the open-air pastry stalls, plus two visits and numerous telephone calls to KLM about my ticket.
+
+The nice man at American Express took less than 30 minutes to judge me an honest U.S. citizen in good standing by my word alone for I had no proof, and gave me the entire amount of my stolen traveler's checks. It took the American Consulate considerably longer, for it was only two hours before my departure from Schiphol Airport 10 miles away that my temporary consulate passport was issued. KLM had capitulated earlier that morning, writing me out a new ticket.
+
+It was only when I finally had my documents in hand that the creepy feeling of uncertainty vanished. Had I not had my traveler's checks numbers, my passport number, and other identification in separate places from my handbag, it may have been even more difficult. I might still be wandering the canals and sinister neighborhoods of Amsterdam, homeless, forlorn and abandoned.
+
+As it was, no harm really was done. I had survived.`,
     media: [],
   },
   {
