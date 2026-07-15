@@ -25,7 +25,8 @@ A memorial site built around one person's travel writing. There is no deadline; 
 ## Transcription sessions
 
 If the task is transcribing her articles from photos, read **TRANSCRIBING.md**
-first and follow it exactly. Raw photos live in `book-photos/` (gitignored).
+first and follow it exactly. Raw photos live in `scans-best-of-madera/` at the
+repo root (gitignored — never commit them or move them into `src/`).
 
 ## Content rules
 

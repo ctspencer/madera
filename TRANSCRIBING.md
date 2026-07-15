@@ -7,7 +7,7 @@ Madera Spencer's book pages into entries on the site.
 
 | What | Where | Committed? |
 |---|---|---|
-| Raw photos of book pages | `book-photos/` | **No** — gitignored. Working material, often blurry/duplicated/huge. |
+| Raw photos of book pages | `scans-best-of-madera/` (repo root) | **No** — gitignored. 71 phone photos (IMG_*.JPG), ~333MB. Working material only. |
 | Page images that appear on the site | `public/media/` | Yes — resized to ≤1600px on the long edge, JPEG quality ~85 (`sips -Z 1600 -s format jpeg -s formatOptions 85 in.png --out public/media/name.jpg`). |
 | The entries themselves | `src/data/entries.ts` | Yes — this one list drives the whole site. |
 
@@ -55,7 +55,10 @@ stacks the pieces in year order.
 
 ## Workflow that works
 
-1. Read a photo from `book-photos/` with the Read tool (it renders images).
+1. Read a photo from `scans-best-of-madera/` with the Read tool (it renders
+   images). Work through them in filename order; adjacent IMG numbers are
+   often pages of the same article — check before treating them as separate
+   pieces.
 2. Transcribe into a new entry in `src/data/entries.ts`.
 3. **Proofread against the photo once, word by word** — transcription errors
    are the one unrecoverable failure here.
