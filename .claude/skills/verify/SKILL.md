@@ -23,9 +23,10 @@ mkdir -p /tmp/madera-verify && cd /tmp/madera-verify && npm i playwright-core
 ```
 
 Selectors: pins are `.pin` (dot `.pin-dot`, hover-only label `.pin-label`), places nav
-is `.places-toggle` / `.places-item`, panel is `.entry-panel` with `.entry-place`,
+is `.places-toggle` / `.places-item`. Entries open in a centered modal (2026-07
+redesign): `.modal-backdrop` > `.modal-card`, containing `.entry-place`,
 `.entry-section` (one per entry), `.entry-divider`, `.entry-title`, `.entry-body`,
-close button `.entry-close`. Bird plate is `.bird` (non-interactive).
+close button `.entry-close`. There is no `.entry-panel` anymore.
 
 ## Gotchas
 
