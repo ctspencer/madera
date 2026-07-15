@@ -1,23 +1,15 @@
-import { entries, introduction } from '../data/entries'
+import { Carousel } from './Carousel'
+import { photos } from '../data/archive'
 
 interface PhotosPageProps {
   onClose: () => void
 }
 
-// Every image already attached to an entry, gathered in one place.
-const photos = [...entries, introduction].flatMap((entry) =>
-  entry.media.map((src) => ({
-    src,
-    place: entry.place,
-    caption: entry.title,
-  })),
-)
-
 export function PhotosPage({ onClose }: PhotosPageProps) {
   return (
     <div className="modal-backdrop" onClick={onClose}>
       <article
-        className="modal-card"
+        className="modal-card modal-gallery"
         aria-label="Photos"
         onClick={(e) => e.stopPropagation()}
       >
@@ -25,17 +17,23 @@ export function PhotosPage({ onClose }: PhotosPageProps) {
           ×
         </button>
         <h2 className="about-title">Photos</h2>
-        <div className="photo-grid">
-          {photos.map((photo) => (
-            <figure key={photo.src} className="photo-figure">
-              <img src={import.meta.env.BASE_URL + photo.src} alt={photo.caption} />
+        <Carousel
+          count={photos.length}
+          render={(i) => (
+            <figure className="photo-figure">
+              <img
+                src={import.meta.env.BASE_URL + photos[i].src}
+                alt={photos[i].caption}
+              />
               <figcaption>
-                <span className="photo-place">{photo.place}</span>
-                {photo.caption}
+                {photos[i].date && (
+                  <span className="photo-place">{photos[i].date}</span>
+                )}
+                {photos[i].caption}
               </figcaption>
             </figure>
-          ))}
-        </div>
+          )}
+        />
       </article>
     </div>
   )

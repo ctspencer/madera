@@ -113,11 +113,33 @@ body {
   right: 0;
   z-index: 10;
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 0.6rem 0.7rem;
-  padding: 1rem 2rem 1.25rem;
+  flex-direction: column;
+  gap: 0.55rem;
+  padding: 1rem 2rem 1.1rem;
   background: linear-gradient(to top, rgba(180, 168, 201, 0.75), rgba(180, 168, 201, 0));
+}
+
+.places-group {
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.places-group-label {
+  flex: 0 0 8.5rem;
+  text-align: right;
+  font-size: 0.9rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--ink-plum);
+  opacity: 0.75;
+}
+
+.places-group-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.55rem 0.6rem;
 }
 
 .chip {
@@ -392,12 +414,63 @@ body {
   margin-top: 0.35rem;
 }
 
-/* ---- photos ---- */
+/* ---- photos & letters: one item at a time, arrows to move ---- */
 
-.photo-grid {
+.modal-gallery {
+  overflow-y: hidden; /* the carousel frame scrolls, not the card */
+  display: flex;
+  flex-direction: column;
+}
+
+.modal-gallery .entry-close {
+  position: absolute;
+  top: 1rem;
+  right: 1.25rem;
+  float: none;
+  margin: 0;
+}
+
+.carousel {
+  position: relative;
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
-  gap: 1.75rem;
+  grid-template-columns: auto 1fr auto;
+  align-items: center;
+  gap: 0.75rem;
+  min-height: 0;
+}
+
+.carousel-frame {
+  max-height: 62vh;
+  overflow-y: auto;
+  scrollbar-width: thin;
+}
+
+.carousel-arrow {
+  border: none;
+  width: 2.9rem;
+  height: 2.9rem;
+  border-radius: 50%;
+  background: rgba(180, 168, 201, 0.25);
+  font-family: var(--serif);
+  font-size: 2.1rem;
+  line-height: 1;
+  color: var(--rust);
+  cursor: pointer;
+  align-self: center;
+}
+
+.carousel-arrow:hover {
+  background: rgba(180, 168, 201, 0.45);
+  color: var(--green);
+}
+
+.carousel-counter {
+  grid-column: 1 / -1;
+  margin: 0.9rem 0 0;
+  text-align: center;
+  font-size: 1.05rem;
+  letter-spacing: 0.12em;
+  color: var(--rust);
 }
 
 .photo-figure {
@@ -417,13 +490,31 @@ body {
   color: var(--ink);
 }
 
-.photo-figure .photo-place {
+.photo-place {
   display: block;
-  font-size: 0.9rem;
+  font-size: 0.95rem;
   letter-spacing: 0.14em;
   text-transform: uppercase;
   color: var(--rust);
   margin-bottom: 0.2rem;
+}
+
+.letter-item {
+  margin: 0;
+}
+
+.letter-caption {
+  margin: 0 0 1rem;
+  font-size: 1.15rem;
+  line-height: 1.5;
+}
+
+.letter-page {
+  display: block;
+  width: 100%;
+  max-width: 34rem;
+  margin: 0 auto 1.25rem;
+  border: 1px solid var(--ivory-deep);
 }
 
 /* ---- mobile: sized for old eyes on a phone ---- */
@@ -444,16 +535,45 @@ body {
   }
 
   .places-strip {
+    gap: 0.45rem;
+    padding: 0.75rem 0.75rem 0.9rem;
+  }
+
+  .places-group {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.25rem;
+  }
+
+  .places-group-label {
+    flex: none;
+    text-align: left;
+    font-size: 0.8rem;
+  }
+
+  .places-group-chips {
     flex-wrap: nowrap;
-    justify-content: flex-start;
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
-    gap: 0.55rem;
-    padding: 1rem 1rem 1.1rem;
+    width: 100%;
+    padding-bottom: 0.2rem;
   }
 
   .chip {
     font-size: 1.15rem;
+  }
+
+  .carousel {
+    gap: 0.4rem;
+  }
+
+  .carousel-frame {
+    max-height: 58vh;
+  }
+
+  .carousel-arrow {
+    width: 2.6rem;
+    height: 2.6rem;
   }
 
   .modal-backdrop {

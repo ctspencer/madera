@@ -49,5 +49,5 @@ First real entries are in: her January 1956 letter from New York (transcribed ve
 ## Credits
 
 - Country shapes: [Natural Earth](https://www.naturalearthdata.com/) 110m Admin 0 (public domain), pruned and committed at `public/data/countries.geo.json` so the build never depends on an external URL.
-- Letter scan and photographs: family collection / Alabama Textual Materials Collection.
+- Photos and letters: Madera Spencer papers (MSS32), Alabama Department of Archives and History, digitized in the Alabama Digital Archives. Captions and dates are the archive's own. Per ADAH's rights statement, some items may carry third-party copyright; this family memorial reproduces them for remembrance and scholarship.
 - Typewriter face for her words: [Courier Prime](https://fonts.google.com/specimen/Courier+Prime) by Alan Dague-Greene (OFL), self-hosted at `public/fonts/`.

@@ -44,6 +44,8 @@ export interface Place {
   place: string
   label: string
   pin: string
+  /** True when the place is outside the U.S. (any entry carries a pinLabel). */
+  abroad: boolean
   lat: number
   lng: number
   entries: Entry[]
@@ -59,6 +61,7 @@ export function groupByPlace(list: Entry[]): Place[] {
         place: entry.place,
         label: entry.mapLabel ?? entry.place,
         pin: '',
+        abroad: false,
         lat: entry.lat,
         lng: entry.lng,
         entries: [],
@@ -69,6 +72,7 @@ export function groupByPlace(list: Entry[]): Place[] {
     place.entries.push(entry)
   }
   for (const place of places) {
+    place.abroad = place.entries.some((e) => e.pinLabel !== undefined)
     place.pin =
       place.entries.find((e) => e.pinLabel)?.pinLabel ??
       place.entries.find((e) => e.mapLabel)?.mapLabel ??
@@ -411,6 +415,7 @@ No wonder they all cracked up. But I got there, didn't I?`,
     // so the pin sits mid-ocean. OPEN QUESTION for owner: happy to move
     // it to Southampton or New York if a city pin reads better.
     place: 'The North Atlantic',
+    pinLabel: 'The North Atlantic',
     lat: 45,
     lng: -40,
     year: 1980, // dated in the book: (1980)
@@ -534,6 +539,7 @@ The tune being played on the radio as we bumped down that deserted, jungledy roa
   {
     id: 'czechoslovakia-another-world',
     place: 'Czechoslovakia', // her name for the country, never modernized
+    pinLabel: 'Czechoslovakia',
     lat: 50.0755, // pinned at Prague
     lng: 14.4378,
     year: null, // no year printed — the Queen's Silver Jubilee she mentions was 1977; owner to confirm
@@ -953,6 +959,7 @@ Every public establishment ought to be required by law to have nice, soft carpet
   {
     id: 'israels-ancient-land',
     place: 'Israel',
+    pinLabel: 'Israel',
     // Pinned at Tiberias, where the opening journal entry was written; the
     // piece itself roams the whole pilgrimage.
     lat: 32.7959,
@@ -1337,6 +1344,7 @@ When I returned to the Beverly Hilton, I stopped in the lounge to wash the stard
   {
     id: 'magical-greece',
     place: 'Greece',
+    pinLabel: 'Greece',
     lat: 37.9838, // pinned at Athens
     lng: 23.7275,
     year: null, // no date given — an Advertiser-Journal European tour, June
@@ -1462,6 +1470,7 @@ Suddenly, the world with all its differences and variations had dwindled to fami
   {
     id: 'japan-land-of-contrast',
     place: 'Japan',
+    pinLabel: 'Japan',
     lat: 35.6762, // pinned at Tokyo
     lng: 139.6503,
     year: null, // no date given — the Advertiser-Journal Orient Tour, Golden Week

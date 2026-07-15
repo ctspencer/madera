@@ -5,9 +5,10 @@ import { PlacesStrip } from './components/PlacesStrip'
 import { AboutPage } from './components/AboutPage'
 import { EulogyPage } from './components/EulogyPage'
 import { PhotosPage } from './components/PhotosPage'
+import { LettersPage } from './components/LettersPage'
 import { entries, groupByPlace, type Place } from './data/entries'
 
-type Overlay = 'about' | 'eulogy' | 'photos' | null
+type Overlay = 'about' | 'eulogy' | 'photos' | 'letters' | null
 
 export default function App() {
   const places = useMemo(() => groupByPlace(entries), [])
@@ -33,6 +34,9 @@ export default function App() {
           <button className="nav-link" onClick={() => setOverlay('photos')}>
             Photos
           </button>
+          <button className="nav-link" onClick={() => setOverlay('letters')}>
+            Letters
+          </button>
         </nav>
       </header>
       <Globe places={places} selected={selected} onSelect={setSelected} />
@@ -41,6 +45,7 @@ export default function App() {
       {overlay === 'about' && <AboutPage onClose={() => setOverlay(null)} />}
       {overlay === 'eulogy' && <EulogyPage onClose={() => setOverlay(null)} />}
       {overlay === 'photos' && <PhotosPage onClose={() => setOverlay(null)} />}
+      {overlay === 'letters' && <LettersPage onClose={() => setOverlay(null)} />}
     </div>
   )
 }
