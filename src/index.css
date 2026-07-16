@@ -233,12 +233,6 @@ body {
   white-space: nowrap;
 }
 
-/* Small screens tuck labels until zoomed in; the strip names everything. */
-.labels-tucked .pin-label {
-  opacity: 0;
-  transition: opacity 0.3s ease;
-}
-
 /* Latitude-neighbors cycle label positions so nearby names don't stack. */
 .pin-above .pin-label {
   top: auto;

@@ -65,11 +65,6 @@ export function Globe({ places, selected, onSelect }: GlobeProps) {
       return { ...p, showLabel, labelPos: posByPlace.get(p.place) ?? 'pin-below' }
     })
   }, [places])
-  // On a phone the full label set is unreadable clutter at far zoom, so
-  // small screens tuck labels until the camera comes in close; the chip
-  // strip still names everything. Desktop keeps labels always on.
-  const [zoomedIn, setZoomedIn] = useState(false)
-  const tuckLabels = width <= 640 && !zoomedIn
   const resumeTimer = useRef<number | undefined>(undefined)
   const onSelectRef = useRef(onSelect)
   onSelectRef.current = onSelect
@@ -133,14 +128,11 @@ export function Globe({ places, selected, onSelect }: GlobeProps) {
   }, [selected])
 
   return (
-    <div className={tuckLabels ? 'labels-tucked' : undefined}>
+    <div>
       <GlobeGL
       ref={globeRef}
       width={width}
       height={height}
-      onZoom={(pov: { altitude?: number }) =>
-        setZoomedIn((pov.altitude ?? 99) < fitAltitude(1.9))
-      }
       backgroundColor="rgba(0,0,0,0)"
       globeMaterial={oceanMaterial}
       showAtmosphere={true}
