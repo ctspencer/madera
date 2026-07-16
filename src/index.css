@@ -119,12 +119,25 @@ body {
   bottom: 7.5rem;
   z-index: 10;
   margin: 0;
-  max-width: 15rem;
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   font-style: italic;
   line-height: 1.5;
   color: var(--ink-plum);
-  opacity: 0.85;
+  opacity: 0.9;
+}
+
+/* the dot in the sentence, dressed like the pins on the globe */
+.hint-dot {
+  display: inline-block;
+  width: 11px;
+  height: 11px;
+  border-radius: 50%;
+  background: var(--red-muted);
+  box-shadow:
+    0 0 0 3px rgba(244, 239, 228, 0.25),
+    0 0 0 4px rgba(168, 67, 61, 0.45);
+  margin: 0 0.15rem;
+  vertical-align: baseline;
 }
 
 /* ---- places strip along the bottom ---- */
@@ -629,8 +642,7 @@ body {
   .globe-hint {
     left: 1.25rem;
     bottom: 9.5rem;
-    max-width: 13rem;
-    font-size: 0.95rem;
+    font-size: 1.05rem;
   }
 
   .places-strip {

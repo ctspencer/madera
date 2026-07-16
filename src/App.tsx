@@ -65,8 +65,7 @@ export default function App() {
       <PlacesStrip places={places} onSelect={openPlace} />
       {!hasReadSomething && (
         <p className="globe-hint">
-          Click a pin on the globe — or a place below — to read what she
-          wrote there.
+          Click a <span className="hint-dot" aria-label="red dot" /> to begin
         </p>
       )}
       {selected && <EntryPanel place={selected} onClose={() => setSelected(null)} />}
