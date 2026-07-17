@@ -31,6 +31,11 @@ export interface Entry {
   lat: number
   lng: number
   year: number | null
+  /**
+   * Optional explicit position within a place's chapter. Entries with an
+   * order come first (ascending); the rest follow in year order.
+   */
+  order?: number
   title: string
   body: string | null
   media: string[]
@@ -78,6 +83,9 @@ export function groupByPlace(list: Entry[]): Place[] {
       place.entries.find((e) => e.mapLabel)?.mapLabel ??
       place.place
     place.entries.sort((a, b) => {
+      const ao = a.order ?? Infinity
+      const bo = b.order ?? Infinity
+      if (ao !== bo) return ao - bo
       if (a.year === null && b.year === null) return 0
       if (a.year === null) return 1
       if (b.year === null) return -1
@@ -1067,6 +1075,7 @@ But I took something very precious with me. An experience to remember.`,
   },
   {
     id: 'a-happening-in-new-york',
+    order: 1, // owner wants this first in the New York chapter, before the 1956 letter
     place: 'New York',
     lat: 40.7128,
     lng: -74.006,

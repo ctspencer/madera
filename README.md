@@ -48,7 +48,5 @@ First real entries are in: her January 1956 letter from New York (transcribed ve
 
 ## Credits
 
-- Opening image: *Mocking Bird*, Plate 21 of John James Audubon's *Birds of America*. Courtesy of the John James Audubon Center at Mill Grove, Montgomery County Audubon Collection, and Zebra Publishing.
-
 - Country shapes: [Natural Earth](https://www.naturalearthdata.com/) 110m Admin 0 (public domain), pruned and committed at `public/data/countries.geo.json` so the build never depends on an external URL.
 - Photos and letters: Madera Spencer papers (MSS32), Alabama Department of Archives and History, digitized in the Alabama Digital Archives. Captions and dates are the archive's own. Per ADAH's rights statement, some items may carry third-party copyright; this family memorial reproduces them for remembrance and scholarship.

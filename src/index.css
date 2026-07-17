@@ -112,56 +112,6 @@ body {
   margin-left: 1.1rem;
 }
 
-/* ---- opening frontispiece: the mockingbird, then the world ---- */
-
-.opening {
-  position: absolute;
-  inset: 0;
-  z-index: 40;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 1rem;
-  padding: 2rem;
-  background: radial-gradient(ellipse at 50% 42%, var(--lilac) 0%, var(--lilac-deep) 100%);
-  cursor: pointer;
-  opacity: 1;
-  transition: opacity 0.8s ease;
-  animation: fade-in 0.6s ease-out;
-}
-
-.opening-fading {
-  opacity: 0;
-  pointer-events: none;
-}
-
-.opening-plate {
-  max-height: 52vh;
-  max-width: min(24rem, 84vw);
-  border: 1px solid rgba(244, 239, 228, 0.6);
-  box-shadow: 0 24px 60px rgba(25, 18, 38, 0.35);
-}
-
-.opening-caption {
-  margin: 0;
-  font-size: 0.95rem;
-  letter-spacing: 0.1em;
-  color: var(--ink-plum);
-  opacity: 0.75;
-}
-
-.opening-title {
-  margin: 0.75rem 0 0;
-  font-size: 2.4rem;
-  font-weight: 500;
-  letter-spacing: 0.3em;
-  text-transform: uppercase;
-  color: #241b36;
-  padding-bottom: 0.35rem;
-  border-bottom: 3px solid var(--gold);
-}
-
 /* A quiet invitation for first-time visitors; gone after the first read. */
 .globe-hint {
   position: absolute;
@@ -693,14 +643,6 @@ body {
     left: 1.25rem;
     bottom: 9.5rem;
     font-size: 1.05rem;
-  }
-
-  .opening-plate {
-    max-height: 48vh;
-  }
-
-  .opening-title {
-    font-size: 1.7rem;
   }
 
   .places-strip {

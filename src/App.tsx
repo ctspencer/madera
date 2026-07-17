@@ -7,7 +7,6 @@ import { EulogyPage } from './components/EulogyPage'
 import { PhotosPage } from './components/PhotosPage'
 import { LettersPage } from './components/LettersPage'
 import { SelectedWorksPage } from './components/SelectedWorksPage'
-import { Opening } from './components/Opening'
 import { entries, groupByPlace, type Place } from './data/entries'
 
 type Overlay = 'about' | 'eulogy' | 'works' | 'photos' | 'letters' | null
@@ -18,7 +17,6 @@ export default function App() {
   const [overlay, setOverlay] = useState<Overlay>(null)
   const [archiveOpen, setArchiveOpen] = useState(false)
   const [hasReadSomething, setHasReadSomething] = useState(false)
-  const [opening, setOpening] = useState(true)
 
   const openPlace = (place: Place) => {
     setOverlay(null)
@@ -76,7 +74,6 @@ export default function App() {
       {overlay === 'works' && <SelectedWorksPage onClose={() => setOverlay(null)} />}
       {overlay === 'photos' && <PhotosPage onClose={() => setOverlay(null)} />}
       {overlay === 'letters' && <LettersPage onClose={() => setOverlay(null)} />}
-      {opening && <Opening onDone={() => setOpening(false)} />}
     </div>
   )
 }
